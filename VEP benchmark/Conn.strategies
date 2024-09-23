@@ -1,0 +1,114 @@
+//test curent rules
+//max rule id:30
+
+id : 3
+priority : core(0)
+left : ConnListrep(NULL) at 0
+action : left_erase(0);
+
+id : 4
+priority : core(0)
+right : ConnListrep(NULL) at 0 
+action : right_erase(0);
+
+id : 5
+priority : core(0)
+left : (?p : Z == NULL || NULL == ?p : Z) at 0
+right : ConnListrep(p) at 1
+action : right_erase(1);
+
+id : 6
+priority : core(0)
+left : ConnListrep(?p : Z) at 0
+       (p == NULL || NULL == p) at 1
+action : left_erase(0);
+
+id : 7
+priority : core(1)
+left : ConnListrep(?p : Z) at 0
+right : ConnListrep(p) at 1
+action : left_erase(0);
+         right_erase(1);
+
+id : 8
+priority : core(4)
+left : ConnListrep(?p : Z) at 0
+       (p != NULL || NULL != p) at 1
+right : (store_char_array(field_addr(p, connection, key), ?m, ?l) || data_at(field_addr(p, connection, next), PTR(struct connection), ?q : Z)) at 2
+action : left_erase(0);
+         left_exist_add(l0 : list{Z});
+         left_exist_add(y : Z);
+         left_exist_add(n0 : Z);
+         left_add(l0[n0] == 0);
+         left_add(0 <= n0);
+         left_add(n0 < 128);
+         left_add(store_char_array(field_addr(p, connection, key), 128, l0));
+         left_add(data_at(field_addr(p, connection, next), PTR(struct connection), y));
+         left_add(ConnListrep(y));
+ 
+id : 9
+priority : core(4)
+left : (?p : Z != NULL || NULL != ?p : Z) at 0
+right : ConnListrep(p) at 1
+action : right_erase(1);
+         right_exist_add(l0 : list{Z});
+         right_exist_add(y : Z);
+         right_add(store_char_array(field_addr(p, connection, key), 128, l0));
+         right_add(data_at(field_addr(p, connection, next), PTR(struct connection), y));
+         right_add(ConnListrep(y));
+
+id : 10
+priority : core(3)
+left : ConnListseg(?p : Z, ?q : Z) at 0
+right : ConnListrep(p) at 1 
+action: left_erase(0);
+        right_erase(1);
+        right_add(ConnListrep(q));
+
+id : 11
+priority : core(4)
+left : (store_char_array(field_addr(?p, connection, key), 128, ?l) || data_at(field_addr(?p, connection, next), PTR(struct connection), ?q : Z)) at 0
+       (p != NULL || NULL != p) at 1
+right : ConnListrep(p) at 2
+action : right_erase(2);
+         right_exist_add(l0 : list{Z});
+         right_exist_add(y : Z);
+         right_add(store_char_array(field_addr(p, connection, key), 128, l0));
+         right_add(data_at(field_addr(p, connection, next), PTR(struct connection), y));
+         right_add(ConnListrep(y));
+
+id : 14
+priority : core(0)
+right : ConnListseg(?p : Z, p) at 0
+        ConnListrep(p) at 1
+action : right_erase(0);
+
+id : 15
+priority : core(0)
+right : ConnListseg(?p : Z, p) at 0
+        (store_char_array(field_addr(?p, connection, key), ?m, ?l) || data_at(field_addr(p, connection, next), PTR(struct connection), ?q : Z)) at 1
+action : right_erase(0);
+
+id : 16
+priority : core(3)
+left : ConnListseg(?p : Z, ?q) at 0
+        data_at(field_addr(q, connection, next), PTR(struct connection), ?z : Z) at 1
+        (q != NULL || NULL != q) at 2
+right : ConnListseg(p, z) at 3
+action : left_erase(0);
+         left_erase(1);
+         right_erase(3);
+         right_exist_add(h : list{Z});
+         right_add(store_char_array(field_addr(q, connection, key), 128, h)); 
+
+id : 17 
+priority : core(8)
+left : ConnListrep(?p : Z) at 0
+right : TT() at 1
+action : left_erase(0);
+
+id : 18
+priority : core(8)
+left : ConnListseg(?p : Z, ?q) at 0
+right : TT() at 1
+action : left_erase(0);

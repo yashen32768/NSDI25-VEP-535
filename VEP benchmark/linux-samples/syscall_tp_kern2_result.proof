@@ -1,0 +1,2253 @@
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Right_Sep_Erase: Data_at map_941_pre map_pre_943_v void
+Op 2:
+Left_Sep_Erase: Data_at map_941_pre map_pre_943_v void
+Op 3:
+Right_Sep_Add: Data_at map_941_pre map_pre_943_v void
+Op 4:
+Right_Sep_Erase: Data_at map_941_pre map_pre_943_v void
+Op 5:
+Left_Sep_Add: Data_at map_941_pre map_pre_943_v void
+Op 6:
+Left_Sep_Erase: Data_at map_941_pre map_pre_943_v void
+
+Trace 2:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+Op 2:
+Right_Prop_Add: (Ez_val 1) == (Ez_val 1)
+Op 3:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+
+Trace 3:
+Inst 960 (Ez_val 1)
+
+Trace 4:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 2) == (Ez_val 2)
+Op 2:
+Right_Prop_Add: (Ez_val 2) == (Ez_val 2)
+Op 3:
+Right_Prop_Erase: (Ez_val 2) == (Ez_val 2)
+
+Trace 5:
+Inst 962 (Ez_val 2)
+
+Trace 6:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 4) == (Ez_val 4)
+Op 2:
+Right_Prop_Add: (Ez_val 4) == (Ez_val 4)
+Op 3:
+Right_Prop_Erase: (Ez_val 4) == (Ez_val 4)
+
+Trace 7:
+Inst 961 (Ez_val 4)
+
+Trace 8:
+Ops:
+Op 1:
+Right_Prop_Add: (Ez_val 4) == value_size_961_free
+Op 2:
+Right_Prop_Add: (Ez_val 2) == type_962_free
+Op 3:
+Right_Prop_Add: (Ez_val 1) == size_960_free
+Op 4:
+Left_Sep_Erase: Ebpf_map (map_pre_943_v, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 5:
+Right_Sep_Erase: Ebpf_map (map_pre_943_v, size_960_free, type_962_free, value_size_961_free)
+Op 6:
+Right_Sep_Add: Ebpf_map (map_pre_943_v, size_960_free, type_962_free, value_size_961_free)
+Op 7:
+Right_Sep_Erase: Ebpf_map (map_pre_943_v, size_960_free, type_962_free, value_size_961_free)
+Op 8:
+Left_Sep_Add: Ebpf_map (map_pre_943_v, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 9:
+Left_Sep_Erase: Ebpf_map (map_pre_943_v, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+
+Trace 9:
+Ops:
+Op 1:
+Right_Prop_Erase: map_pre_943_v == map_pre_943_v
+Op 2:
+Right_Prop_Add: map_pre_943_v == map_pre_943_v
+Op 3:
+Right_Prop_Erase: map_pre_943_v == map_pre_943_v
+
+Trace 10:
+Ops:
+Op 1:
+Left_Prop_Add: should_be_equal_282(Z_1, map_pre_943_v, map_pre_943_v)
+Op 2:
+Right_Prop_Add: map_pre_943_v == map_pre_943_v
+Op 3:
+Right_Sep_Add: Data_at map_941_pre map_pre_943_v void
+Op 4:
+Right_Sep_Erase: Data_at map_941_pre map_pre_943_v void
+Op 5:
+Left_Sep_Add: Data_at map_941_pre map_pre_943_v void
+Op 6:
+Left_Sep_Erase: Data_at map_941_pre map_pre_943_v void
+
+Trace 11:
+Ops:
+Op 1:
+Right_Prop_Erase: map_pre_943_v == map_pre_943_v
+Op 2:
+Right_Prop_Add: map_pre_943_v == map_pre_943_v
+Op 3:
+Right_Prop_Erase: map_pre_943_v == map_pre_943_v
+
+Trace 12:
+Inst 964 map_pre_943_v
+
+Trace 13:
+Ops:
+Op 1:
+Left_Prop_Add: should_be_equal_282(Z_1, map_pre_943_v, map_pre_964_v)
+Op 2:
+Right_Prop_Add: map_pre_943_v == map_pre_964_v
+Op 3:
+Right_Sep_Add: Data_at map_941_pre map_pre_964_v void
+Op 4:
+Right_Sep_Erase: Data_at map_941_pre map_pre_964_v void
+Op 5:
+Left_Sep_Add: Data_at map_941_pre map_pre_943_v void
+Op 6:
+Left_Sep_Erase: Data_at map_941_pre map_pre_943_v void
+
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Right_Prop_Erase: v1_979_979_free == v1_979_979_free
+Op 2:
+Right_Prop_Add: v1_979_979_free == v1_979_979_free
+Op 3:
+Right_Prop_Erase: v1_979_979_free == v1_979_979_free
+
+Trace 2:
+Inst 976 v1_979_979_free
+
+Trace 3:
+Ops:
+Op 1:
+Right_Prop_Add: v_976_free == v1_979_979_free
+Op 2:
+Forall_Add: 979
+
+Op 3:
+Left_Sep_Erase: store_char_array (retval_968, (Ez_val 4), l_977_977_free)
+Op 4:
+Right_Sep_Erase: Data_at retval_968 v_976_free unsigned int
+Op 5:
+Right_Sep_Add: Data_at retval_968 v_976_free unsigned int
+Op 6:
+Right_Sep_Erase: Data_at retval_968 v_976_free unsigned int
+Op 7:
+Left_Sep_Add: store_char_array (retval_968, (Ez_val 4), l_977_977_free)
+Op 8:
+Left_Sep_Erase: store_char_array (retval_968, (Ez_val 4), l_977_977_free)
+Op 9:
+Assume: ((Ez_val 4) * (Size_of void)) == (Ez_val 4)Proof Start:
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(1)(x_977)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(2)(x_978)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(4)(x_968)
+concl:()
+step@p1:
+rule:1
+premise:0:
+arg:1:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_NUM:4))(SMT_AND:2:(SMT_EQ:(SMT_FUNCN:LINDEX:2(SMT_VAR:1)(SMT_VAR:2))(SMT_NUM:0))(SMT_AND:2:(SMT_LT:(SMT_VAR:2)(SMT_NUM:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_NOT:(SMT_EQ:(SMT_VAR:4)(SMT_NUM:0)))(SMT_NOT:(SMT_EQ:(SMT_VAR:4)(SMT_NUM:0))))))))(SMT_EQ:(SMT_MULT:(SMT_NUM:4)(SMT_NUM:1))(SMT_NUM:4))))
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_NUM:4))(SMT_AND:2:(SMT_EQ:(SMT_FUNCN:LINDEX:2(SMT_VAR:1)(SMT_VAR:2))(SMT_NUM:0))(SMT_AND:2:(SMT_LT:(SMT_VAR:2)(SMT_NUM:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_NOT:(SMT_EQ:(SMT_VAR:4)(SMT_NUM:0)))(SMT_NOT:(SMT_EQ:(SMT_VAR:4)(SMT_NUM:0))))))))(SMT_EQ:(SMT_MULT:(SMT_NUM:4)(SMT_NUM:1))(SMT_NUM:4))))
+step@p2:
+rule:4
+premise:0:
+arg:1:(SMT_EQ:(SMT_NUM:0)(SMT_VAR:3))
+concl:(SMT_EQ:(SMT_NUM:0)(SMT_VAR:3))
+step@p3:
+rule:4
+premise:0:
+arg:1:(SMT_EQ:(SMT_MULT:(SMT_NUM:4)(SMT_NUM:1))(SMT_VAR:5))
+concl:(SMT_EQ:(SMT_MULT:(SMT_NUM:4)(SMT_NUM:1))(SMT_VAR:5))
+step@p4:
+rule:4
+premise:0:
+arg:1:(SMT_EQ:(SMT_NUM:4)(SMT_VAR:6))
+concl:(SMT_EQ:(SMT_NUM:4)(SMT_VAR:6))
+step@p5:
+rule:7
+premise:1:(@p1)
+arg:0:
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_NUM:4))(SMT_AND:2:(SMT_EQ:(SMT_FUNCN:LINDEX:2(SMT_VAR:1)(SMT_VAR:2))(SMT_VAR:3))(SMT_AND:2:(SMT_LT:(SMT_VAR:2)(SMT_NUM:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_NOT:(SMT_EQ:(SMT_VAR:4)(SMT_VAR:3)))(SMT_NOT:(SMT_EQ:(SMT_VAR:4)(SMT_VAR:3))))))))(SMT_EQ:(SMT_VAR:5)(SMT_VAR:6))))
+step@p6:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_NUM:4))(SMT_PVAR:1:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_NUM:4))(SMT_PVAR:1:))
+step@p7:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_EQ:(SMT_FUNCN:LINDEX:2(SMT_VAR:1)(SMT_VAR:2))(SMT_VAR:3))(SMT_PVAR:2:))
+concl:(SMT_EQ:(SMT_EQ:(SMT_FUNCN:LINDEX:2(SMT_VAR:1)(SMT_VAR:2))(SMT_VAR:3))(SMT_PVAR:2:))
+step@p8:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LT:(SMT_VAR:2)(SMT_NUM:4))(SMT_PVAR:3:))
+concl:(SMT_EQ:(SMT_LT:(SMT_VAR:2)(SMT_NUM:4))(SMT_PVAR:3:))
+step@p9:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_PVAR:4:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_PVAR:4:))
+step@p10:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_EQ:(SMT_VAR:4)(SMT_VAR:3))(SMT_PVAR:5:))
+concl:(SMT_EQ:(SMT_EQ:(SMT_VAR:4)(SMT_VAR:3))(SMT_PVAR:5:))
+step@p11:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_EQ:(SMT_VAR:5)(SMT_VAR:6))(SMT_PVAR:6:))
+concl:(SMT_EQ:(SMT_EQ:(SMT_VAR:5)(SMT_VAR:6))(SMT_PVAR:6:))
+step@p12:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_EQ:(SMT_NUM:4)(SMT_VAR:6))(SMT_PVAR:7:))
+concl:(SMT_EQ:(SMT_EQ:(SMT_NUM:4)(SMT_VAR:6))(SMT_PVAR:7:))
+step@p13:
+rule:11
+premise:2:(@p4)(@p12)
+arg:0:
+concl:(SMT_PVAR:7:)
+step@p14:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_EQ:(SMT_MULT:(SMT_NUM:4)(SMT_NUM:1))(SMT_VAR:5))(SMT_PVAR:8:))
+concl:(SMT_EQ:(SMT_EQ:(SMT_MULT:(SMT_NUM:4)(SMT_NUM:1))(SMT_VAR:5))(SMT_PVAR:8:))
+step@p15:
+rule:11
+premise:2:(@p3)(@p14)
+arg:0:
+concl:(SMT_PVAR:8:)
+step@p16:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_EQ:(SMT_NUM:0)(SMT_VAR:3))(SMT_PVAR:9:))
+concl:(SMT_EQ:(SMT_EQ:(SMT_NUM:0)(SMT_VAR:3))(SMT_PVAR:9:))
+step@p17:
+rule:11
+premise:2:(@p2)(@p16)
+arg:0:
+concl:(SMT_PVAR:9:)
+step@p18:
+rule:8
+premise:1:(@p5)
+arg:0:
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_PVAR:1:)(SMT_AND:2:(SMT_PVAR:2:)(SMT_AND:2:(SMT_PVAR:3:)(SMT_AND:2:(SMT_PVAR:4:)(SMT_AND:2:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:5:)))))))(SMT_PVAR:6:)))
+step@p19:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_NOT:(SMT_PVAR:5:))(SMT_PVAR:10:))
+concl:(SMT_IFF:(SMT_NOT:(SMT_PVAR:5:))(SMT_PVAR:10:))
+step@p20:
+rule:10
+premise:1:(@p19)
+arg:0:
+concl:(SMT_AND:2:(SMT_OR:2:(SMT_PVAR:5:)(SMT_PVAR:10:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:10:))))
+step@p21:
+rule:14
+premise:1:(@p20)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:5:)(SMT_PVAR:10:))
+step@p22:
+rule:14
+premise:1:(@p20)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:10:)))
+step@p23:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_NOT:(SMT_PVAR:5:))(SMT_PVAR:11:))
+concl:(SMT_IFF:(SMT_NOT:(SMT_PVAR:5:))(SMT_PVAR:11:))
+step@p24:
+rule:10
+premise:1:(@p23)
+arg:0:
+concl:(SMT_AND:2:(SMT_OR:2:(SMT_PVAR:5:)(SMT_PVAR:11:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:11:))))
+step@p25:
+rule:14
+premise:1:(@p24)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:5:)(SMT_PVAR:11:))
+step@p26:
+rule:14
+premise:1:(@p24)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:11:)))
+step@p27:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:10:)(SMT_PVAR:11:))(SMT_PVAR:12:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:10:)(SMT_PVAR:11:))(SMT_PVAR:12:))
+step@p28:
+rule:10
+premise:1:(@p27)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:10:)(SMT_NOT:(SMT_PVAR:12:)))(SMT_OR:2:(SMT_PVAR:11:)(SMT_NOT:(SMT_PVAR:12:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:10:))(SMT_NOT:(SMT_PVAR:11:))(SMT_PVAR:12:)))
+step@p29:
+rule:14
+premise:1:(@p28)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:10:)(SMT_NOT:(SMT_PVAR:12:)))
+step@p30:
+rule:14
+premise:1:(@p28)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:11:)(SMT_NOT:(SMT_PVAR:12:)))
+step@p31:
+rule:14
+premise:1:(@p28)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:10:))(SMT_NOT:(SMT_PVAR:11:))(SMT_PVAR:12:))
+step@p32:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:12:))(SMT_PVAR:13:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:12:))(SMT_PVAR:13:))
+step@p33:
+rule:10
+premise:1:(@p32)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:13:)))(SMT_OR:2:(SMT_PVAR:12:)(SMT_NOT:(SMT_PVAR:13:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:12:))(SMT_PVAR:13:)))
+step@p34:
+rule:14
+premise:1:(@p33)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:13:)))
+step@p35:
+rule:14
+premise:1:(@p33)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:12:)(SMT_NOT:(SMT_PVAR:13:)))
+step@p36:
+rule:14
+premise:1:(@p33)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:12:))(SMT_PVAR:13:))
+step@p37:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:13:))(SMT_PVAR:14:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:13:))(SMT_PVAR:14:))
+step@p38:
+rule:10
+premise:1:(@p37)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:14:)))(SMT_OR:2:(SMT_PVAR:13:)(SMT_NOT:(SMT_PVAR:14:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:13:))(SMT_PVAR:14:)))
+step@p39:
+rule:14
+premise:1:(@p38)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:14:)))
+step@p40:
+rule:14
+premise:1:(@p38)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:13:)(SMT_NOT:(SMT_PVAR:14:)))
+step@p41:
+rule:14
+premise:1:(@p38)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:13:))(SMT_PVAR:14:))
+step@p42:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:14:))(SMT_PVAR:15:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:14:))(SMT_PVAR:15:))
+step@p43:
+rule:10
+premise:1:(@p42)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:15:)))(SMT_OR:2:(SMT_PVAR:14:)(SMT_NOT:(SMT_PVAR:15:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:14:))(SMT_PVAR:15:)))
+step@p44:
+rule:14
+premise:1:(@p43)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:15:)))
+step@p45:
+rule:14
+premise:1:(@p43)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:14:)(SMT_NOT:(SMT_PVAR:15:)))
+step@p46:
+rule:14
+premise:1:(@p43)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:14:))(SMT_PVAR:15:))
+step@p47:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:15:))(SMT_PVAR:16:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:15:))(SMT_PVAR:16:))
+step@p48:
+rule:10
+premise:1:(@p47)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:16:)))(SMT_OR:2:(SMT_PVAR:15:)(SMT_NOT:(SMT_PVAR:16:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:15:))(SMT_PVAR:16:)))
+step@p49:
+rule:14
+premise:1:(@p48)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:16:)))
+step@p50:
+rule:14
+premise:1:(@p48)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:15:)(SMT_NOT:(SMT_PVAR:16:)))
+step@p51:
+rule:14
+premise:1:(@p48)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:15:))(SMT_PVAR:16:))
+step@p52:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:16:)(SMT_PVAR:6:))(SMT_PVAR:17:))
+concl:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:16:)(SMT_PVAR:6:))(SMT_PVAR:17:))
+step@p53:
+rule:10
+premise:1:(@p52)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:16:)(SMT_PVAR:17:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:17:))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:16:))(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:17:))))
+step@p54:
+rule:14
+premise:1:(@p53)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:16:)(SMT_PVAR:17:))
+step@p55:
+rule:14
+premise:1:(@p53)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:17:))
+step@p56:
+rule:14
+premise:1:(@p53)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:16:))(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:17:)))
+step@p57:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_NOT:(SMT_PVAR:17:))(SMT_PVAR:18:))
+concl:(SMT_IFF:(SMT_NOT:(SMT_PVAR:17:))(SMT_PVAR:18:))
+step@p58:
+rule:10
+premise:1:(@p57)
+arg:0:
+concl:(SMT_AND:2:(SMT_OR:2:(SMT_PVAR:17:)(SMT_PVAR:18:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:17:))(SMT_NOT:(SMT_PVAR:18:))))
+step@p59:
+rule:14
+premise:1:(@p58)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:17:)(SMT_PVAR:18:))
+step@p60:
+rule:14
+premise:1:(@p58)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:17:))(SMT_NOT:(SMT_PVAR:18:)))
+step@p61:
+rule:9
+premise:1:(@p18)
+arg:0:
+concl:(SMT_PVAR:18:)
+step@p62:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:1:)
+concl:(SMT_PVAR:1:)
+step@p63:
+rule:11
+premise:2:(@p62)(@p6)
+arg:0:
+concl:(SMT_LE:(SMT_NUM:0)(SMT_NUM:4))
+step@p64:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:2:)
+concl:(SMT_PVAR:2:)
+step@p65:
+rule:11
+premise:2:(@p64)(@p7)
+arg:0:
+concl:(SMT_EQ:(SMT_FUNCN:LINDEX:2(SMT_VAR:1)(SMT_VAR:2))(SMT_VAR:3))
+step@p66:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:3:)
+concl:(SMT_PVAR:3:)
+step@p67:
+rule:11
+premise:2:(@p66)(@p8)
+arg:0:
+concl:(SMT_LT:(SMT_VAR:2)(SMT_NUM:4))
+step@p68:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:4:)
+concl:(SMT_PVAR:4:)
+step@p69:
+rule:11
+premise:2:(@p68)(@p9)
+arg:0:
+concl:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))
+step@p70:
+rule:1
+premise:0:
+arg:1:(SMT_NOT:(SMT_PVAR:5:))
+concl:(SMT_NOT:(SMT_PVAR:5:))
+step@p71:
+rule:21
+premise:2:(@p70)(@p10)
+arg:0:
+concl:(SMT_NOT:(SMT_EQ:(SMT_VAR:4)(SMT_VAR:3)))
+step@p72:
+rule:1
+premise:0:
+arg:1:(SMT_NOT:(SMT_PVAR:6:))
+concl:(SMT_NOT:(SMT_PVAR:6:))
+step@p73:
+rule:21
+premise:2:(@p72)(@p11)
+arg:0:
+concl:(SMT_NOT:(SMT_EQ:(SMT_VAR:5)(SMT_VAR:6)))
+step@p74:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:7:)
+concl:(SMT_PVAR:7:)
+step@p75:
+rule:11
+premise:2:(@p74)(@p12)
+arg:0:
+concl:(SMT_EQ:(SMT_NUM:4)(SMT_VAR:6))
+step@p76:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:8:)
+concl:(SMT_PVAR:8:)
+step@p77:
+rule:11
+premise:2:(@p76)(@p14)
+arg:0:
+concl:(SMT_EQ:(SMT_MULT:(SMT_NUM:4)(SMT_NUM:1))(SMT_VAR:5))
+step@p78:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:9:)
+concl:(SMT_PVAR:9:)
+step@p79:
+rule:11
+premise:2:(@p78)(@p16)
+arg:0:
+concl:(SMT_EQ:(SMT_NUM:0)(SMT_VAR:3))
+step@p80:
+rule:28
+premise:1:(@p79)
+arg:0:
+concl:(SMT_EQ0:7:(0)(0)(0)(-1)(0)(0)(0))
+step@p81:
+rule:28
+premise:1:(@p77)
+arg:0:
+concl:(SMT_EQ0:7:(4)(0)(0)(0)(0)(-1)(0))
+step@p82:
+rule:28
+premise:1:(@p75)
+arg:0:
+concl:(SMT_EQ0:7:(4)(0)(0)(0)(0)(0)(-1))
+step@p83:
+rule:28
+premise:1:(@p69)
+arg:0:
+concl:(SMT_LE0:7:(0)(0)(-1)(0)(0)(0)(0))
+step@p84:
+rule:28
+premise:1:(@p67)
+arg:0:
+concl:(SMT_LE0:7:(-3)(0)(1)(0)(0)(0)(0))
+step@p85:
+rule:28
+premise:1:(@p63)
+arg:0:
+concl:(SMT_LE0:7:(-4)(0)(0)(0)(0)(0)(0))
+step@p86:
+rule:1
+premise:0:
+arg:1:(SMT_LE0:7:(1)(0)(0)(0)(0)(-1)(1))
+concl:(SMT_LE0:7:(1)(0)(0)(0)(0)(-1)(1))
+step@p87:
+rule:23
+premise:2:(@p82)(@p86)
+arg:1:(6)
+concl:(SMT_LE0:7:(5)(0)(0)(0)(0)(-1)(0))
+step@p88:
+rule:23
+premise:2:(@p81)(@p87)
+arg:1:(5)
+concl:(SMT_LE0:7:(1)(0)(0)(0)(0)(0)(0))
+step@p89:
+rule:24
+premise:1:(@p88)
+arg:0:
+concl:(FF)
+step@p90:
+rule:2
+premise:1:(@p89)
+arg:1:(@p86)
+concl:(SMT_NOT:(SMT_LE0:7:(1)(0)(0)(0)(0)(-1)(1)))
+step@p91:
+rule:25
+premise:1:(@p90)
+arg:0:
+concl:(SMT_LE0:7:(0)(0)(0)(0)(0)(1)(-1))
+step@p92:
+rule:1
+premise:0:
+arg:1:(SMT_LE0:7:(1)(0)(0)(0)(0)(1)(-1))
+concl:(SMT_LE0:7:(1)(0)(0)(0)(0)(1)(-1))
+step@p93:
+rule:23
+premise:2:(@p82)(@p92)
+arg:1:(6)
+concl:(SMT_LE0:7:(-3)(0)(0)(0)(0)(1)(0))
+step@p94:
+rule:23
+premise:2:(@p81)(@p93)
+arg:1:(5)
+concl:(SMT_LE0:7:(1)(0)(0)(0)(0)(0)(0))
+step@p95:
+rule:24
+premise:1:(@p94)
+arg:0:
+concl:(FF)
+step@p96:
+rule:2
+premise:1:(@p95)
+arg:1:(@p92)
+concl:(SMT_NOT:(SMT_LE0:7:(1)(0)(0)(0)(0)(1)(-1)))
+step@p97:
+rule:25
+premise:1:(@p96)
+arg:0:
+concl:(SMT_LE0:7:(0)(0)(0)(0)(0)(-1)(1))
+step@p98:
+rule:26
+premise:2:(@p91)(@p97)
+arg:2:(5)(6)
+concl:(SMT_EQ:(SMT_VAR:5)(SMT_VAR:6))
+step@p99:
+rule:27
+premise:1:(@p98)
+arg:0:
+concl:(SMT_EQ0:7:(0)(0)(0)(0)(0)(1)(-1))
+step@p100:
+rule:27
+premise:1:(@p98)
+arg:0:
+concl:(SMT_EQ0:7:(0)(0)(0)(0)(0)(-1)(1))
+step@p101:
+rule:29
+premise:2:(@p98)(@p73)
+arg:0:
+concl:(FF)
+step@p102:
+rule:2
+premise:1:(@p101)
+arg:9:(@p62)(@p64)(@p66)(@p68)(@p70)(@p72)(@p74)(@p76)(@p78)
+concl:(SMT_NOT:(SMT_AND:9:(SMT_PVAR:1:)(SMT_PVAR:2:)(SMT_PVAR:3:)(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:7:)(SMT_PVAR:8:)(SMT_PVAR:9:)))
+step@p103:
+rule:15
+premise:1:(@p102)
+arg:0:
+concl:(SMT_OR:9:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:4:))(SMT_PVAR:5:)(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:7:))(SMT_NOT:(SMT_PVAR:8:))(SMT_NOT:(SMT_PVAR:9:)))
+step@p104:
+rule:12
+premise:2:(@p61)(@p60)
+arg:1:(18)
+concl:(SMT_NOT:(SMT_PVAR:17:))
+step@p105:
+rule:12
+premise:2:(@p104)(@p54)
+arg:1:(-17)
+concl:(SMT_PVAR:16:)
+step@p106:
+rule:12
+premise:2:(@p104)(@p55)
+arg:1:(-17)
+concl:(SMT_NOT:(SMT_PVAR:6:))
+step@p107:
+rule:12
+premise:2:(@p105)(@p49)
+arg:1:(16)
+concl:(SMT_PVAR:1:)
+step@p108:
+rule:12
+premise:2:(@p105)(@p50)
+arg:1:(16)
+concl:(SMT_PVAR:15:)
+step@p109:
+rule:12
+premise:2:(@p108)(@p44)
+arg:1:(15)
+concl:(SMT_PVAR:2:)
+step@p110:
+rule:12
+premise:2:(@p108)(@p45)
+arg:1:(15)
+concl:(SMT_PVAR:14:)
+step@p111:
+rule:12
+premise:2:(@p110)(@p39)
+arg:1:(14)
+concl:(SMT_PVAR:3:)
+step@p112:
+rule:12
+premise:2:(@p110)(@p40)
+arg:1:(14)
+concl:(SMT_PVAR:13:)
+step@p113:
+rule:12
+premise:2:(@p112)(@p34)
+arg:1:(13)
+concl:(SMT_PVAR:4:)
+step@p114:
+rule:12
+premise:2:(@p112)(@p35)
+arg:1:(13)
+concl:(SMT_PVAR:12:)
+step@p115:
+rule:12
+premise:2:(@p114)(@p29)
+arg:1:(12)
+concl:(SMT_PVAR:10:)
+step@p116:
+rule:12
+premise:2:(@p114)(@p30)
+arg:1:(12)
+concl:(SMT_PVAR:11:)
+step@p117:
+rule:12
+premise:2:(@p116)(@p26)
+arg:1:(11)
+concl:(SMT_NOT:(SMT_PVAR:5:))
+step@p118:
+rule:12
+premise:2:(@p107)(@p103)
+arg:1:(1)
+concl:(SMT_OR:8:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:4:))(SMT_PVAR:5:)(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:7:))(SMT_NOT:(SMT_PVAR:8:))(SMT_NOT:(SMT_PVAR:9:)))
+step@p119:
+rule:12
+premise:2:(@p109)(@p118)
+arg:1:(2)
+concl:(SMT_OR:7:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:4:))(SMT_PVAR:5:)(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:7:))(SMT_NOT:(SMT_PVAR:8:))(SMT_NOT:(SMT_PVAR:9:)))
+step@p120:
+rule:12
+premise:2:(@p111)(@p119)
+arg:1:(3)
+concl:(SMT_OR:6:(SMT_NOT:(SMT_PVAR:4:))(SMT_PVAR:5:)(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:7:))(SMT_NOT:(SMT_PVAR:8:))(SMT_NOT:(SMT_PVAR:9:)))
+step@p121:
+rule:12
+premise:2:(@p113)(@p120)
+arg:1:(4)
+concl:(SMT_OR:5:(SMT_PVAR:5:)(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:7:))(SMT_NOT:(SMT_PVAR:8:))(SMT_NOT:(SMT_PVAR:9:)))
+step@p122:
+rule:12
+premise:2:(@p117)(@p121)
+arg:1:(-5)
+concl:(SMT_OR:4:(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:7:))(SMT_NOT:(SMT_PVAR:8:))(SMT_NOT:(SMT_PVAR:9:)))
+step@p123:
+rule:12
+premise:2:(@p106)(@p122)
+arg:1:(-6)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:7:))(SMT_NOT:(SMT_PVAR:8:))(SMT_NOT:(SMT_PVAR:9:)))
+step@p124:
+rule:12
+premise:2:(@p13)(@p123)
+arg:1:(7)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:8:))(SMT_NOT:(SMT_PVAR:9:)))
+step@p125:
+rule:12
+premise:2:(@p15)(@p124)
+arg:1:(8)
+concl:(SMT_NOT:(SMT_PVAR:9:))
+step@p126:
+rule:12
+premise:2:(@p17)(@p125)
+arg:1:(9)
+concl:(FF)
+step@p127:
+rule:2
+premise:1:(@p126)
+arg:1:(@p1)
+concl:(SMT_NOT:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_NUM:4))(SMT_AND:2:(SMT_EQ:(SMT_FUNCN:LINDEX:2(SMT_VAR:1)(SMT_VAR:2))(SMT_NUM:0))(SMT_AND:2:(SMT_LT:(SMT_VAR:2)(SMT_NUM:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_NOT:(SMT_EQ:(SMT_VAR:4)(SMT_NUM:0)))(SMT_NOT:(SMT_EQ:(SMT_VAR:4)(SMT_NUM:0))))))))(SMT_EQ:(SMT_MULT:(SMT_NUM:4)(SMT_NUM:1))(SMT_NUM:4)))))
+step@p128:
+rule:16
+premise:1:(@p127)
+arg:0:
+concl:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_NUM:4))(SMT_AND:2:(SMT_EQ:(SMT_FUNCN:LINDEX:2(SMT_VAR:1)(SMT_VAR:2))(SMT_NUM:0))(SMT_AND:2:(SMT_LT:(SMT_VAR:2)(SMT_NUM:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_NOT:(SMT_EQ:(SMT_VAR:4)(SMT_NUM:0)))(SMT_NOT:(SMT_EQ:(SMT_VAR:4)(SMT_NUM:0))))))))(SMT_EQ:(SMT_MULT:(SMT_NUM:4)(SMT_NUM:1))(SMT_NUM:4)))
+Proof End
+
+
+
+Trace 4:
+Ops:
+Op 1:
+Left_Prop_Add: (Ez_val 0) <= (Ez_val 4)
+Op 2:
+Left_Sep_Add: store_char_array (retval_968, (Ez_val 4), l_977_977_free)
+Op 3:
+Left_Sep_Erase: store_char_array (retval_968, (Ez_val 4), l_977_977_free)
+
+Trace 5:
+Ops:
+Op 1:
+Left_Prop_Add: (l_977_977_free[n_978_978_free]) == (Ez_val 0)
+Op 2:
+Left_Prop_Add: n_978_978_free < (Ez_val 4)
+Op 3:
+Left_Prop_Add: (Ez_val 0) <= n_978_978_free
+Op 4:
+Forall_Add: 978
+
+Op 5:
+Left_Sep_Add: store_char_array (retval_968, (Ez_val 4), l_977_977_free)
+Op 6:
+Forall_Add: 977
+
+Op 7:
+Left_Sep_Erase: map_element (retval_968, (Ez_val 2), (Ez_val 4))
+Op 8:
+Left_Sep_Add: map_element (retval_968, (Ez_val 2), (Ez_val 4))
+Op 9:
+Left_Sep_Erase: map_element (retval_968, (Ez_val 2), (Ez_val 4))
+
+Trace 6:
+Ops:
+Op 1:
+Left_Prop_Erase: should_be_equal_282(Z_1, map_pre_943_v, map_pre_964_v)
+Op 2:
+Left_Prop_Add: should_be_equal_282(Z_1, map_pre_943_v, map_pre_964_v)
+Op 3:
+Left_Prop_Erase: should_be_equal_282(Z_1, map_pre_943_v, map_pre_964_v)
+
+Trace 7:
+Ops:
+Op 1:
+Left_Prop_Erase: should_be_equal_282(Z_1, map_pre_943_v, map_pre_943_v)
+Op 2:
+Left_Prop_Add: should_be_equal_282(Z_1, map_pre_943_v, map_pre_943_v)
+Op 3:
+Left_Prop_Erase: should_be_equal_282(Z_1, map_pre_943_v, map_pre_943_v)
+
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Right_Sep_Erase: Data_at map_941_pre map_pre_969_v void
+Op 2:
+Left_Sep_Erase: Data_at map_941_pre map_pre_969_v void
+Op 3:
+Right_Sep_Add: Data_at map_941_pre map_pre_969_v void
+Op 4:
+Right_Sep_Erase: Data_at map_941_pre map_pre_969_v void
+Op 5:
+Left_Sep_Add: Data_at map_941_pre map_pre_969_v void
+Op 6:
+Left_Sep_Erase: Data_at map_941_pre map_pre_969_v void
+
+Trace 2:
+Ops:
+Op 1:
+Right_Prop_Erase: l1_992_992_free == l1_992_992_free
+Op 2:
+Right_Prop_Add: l1_992_992_free == l1_992_992_free
+Op 3:
+Right_Prop_Erase: l1_992_992_free == l1_992_992_free
+
+Trace 3:
+Inst 991 l1_992_992_free
+
+Trace 4:
+Ops:
+Op 1:
+Right_Prop_Add: l1_992_992_free == l_991_991_free
+Op 2:
+Forall_Add: 992
+
+Op 3:
+Left_Sep_Erase: Data_at init_val_957_addr (Ez_val 1) unsigned int
+Op 4:
+Right_Sep_Erase: store_char_array (init_val_957_addr, (Ez_val 4), l_991_991_free)
+Op 5:
+Left_Sep_Add: Data_at init_val_957_addr (Ez_val 1) unsigned int
+Op 6:
+Left_Sep_Erase: Data_at init_val_957_addr (Ez_val 1) unsigned int
+Op 7:
+Right_Sep_Add: store_char_array (init_val_957_addr, (Ez_val 4), l_991_991_free)
+Op 8:
+Right_Sep_Erase: store_char_array (init_val_957_addr, (Ez_val 4), l_991_991_free)
+
+Trace 5:
+Ops:
+Op 1:
+Right_Sep_Add: store_char_array (init_val_957_addr, (Ez_val 4), l_991_991_free)
+Op 2:
+Right_Exists_Add: 991
+
+Op 3:
+Right_Sep_Erase: map_element (init_val_957_addr, (Ez_val 2), (Ez_val 4))
+Op 4:
+Right_Sep_Add: map_element (init_val_957_addr, (Ez_val 2), (Ez_val 4))
+Op 5:
+Right_Sep_Erase: map_element (init_val_957_addr, (Ez_val 2), (Ez_val 4))
+
+Trace 6:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+Op 2:
+Right_Prop_Add: (Ez_val 1) == (Ez_val 1)
+Op 3:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+
+Trace 7:
+Inst 984 (Ez_val 1)
+
+Trace 8:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 2) == (Ez_val 2)
+Op 2:
+Right_Prop_Add: (Ez_val 2) == (Ez_val 2)
+Op 3:
+Right_Prop_Erase: (Ez_val 2) == (Ez_val 2)
+
+Trace 9:
+Inst 986 (Ez_val 2)
+
+Trace 10:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 4) == (Ez_val 4)
+Op 2:
+Right_Prop_Add: (Ez_val 4) == (Ez_val 4)
+Op 3:
+Right_Prop_Erase: (Ez_val 4) == (Ez_val 4)
+
+Trace 11:
+Inst 985 (Ez_val 4)
+
+Trace 12:
+Ops:
+Op 1:
+Right_Prop_Add: (Ez_val 4) == value_size_985_free
+Op 2:
+Right_Prop_Add: (Ez_val 2) == type_986_free
+Op 3:
+Right_Prop_Add: (Ez_val 1) == size_984_free
+Op 4:
+Left_Sep_Erase: Ebpf_map (map_pre_969_v, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 5:
+Right_Sep_Erase: Ebpf_map (map_pre_969_v, size_984_free, type_986_free, value_size_985_free)
+Op 6:
+Right_Sep_Add: Ebpf_map (map_pre_969_v, size_984_free, type_986_free, value_size_985_free)
+Op 7:
+Right_Sep_Erase: Ebpf_map (map_pre_969_v, size_984_free, type_986_free, value_size_985_free)
+Op 8:
+Left_Sep_Add: Ebpf_map (map_pre_969_v, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 9:
+Left_Sep_Erase: Ebpf_map (map_pre_969_v, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+
+Trace 13:
+Ops:
+Op 1:
+Right_Prop_Erase: map_pre_969_v == map_pre_969_v
+Op 2:
+Right_Prop_Add: map_pre_969_v == map_pre_969_v
+Op 3:
+Right_Prop_Erase: map_pre_969_v == map_pre_969_v
+
+Trace 14:
+Ops:
+Op 1:
+Left_Prop_Add: should_be_equal_282(Z_1, map_pre_969_v, map_pre_969_v)
+Op 2:
+Right_Prop_Add: map_pre_969_v == map_pre_969_v
+Op 3:
+Right_Sep_Add: Data_at map_941_pre map_pre_969_v void
+Op 4:
+Right_Sep_Erase: Data_at map_941_pre map_pre_969_v void
+Op 5:
+Left_Sep_Add: Data_at map_941_pre map_pre_969_v void
+Op 6:
+Left_Sep_Erase: Data_at map_941_pre map_pre_969_v void
+
+Trace 15:
+Ops:
+Op 1:
+Right_Prop_Erase: map_pre_969_v == map_pre_969_v
+Op 2:
+Right_Prop_Add: map_pre_969_v == map_pre_969_v
+Op 3:
+Right_Prop_Erase: map_pre_969_v == map_pre_969_v
+
+Trace 16:
+Inst 988 map_pre_969_v
+
+Trace 17:
+Ops:
+Op 1:
+Left_Prop_Add: should_be_equal_282(Z_1, map_pre_969_v, map_pre_988_v)
+Op 2:
+Right_Prop_Add: map_pre_969_v == map_pre_988_v
+Op 3:
+Right_Sep_Add: Data_at map_941_pre map_pre_988_v void
+Op 4:
+Right_Sep_Erase: Data_at map_941_pre map_pre_988_v void
+Op 5:
+Left_Sep_Add: Data_at map_941_pre map_pre_969_v void
+Op 6:
+Left_Sep_Erase: Data_at map_941_pre map_pre_969_v void
+
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Right_Sep_Erase: Data_at init_val_957_addr (Ez_val 1) unsigned int
+Op 2:
+Left_Sep_Erase: Data_at init_val_957_addr (Ez_val 1) unsigned int
+Op 3:
+Right_Sep_Add: Data_at init_val_957_addr (Ez_val 1) unsigned int
+Op 4:
+Right_Sep_Erase: Data_at init_val_957_addr (Ez_val 1) unsigned int
+Op 5:
+Left_Sep_Add: Data_at init_val_957_addr (Ez_val 1) unsigned int
+Op 6:
+Left_Sep_Erase: Data_at init_val_957_addr (Ez_val 1) unsigned int
+
+Trace 2:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+Op 2:
+Right_Prop_Add: (Ez_val 1) == (Ez_val 1)
+Op 3:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+
+Trace 3:
+Ops:
+Op 1:
+Left_Prop_Add: should_be_equal_282(Z_1, (Ez_val 1), (Ez_val 1))
+Op 2:
+Right_Prop_Add: (Ez_val 1) == (Ez_val 1)
+Op 3:
+Right_Sep_Add: Data_at init_val_957_addr (Ez_val 1) unsigned int
+Op 4:
+Right_Sep_Erase: Data_at init_val_957_addr (Ez_val 1) unsigned int
+Op 5:
+Left_Sep_Add: Data_at init_val_957_addr (Ez_val 1) unsigned int
+Op 6:
+Left_Sep_Erase: Data_at init_val_957_addr (Ez_val 1) unsigned int
+
+Trace 4:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+Op 2:
+Right_Prop_Add: (Ez_val 1) == (Ez_val 1)
+Op 3:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+
+Trace 5:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+Op 2:
+Right_Prop_Add: (Ez_val 1) == (Ez_val 1)
+Op 3:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+
+Trace 6:
+Inst 998 (Ez_val 1)
+
+Trace 7:
+Ops:
+Op 1:
+Left_Prop_Add: should_be_equal_282(Z_1, (Ez_val 1), init_val_998_value)
+Op 2:
+Right_Prop_Add: (Ez_val 1) == init_val_998_value
+Op 3:
+Right_Sep_Add: Data_at init_val_957_addr init_val_998_value unsigned int
+Op 4:
+Right_Sep_Erase: Data_at init_val_957_addr init_val_998_value unsigned int
+Op 5:
+Left_Sep_Add: Data_at init_val_957_addr (Ez_val 1) unsigned int
+Op 6:
+Left_Sep_Erase: Data_at init_val_957_addr (Ez_val 1) unsigned int
+
+Trace 8:
+Ops:
+Op 1:
+Left_Prop_Erase: should_be_equal_282(Z_1, map_pre_969_v, map_pre_988_v)
+Op 2:
+Left_Prop_Add: should_be_equal_282(Z_1, map_pre_969_v, map_pre_988_v)
+Op 3:
+Left_Prop_Erase: should_be_equal_282(Z_1, map_pre_969_v, map_pre_988_v)
+
+Trace 9:
+Ops:
+Op 1:
+Left_Prop_Erase: should_be_equal_282(Z_1, map_pre_969_v, map_pre_969_v)
+Op 2:
+Left_Prop_Add: should_be_equal_282(Z_1, map_pre_969_v, map_pre_969_v)
+Op 3:
+Left_Prop_Erase: should_be_equal_282(Z_1, map_pre_969_v, map_pre_969_v)
+
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Right_Prop_Add: init_val_996_value == v1_1001_1001_free
+Op 2:
+Forall_Add: 1001
+
+Op 3:
+Left_Sep_Erase: store_char_array (init_val_957_addr, (Ez_val 4), l_999_999_free)
+Op 4:
+Right_Sep_Erase: Data_at init_val_957_addr init_val_996_value unsigned int
+Op 5:
+Right_Sep_Add: Data_at init_val_957_addr init_val_996_value unsigned int
+Op 6:
+Right_Sep_Erase: Data_at init_val_957_addr init_val_996_value unsigned int
+Op 7:
+Left_Sep_Add: store_char_array (init_val_957_addr, (Ez_val 4), l_999_999_free)
+Op 8:
+Left_Sep_Erase: store_char_array (init_val_957_addr, (Ez_val 4), l_999_999_free)
+Op 9:
+Assume: ((Ez_val 4) * (Size_of void)) == (Ez_val 4)Proof Start:
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(1)(x_999)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(2)(x_1000)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(4)(x_995)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(5)(x_994)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(6)(x_970)
+concl:()
+step@p1:
+rule:1
+premise:0:
+arg:1:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_NUM:4))(SMT_AND:2:(SMT_EQ:(SMT_FUNCN:LINDEX:2(SMT_VAR:1)(SMT_VAR:2))(SMT_NUM:0))(SMT_AND:2:(SMT_LT:(SMT_VAR:2)(SMT_NUM:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_EQ:(SMT_VAR:4)(SMT_VAR:5))(SMT_AND:2:(SMT_EQ:(SMT_VAR:6)(SMT_NUM:0))(SMT_EQ:(SMT_VAR:6)(SMT_NUM:0))))))))(SMT_EQ:(SMT_MULT:(SMT_NUM:4)(SMT_NUM:1))(SMT_NUM:4))))
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_NUM:4))(SMT_AND:2:(SMT_EQ:(SMT_FUNCN:LINDEX:2(SMT_VAR:1)(SMT_VAR:2))(SMT_NUM:0))(SMT_AND:2:(SMT_LT:(SMT_VAR:2)(SMT_NUM:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_EQ:(SMT_VAR:4)(SMT_VAR:5))(SMT_AND:2:(SMT_EQ:(SMT_VAR:6)(SMT_NUM:0))(SMT_EQ:(SMT_VAR:6)(SMT_NUM:0))))))))(SMT_EQ:(SMT_MULT:(SMT_NUM:4)(SMT_NUM:1))(SMT_NUM:4))))
+step@p2:
+rule:4
+premise:0:
+arg:1:(SMT_EQ:(SMT_NUM:0)(SMT_VAR:3))
+concl:(SMT_EQ:(SMT_NUM:0)(SMT_VAR:3))
+step@p3:
+rule:4
+premise:0:
+arg:1:(SMT_EQ:(SMT_MULT:(SMT_NUM:4)(SMT_NUM:1))(SMT_VAR:7))
+concl:(SMT_EQ:(SMT_MULT:(SMT_NUM:4)(SMT_NUM:1))(SMT_VAR:7))
+step@p4:
+rule:4
+premise:0:
+arg:1:(SMT_EQ:(SMT_NUM:4)(SMT_VAR:8))
+concl:(SMT_EQ:(SMT_NUM:4)(SMT_VAR:8))
+step@p5:
+rule:7
+premise:1:(@p1)
+arg:0:
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_NUM:4))(SMT_AND:2:(SMT_EQ:(SMT_FUNCN:LINDEX:2(SMT_VAR:1)(SMT_VAR:2))(SMT_VAR:3))(SMT_AND:2:(SMT_LT:(SMT_VAR:2)(SMT_NUM:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_EQ:(SMT_VAR:4)(SMT_VAR:5))(SMT_AND:2:(SMT_EQ:(SMT_VAR:6)(SMT_VAR:3))(SMT_EQ:(SMT_VAR:6)(SMT_VAR:3))))))))(SMT_EQ:(SMT_VAR:7)(SMT_VAR:8))))
+step@p6:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_NUM:4))(SMT_PVAR:1:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_NUM:4))(SMT_PVAR:1:))
+step@p7:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_EQ:(SMT_FUNCN:LINDEX:2(SMT_VAR:1)(SMT_VAR:2))(SMT_VAR:3))(SMT_PVAR:2:))
+concl:(SMT_EQ:(SMT_EQ:(SMT_FUNCN:LINDEX:2(SMT_VAR:1)(SMT_VAR:2))(SMT_VAR:3))(SMT_PVAR:2:))
+step@p8:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LT:(SMT_VAR:2)(SMT_NUM:4))(SMT_PVAR:3:))
+concl:(SMT_EQ:(SMT_LT:(SMT_VAR:2)(SMT_NUM:4))(SMT_PVAR:3:))
+step@p9:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_PVAR:4:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_PVAR:4:))
+step@p10:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_EQ:(SMT_VAR:4)(SMT_VAR:5))(SMT_PVAR:5:))
+concl:(SMT_EQ:(SMT_EQ:(SMT_VAR:4)(SMT_VAR:5))(SMT_PVAR:5:))
+step@p11:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_EQ:(SMT_VAR:6)(SMT_VAR:3))(SMT_PVAR:6:))
+concl:(SMT_EQ:(SMT_EQ:(SMT_VAR:6)(SMT_VAR:3))(SMT_PVAR:6:))
+step@p12:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_EQ:(SMT_VAR:7)(SMT_VAR:8))(SMT_PVAR:7:))
+concl:(SMT_EQ:(SMT_EQ:(SMT_VAR:7)(SMT_VAR:8))(SMT_PVAR:7:))
+step@p13:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_EQ:(SMT_NUM:4)(SMT_VAR:8))(SMT_PVAR:8:))
+concl:(SMT_EQ:(SMT_EQ:(SMT_NUM:4)(SMT_VAR:8))(SMT_PVAR:8:))
+step@p14:
+rule:11
+premise:2:(@p4)(@p13)
+arg:0:
+concl:(SMT_PVAR:8:)
+step@p15:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_EQ:(SMT_MULT:(SMT_NUM:4)(SMT_NUM:1))(SMT_VAR:7))(SMT_PVAR:9:))
+concl:(SMT_EQ:(SMT_EQ:(SMT_MULT:(SMT_NUM:4)(SMT_NUM:1))(SMT_VAR:7))(SMT_PVAR:9:))
+step@p16:
+rule:11
+premise:2:(@p3)(@p15)
+arg:0:
+concl:(SMT_PVAR:9:)
+step@p17:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_EQ:(SMT_NUM:0)(SMT_VAR:3))(SMT_PVAR:10:))
+concl:(SMT_EQ:(SMT_EQ:(SMT_NUM:0)(SMT_VAR:3))(SMT_PVAR:10:))
+step@p18:
+rule:11
+premise:2:(@p2)(@p17)
+arg:0:
+concl:(SMT_PVAR:10:)
+step@p19:
+rule:8
+premise:1:(@p5)
+arg:0:
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_PVAR:1:)(SMT_AND:2:(SMT_PVAR:2:)(SMT_AND:2:(SMT_PVAR:3:)(SMT_AND:2:(SMT_PVAR:4:)(SMT_AND:2:(SMT_PVAR:5:)(SMT_AND:2:(SMT_PVAR:6:)(SMT_PVAR:6:)))))))(SMT_PVAR:7:)))
+step@p20:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:6:)(SMT_PVAR:6:))(SMT_PVAR:11:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:6:)(SMT_PVAR:6:))(SMT_PVAR:11:))
+step@p21:
+rule:10
+premise:1:(@p20)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:11:)))(SMT_OR:2:(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:11:)))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:11:)))
+step@p22:
+rule:14
+premise:1:(@p21)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:11:)))
+step@p23:
+rule:14
+premise:1:(@p21)
+arg:1:(2)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:11:))
+step@p24:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:5:)(SMT_PVAR:11:))(SMT_PVAR:12:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:5:)(SMT_PVAR:11:))(SMT_PVAR:12:))
+step@p25:
+rule:10
+premise:1:(@p24)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:12:)))(SMT_OR:2:(SMT_PVAR:11:)(SMT_NOT:(SMT_PVAR:12:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:11:))(SMT_PVAR:12:)))
+step@p26:
+rule:14
+premise:1:(@p25)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:12:)))
+step@p27:
+rule:14
+premise:1:(@p25)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:11:)(SMT_NOT:(SMT_PVAR:12:)))
+step@p28:
+rule:14
+premise:1:(@p25)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:11:))(SMT_PVAR:12:))
+step@p29:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:12:))(SMT_PVAR:13:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:12:))(SMT_PVAR:13:))
+step@p30:
+rule:10
+premise:1:(@p29)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:13:)))(SMT_OR:2:(SMT_PVAR:12:)(SMT_NOT:(SMT_PVAR:13:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:12:))(SMT_PVAR:13:)))
+step@p31:
+rule:14
+premise:1:(@p30)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:13:)))
+step@p32:
+rule:14
+premise:1:(@p30)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:12:)(SMT_NOT:(SMT_PVAR:13:)))
+step@p33:
+rule:14
+premise:1:(@p30)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:12:))(SMT_PVAR:13:))
+step@p34:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:13:))(SMT_PVAR:14:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:13:))(SMT_PVAR:14:))
+step@p35:
+rule:10
+premise:1:(@p34)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:14:)))(SMT_OR:2:(SMT_PVAR:13:)(SMT_NOT:(SMT_PVAR:14:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:13:))(SMT_PVAR:14:)))
+step@p36:
+rule:14
+premise:1:(@p35)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:14:)))
+step@p37:
+rule:14
+premise:1:(@p35)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:13:)(SMT_NOT:(SMT_PVAR:14:)))
+step@p38:
+rule:14
+premise:1:(@p35)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:13:))(SMT_PVAR:14:))
+step@p39:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:14:))(SMT_PVAR:15:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:14:))(SMT_PVAR:15:))
+step@p40:
+rule:10
+premise:1:(@p39)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:15:)))(SMT_OR:2:(SMT_PVAR:14:)(SMT_NOT:(SMT_PVAR:15:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:14:))(SMT_PVAR:15:)))
+step@p41:
+rule:14
+premise:1:(@p40)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:15:)))
+step@p42:
+rule:14
+premise:1:(@p40)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:14:)(SMT_NOT:(SMT_PVAR:15:)))
+step@p43:
+rule:14
+premise:1:(@p40)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:14:))(SMT_PVAR:15:))
+step@p44:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:15:))(SMT_PVAR:16:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:15:))(SMT_PVAR:16:))
+step@p45:
+rule:10
+premise:1:(@p44)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:16:)))(SMT_OR:2:(SMT_PVAR:15:)(SMT_NOT:(SMT_PVAR:16:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:15:))(SMT_PVAR:16:)))
+step@p46:
+rule:14
+premise:1:(@p45)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:16:)))
+step@p47:
+rule:14
+premise:1:(@p45)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:15:)(SMT_NOT:(SMT_PVAR:16:)))
+step@p48:
+rule:14
+premise:1:(@p45)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:15:))(SMT_PVAR:16:))
+step@p49:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:16:)(SMT_PVAR:7:))(SMT_PVAR:17:))
+concl:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:16:)(SMT_PVAR:7:))(SMT_PVAR:17:))
+step@p50:
+rule:10
+premise:1:(@p49)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:16:)(SMT_PVAR:17:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:17:))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:16:))(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:17:))))
+step@p51:
+rule:14
+premise:1:(@p50)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:16:)(SMT_PVAR:17:))
+step@p52:
+rule:14
+premise:1:(@p50)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:17:))
+step@p53:
+rule:14
+premise:1:(@p50)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:16:))(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:17:)))
+step@p54:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_NOT:(SMT_PVAR:17:))(SMT_PVAR:18:))
+concl:(SMT_IFF:(SMT_NOT:(SMT_PVAR:17:))(SMT_PVAR:18:))
+step@p55:
+rule:10
+premise:1:(@p54)
+arg:0:
+concl:(SMT_AND:2:(SMT_OR:2:(SMT_PVAR:17:)(SMT_PVAR:18:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:17:))(SMT_NOT:(SMT_PVAR:18:))))
+step@p56:
+rule:14
+premise:1:(@p55)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:17:)(SMT_PVAR:18:))
+step@p57:
+rule:14
+premise:1:(@p55)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:17:))(SMT_NOT:(SMT_PVAR:18:)))
+step@p58:
+rule:9
+premise:1:(@p19)
+arg:0:
+concl:(SMT_PVAR:18:)
+step@p59:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:1:)
+concl:(SMT_PVAR:1:)
+step@p60:
+rule:11
+premise:2:(@p59)(@p6)
+arg:0:
+concl:(SMT_LE:(SMT_NUM:0)(SMT_NUM:4))
+step@p61:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:2:)
+concl:(SMT_PVAR:2:)
+step@p62:
+rule:11
+premise:2:(@p61)(@p7)
+arg:0:
+concl:(SMT_EQ:(SMT_FUNCN:LINDEX:2(SMT_VAR:1)(SMT_VAR:2))(SMT_VAR:3))
+step@p63:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:3:)
+concl:(SMT_PVAR:3:)
+step@p64:
+rule:11
+premise:2:(@p63)(@p8)
+arg:0:
+concl:(SMT_LT:(SMT_VAR:2)(SMT_NUM:4))
+step@p65:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:4:)
+concl:(SMT_PVAR:4:)
+step@p66:
+rule:11
+premise:2:(@p65)(@p9)
+arg:0:
+concl:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))
+step@p67:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:5:)
+concl:(SMT_PVAR:5:)
+step@p68:
+rule:11
+premise:2:(@p67)(@p10)
+arg:0:
+concl:(SMT_EQ:(SMT_VAR:4)(SMT_VAR:5))
+step@p69:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:6:)
+concl:(SMT_PVAR:6:)
+step@p70:
+rule:11
+premise:2:(@p69)(@p11)
+arg:0:
+concl:(SMT_EQ:(SMT_VAR:6)(SMT_VAR:3))
+step@p71:
+rule:1
+premise:0:
+arg:1:(SMT_NOT:(SMT_PVAR:7:))
+concl:(SMT_NOT:(SMT_PVAR:7:))
+step@p72:
+rule:21
+premise:2:(@p71)(@p12)
+arg:0:
+concl:(SMT_NOT:(SMT_EQ:(SMT_VAR:7)(SMT_VAR:8)))
+step@p73:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:8:)
+concl:(SMT_PVAR:8:)
+step@p74:
+rule:11
+premise:2:(@p73)(@p13)
+arg:0:
+concl:(SMT_EQ:(SMT_NUM:4)(SMT_VAR:8))
+step@p75:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:9:)
+concl:(SMT_PVAR:9:)
+step@p76:
+rule:11
+premise:2:(@p75)(@p15)
+arg:0:
+concl:(SMT_EQ:(SMT_MULT:(SMT_NUM:4)(SMT_NUM:1))(SMT_VAR:7))
+step@p77:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:10:)
+concl:(SMT_PVAR:10:)
+step@p78:
+rule:11
+premise:2:(@p77)(@p17)
+arg:0:
+concl:(SMT_EQ:(SMT_NUM:0)(SMT_VAR:3))
+step@p79:
+rule:28
+premise:1:(@p78)
+arg:0:
+concl:(SMT_EQ0:9:(0)(0)(0)(-1)(0)(0)(0)(0)(0))
+step@p80:
+rule:28
+premise:1:(@p76)
+arg:0:
+concl:(SMT_EQ0:9:(4)(0)(0)(0)(0)(0)(0)(-1)(0))
+step@p81:
+rule:28
+premise:1:(@p74)
+arg:0:
+concl:(SMT_EQ0:9:(4)(0)(0)(0)(0)(0)(0)(0)(-1))
+step@p82:
+rule:28
+premise:1:(@p70)
+arg:0:
+concl:(SMT_EQ0:9:(0)(0)(0)(-1)(0)(0)(1)(0)(0))
+step@p83:
+rule:28
+premise:1:(@p68)
+arg:0:
+concl:(SMT_EQ0:9:(0)(0)(0)(0)(1)(-1)(0)(0)(0))
+step@p84:
+rule:28
+premise:1:(@p66)
+arg:0:
+concl:(SMT_LE0:9:(0)(0)(-1)(0)(0)(0)(0)(0)(0))
+step@p85:
+rule:28
+premise:1:(@p64)
+arg:0:
+concl:(SMT_LE0:9:(-3)(0)(1)(0)(0)(0)(0)(0)(0))
+step@p86:
+rule:28
+premise:1:(@p60)
+arg:0:
+concl:(SMT_LE0:9:(-4)(0)(0)(0)(0)(0)(0)(0)(0))
+step@p87:
+rule:27
+premise:1:(@p68)
+arg:0:
+concl:(SMT_EQ0:9:(0)(0)(0)(0)(-1)(1)(0)(0)(0))
+step@p88:
+rule:27
+premise:1:(@p70)
+arg:0:
+concl:(SMT_EQ0:9:(0)(0)(0)(1)(0)(0)(-1)(0)(0))
+step@p89:
+rule:18
+premise:1:(@p70)
+arg:0:
+concl:(SMT_EQ:(SMT_VAR:3)(SMT_VAR:6))
+step@p90:
+rule:1
+premise:0:
+arg:1:(SMT_LE0:9:(1)(0)(0)(0)(0)(0)(0)(-1)(1))
+concl:(SMT_LE0:9:(1)(0)(0)(0)(0)(0)(0)(-1)(1))
+step@p91:
+rule:23
+premise:2:(@p83)(@p83)
+arg:1:(5)
+concl:(SMT_EQ0:9:(0)(0)(0)(0)(0)(0)(0)(0)(0))
+step@p92:
+rule:23
+premise:2:(@p81)(@p90)
+arg:1:(8)
+concl:(SMT_LE0:9:(5)(0)(0)(0)(0)(0)(0)(-1)(0))
+step@p93:
+rule:23
+premise:2:(@p80)(@p92)
+arg:1:(7)
+concl:(SMT_LE0:9:(1)(0)(0)(0)(0)(0)(0)(0)(0))
+step@p94:
+rule:24
+premise:1:(@p93)
+arg:0:
+concl:(FF)
+step@p95:
+rule:2
+premise:1:(@p94)
+arg:1:(@p90)
+concl:(SMT_NOT:(SMT_LE0:9:(1)(0)(0)(0)(0)(0)(0)(-1)(1)))
+step@p96:
+rule:25
+premise:1:(@p95)
+arg:0:
+concl:(SMT_LE0:9:(0)(0)(0)(0)(0)(0)(0)(1)(-1))
+step@p97:
+rule:1
+premise:0:
+arg:1:(SMT_LE0:9:(1)(0)(0)(0)(0)(0)(0)(1)(-1))
+concl:(SMT_LE0:9:(1)(0)(0)(0)(0)(0)(0)(1)(-1))
+step@p98:
+rule:23
+premise:2:(@p83)(@p83)
+arg:1:(5)
+concl:(SMT_EQ0:9:(0)(0)(0)(0)(0)(0)(0)(0)(0))
+step@p99:
+rule:23
+premise:2:(@p81)(@p97)
+arg:1:(8)
+concl:(SMT_LE0:9:(-3)(0)(0)(0)(0)(0)(0)(1)(0))
+step@p100:
+rule:23
+premise:2:(@p80)(@p99)
+arg:1:(7)
+concl:(SMT_LE0:9:(1)(0)(0)(0)(0)(0)(0)(0)(0))
+step@p101:
+rule:24
+premise:1:(@p100)
+arg:0:
+concl:(FF)
+step@p102:
+rule:2
+premise:1:(@p101)
+arg:1:(@p97)
+concl:(SMT_NOT:(SMT_LE0:9:(1)(0)(0)(0)(0)(0)(0)(1)(-1)))
+step@p103:
+rule:25
+premise:1:(@p102)
+arg:0:
+concl:(SMT_LE0:9:(0)(0)(0)(0)(0)(0)(0)(-1)(1))
+step@p104:
+rule:26
+premise:2:(@p96)(@p103)
+arg:2:(7)(8)
+concl:(SMT_EQ:(SMT_VAR:7)(SMT_VAR:8))
+step@p105:
+rule:27
+premise:1:(@p104)
+arg:0:
+concl:(SMT_EQ0:9:(0)(0)(0)(0)(0)(0)(0)(1)(-1))
+step@p106:
+rule:27
+premise:1:(@p104)
+arg:0:
+concl:(SMT_EQ0:9:(0)(0)(0)(0)(0)(0)(0)(-1)(1))
+step@p107:
+rule:29
+premise:2:(@p104)(@p72)
+arg:0:
+concl:(FF)
+step@p108:
+rule:2
+premise:1:(@p107)
+arg:10:(@p59)(@p61)(@p63)(@p65)(@p67)(@p69)(@p71)(@p73)(@p75)(@p77)
+concl:(SMT_NOT:(SMT_AND:10:(SMT_PVAR:1:)(SMT_PVAR:2:)(SMT_PVAR:3:)(SMT_PVAR:4:)(SMT_PVAR:5:)(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:)(SMT_PVAR:9:)(SMT_PVAR:10:)))
+step@p109:
+rule:15
+premise:1:(@p108)
+arg:0:
+concl:(SMT_OR:10:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:))(SMT_NOT:(SMT_PVAR:9:))(SMT_NOT:(SMT_PVAR:10:)))
+step@p110:
+rule:12
+premise:2:(@p58)(@p57)
+arg:1:(18)
+concl:(SMT_NOT:(SMT_PVAR:17:))
+step@p111:
+rule:12
+premise:2:(@p110)(@p51)
+arg:1:(-17)
+concl:(SMT_PVAR:16:)
+step@p112:
+rule:12
+premise:2:(@p110)(@p52)
+arg:1:(-17)
+concl:(SMT_NOT:(SMT_PVAR:7:))
+step@p113:
+rule:12
+premise:2:(@p111)(@p46)
+arg:1:(16)
+concl:(SMT_PVAR:1:)
+step@p114:
+rule:12
+premise:2:(@p111)(@p47)
+arg:1:(16)
+concl:(SMT_PVAR:15:)
+step@p115:
+rule:12
+premise:2:(@p114)(@p41)
+arg:1:(15)
+concl:(SMT_PVAR:2:)
+step@p116:
+rule:12
+premise:2:(@p114)(@p42)
+arg:1:(15)
+concl:(SMT_PVAR:14:)
+step@p117:
+rule:12
+premise:2:(@p116)(@p36)
+arg:1:(14)
+concl:(SMT_PVAR:3:)
+step@p118:
+rule:12
+premise:2:(@p116)(@p37)
+arg:1:(14)
+concl:(SMT_PVAR:13:)
+step@p119:
+rule:12
+premise:2:(@p118)(@p31)
+arg:1:(13)
+concl:(SMT_PVAR:4:)
+step@p120:
+rule:12
+premise:2:(@p118)(@p32)
+arg:1:(13)
+concl:(SMT_PVAR:12:)
+step@p121:
+rule:12
+premise:2:(@p120)(@p26)
+arg:1:(12)
+concl:(SMT_PVAR:5:)
+step@p122:
+rule:12
+premise:2:(@p120)(@p27)
+arg:1:(12)
+concl:(SMT_PVAR:11:)
+step@p123:
+rule:12
+premise:2:(@p122)(@p22)
+arg:1:(11)
+concl:(SMT_PVAR:6:)
+step@p124:
+rule:12
+premise:2:(@p113)(@p109)
+arg:1:(1)
+concl:(SMT_OR:9:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:))(SMT_NOT:(SMT_PVAR:9:))(SMT_NOT:(SMT_PVAR:10:)))
+step@p125:
+rule:12
+premise:2:(@p115)(@p124)
+arg:1:(2)
+concl:(SMT_OR:8:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:))(SMT_NOT:(SMT_PVAR:9:))(SMT_NOT:(SMT_PVAR:10:)))
+step@p126:
+rule:12
+premise:2:(@p117)(@p125)
+arg:1:(3)
+concl:(SMT_OR:7:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:))(SMT_NOT:(SMT_PVAR:9:))(SMT_NOT:(SMT_PVAR:10:)))
+step@p127:
+rule:12
+premise:2:(@p119)(@p126)
+arg:1:(4)
+concl:(SMT_OR:6:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:))(SMT_NOT:(SMT_PVAR:9:))(SMT_NOT:(SMT_PVAR:10:)))
+step@p128:
+rule:12
+premise:2:(@p121)(@p127)
+arg:1:(5)
+concl:(SMT_OR:5:(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:))(SMT_NOT:(SMT_PVAR:9:))(SMT_NOT:(SMT_PVAR:10:)))
+step@p129:
+rule:12
+premise:2:(@p123)(@p128)
+arg:1:(6)
+concl:(SMT_OR:4:(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:))(SMT_NOT:(SMT_PVAR:9:))(SMT_NOT:(SMT_PVAR:10:)))
+step@p130:
+rule:12
+premise:2:(@p112)(@p129)
+arg:1:(-7)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:8:))(SMT_NOT:(SMT_PVAR:9:))(SMT_NOT:(SMT_PVAR:10:)))
+step@p131:
+rule:12
+premise:2:(@p14)(@p130)
+arg:1:(8)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:9:))(SMT_NOT:(SMT_PVAR:10:)))
+step@p132:
+rule:12
+premise:2:(@p16)(@p131)
+arg:1:(9)
+concl:(SMT_NOT:(SMT_PVAR:10:))
+step@p133:
+rule:12
+premise:2:(@p18)(@p132)
+arg:1:(10)
+concl:(FF)
+step@p134:
+rule:2
+premise:1:(@p133)
+arg:1:(@p1)
+concl:(SMT_NOT:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_NUM:4))(SMT_AND:2:(SMT_EQ:(SMT_FUNCN:LINDEX:2(SMT_VAR:1)(SMT_VAR:2))(SMT_NUM:0))(SMT_AND:2:(SMT_LT:(SMT_VAR:2)(SMT_NUM:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_EQ:(SMT_VAR:4)(SMT_VAR:5))(SMT_AND:2:(SMT_EQ:(SMT_VAR:6)(SMT_NUM:0))(SMT_EQ:(SMT_VAR:6)(SMT_NUM:0))))))))(SMT_EQ:(SMT_MULT:(SMT_NUM:4)(SMT_NUM:1))(SMT_NUM:4)))))
+step@p135:
+rule:16
+premise:1:(@p134)
+arg:0:
+concl:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_NUM:4))(SMT_AND:2:(SMT_EQ:(SMT_FUNCN:LINDEX:2(SMT_VAR:1)(SMT_VAR:2))(SMT_NUM:0))(SMT_AND:2:(SMT_LT:(SMT_VAR:2)(SMT_NUM:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_EQ:(SMT_VAR:4)(SMT_VAR:5))(SMT_AND:2:(SMT_EQ:(SMT_VAR:6)(SMT_NUM:0))(SMT_EQ:(SMT_VAR:6)(SMT_NUM:0))))))))(SMT_EQ:(SMT_MULT:(SMT_NUM:4)(SMT_NUM:1))(SMT_NUM:4)))
+Proof End
+
+
+
+Trace 2:
+Ops:
+Op 1:
+Left_Prop_Add: (Ez_val 0) <= (Ez_val 4)
+Op 2:
+Left_Sep_Add: store_char_array (init_val_957_addr, (Ez_val 4), l_999_999_free)
+Op 3:
+Left_Sep_Erase: store_char_array (init_val_957_addr, (Ez_val 4), l_999_999_free)
+
+Trace 3:
+Ops:
+Op 1:
+Left_Prop_Add: (l_999_999_free[n_1000_1000_free]) == (Ez_val 0)
+Op 2:
+Left_Prop_Add: n_1000_1000_free < (Ez_val 4)
+Op 3:
+Left_Prop_Add: (Ez_val 0) <= n_1000_1000_free
+Op 4:
+Forall_Add: 1000
+
+Op 5:
+Left_Sep_Add: store_char_array (init_val_957_addr, (Ez_val 4), l_999_999_free)
+Op 6:
+Forall_Add: 999
+
+Op 7:
+Left_Sep_Erase: map_element (init_val_957_addr, (Ez_val 2), (Ez_val 4))
+Op 8:
+Left_Sep_Add: map_element (init_val_957_addr, (Ez_val 2), (Ez_val 4))
+Op 9:
+Left_Sep_Erase: map_element (init_val_957_addr, (Ez_val 2), (Ez_val 4))
+
+Trace 4:
+Ops:
+Op 1:
+Left_Prop_Erase: should_be_equal_282(Z_1, (Ez_val 1), init_val_998_value)
+Op 2:
+Left_Prop_Add: should_be_equal_282(Z_1, (Ez_val 1), init_val_998_value)
+Op 3:
+Left_Prop_Erase: should_be_equal_282(Z_1, (Ez_val 1), init_val_998_value)
+
+Trace 5:
+Ops:
+Op 1:
+Left_Prop_Erase: should_be_equal_282(Z_1, (Ez_val 1), (Ez_val 1))
+Op 2:
+Left_Prop_Add: should_be_equal_282(Z_1, (Ez_val 1), (Ez_val 1))
+Op 3:
+Left_Prop_Erase: should_be_equal_282(Z_1, (Ez_val 1), (Ez_val 1))
+
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+Op 2:
+Right_Prop_Add: (Ez_val 1) == (Ez_val 1)
+Op 3:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+
+Trace 2:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 2) == (Ez_val 2)
+Op 2:
+Right_Prop_Add: (Ez_val 2) == (Ez_val 2)
+Op 3:
+Right_Prop_Erase: (Ez_val 2) == (Ez_val 2)
+
+Trace 3:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 4) == (Ez_val 4)
+Op 2:
+Right_Prop_Add: (Ez_val 4) == (Ez_val 4)
+Op 3:
+Right_Prop_Erase: (Ez_val 4) == (Ez_val 4)
+
+Trace 4:
+Ops:
+Op 1:
+Right_Prop_Add: (Ez_val 4) == (Ez_val 4)
+Op 2:
+Right_Prop_Add: (Ez_val 2) == (Ez_val 2)
+Op 3:
+Right_Prop_Add: (Ez_val 1) == (Ez_val 1)
+Op 4:
+Left_Sep_Erase: Ebpf_map (exit_open_map_1005_value, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 5:
+Right_Sep_Erase: Ebpf_map (exit_open_map_1005_value, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 6:
+Right_Sep_Add: Ebpf_map (exit_open_map_1005_value, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 7:
+Right_Sep_Erase: Ebpf_map (exit_open_map_1005_value, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 8:
+Left_Sep_Add: Ebpf_map (exit_open_map_1005_value, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 9:
+Left_Sep_Erase: Ebpf_map (exit_open_map_1005_value, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+
+Trace 5:
+Ops:
+Op 1:
+Right_Prop_Erase: exit_open_map_1005_value == exit_open_map_1005_value
+Op 2:
+Right_Prop_Add: exit_open_map_1005_value == exit_open_map_1005_value
+Op 3:
+Right_Prop_Erase: exit_open_map_1005_value == exit_open_map_1005_value
+
+Trace 6:
+Inst 1012 exit_open_map_1005_value
+
+Trace 7:
+Ops:
+Op 1:
+Right_Prop_Add: exit_open_map_1005_value == map_pre_1012_v
+Op 2:
+Right_Sep_Erase: Data_at exit_open_map_939_addr map_pre_1012_v void
+Op 3:
+Left_Sep_Erase: Data_at exit_open_map_939_addr exit_open_map_1005_value struct bpf_map_def
+Op 4:
+Right_Sep_Add: Data_at exit_open_map_939_addr map_pre_1012_v void
+Op 5:
+Right_Sep_Erase: Data_at exit_open_map_939_addr map_pre_1012_v void
+Op 6:
+Left_Sep_Add: Data_at exit_open_map_939_addr exit_open_map_1005_value struct bpf_map_def
+Op 7:
+Left_Sep_Erase: Data_at exit_open_map_939_addr exit_open_map_1005_value struct bpf_map_def
+
+Trace 8:
+Ops:
+Op 1:
+Right_Sep_Erase: TT 
+Op 2:
+Right_Sep_Add: TT 
+Op 3:
+Right_Sep_Erase: TT 
+
+Trace 9:
+Ops:
+Op 1:
+Left_Sep_Erase: Data_at retval_968 (v1_979_979_free + (Ez_val 1)) unsigned int
+Op 2:
+Right_Sep_Add: TT 
+Op 3:
+Right_Sep_Erase: TT 
+Op 4:
+Left_Sep_Add: Data_at retval_968 (v1_979_979_free + (Ez_val 1)) unsigned int
+Op 5:
+Left_Sep_Erase: Data_at retval_968 (v1_979_979_free + (Ez_val 1)) unsigned int
+
+Trace 10:
+Ops:
+Op 1:
+Right_Sep_Erase: Data_at map_941_pre map_pre_967_v void
+Op 2:
+Left_Sep_Erase: Data_at map_941_pre map_pre_967_v void
+Op 3:
+Right_Sep_Add: Data_at map_941_pre map_pre_967_v void
+Op 4:
+Right_Sep_Erase: Data_at map_941_pre map_pre_967_v void
+Op 5:
+Left_Sep_Add: Data_at map_941_pre map_pre_967_v void
+Op 6:
+Left_Sep_Erase: Data_at map_941_pre map_pre_967_v void
+
+Trace 11:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+Op 2:
+Right_Prop_Add: (Ez_val 1) == (Ez_val 1)
+Op 3:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+
+Trace 12:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 2) == (Ez_val 2)
+Op 2:
+Right_Prop_Add: (Ez_val 2) == (Ez_val 2)
+Op 3:
+Right_Prop_Erase: (Ez_val 2) == (Ez_val 2)
+
+Trace 13:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 4) == (Ez_val 4)
+Op 2:
+Right_Prop_Add: (Ez_val 4) == (Ez_val 4)
+Op 3:
+Right_Prop_Erase: (Ez_val 4) == (Ez_val 4)
+
+Trace 14:
+Ops:
+Op 1:
+Right_Prop_Add: (Ez_val 4) == (Ez_val 4)
+Op 2:
+Right_Prop_Add: (Ez_val 2) == (Ez_val 2)
+Op 3:
+Right_Prop_Add: (Ez_val 1) == (Ez_val 1)
+Op 4:
+Left_Sep_Erase: Ebpf_map (map_pre_967_v, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 5:
+Right_Sep_Erase: Ebpf_map (map_pre_967_v, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 6:
+Right_Sep_Add: Ebpf_map (map_pre_967_v, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 7:
+Right_Sep_Erase: Ebpf_map (map_pre_967_v, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 8:
+Left_Sep_Add: Ebpf_map (map_pre_967_v, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 9:
+Left_Sep_Erase: Ebpf_map (map_pre_967_v, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+
+Trace 15:
+Ops:
+Op 1:
+Right_Prop_Erase: map_pre_967_v == map_pre_967_v
+Op 2:
+Right_Prop_Add: map_pre_967_v == map_pre_967_v
+Op 3:
+Right_Prop_Erase: map_pre_967_v == map_pre_967_v
+
+Trace 16:
+Ops:
+Op 1:
+Left_Prop_Add: should_be_equal_282(Z_1, map_pre_967_v, map_pre_967_v)
+Op 2:
+Right_Prop_Add: map_pre_967_v == map_pre_967_v
+Op 3:
+Right_Sep_Add: Data_at map_941_pre map_pre_967_v void
+Op 4:
+Right_Sep_Erase: Data_at map_941_pre map_pre_967_v void
+Op 5:
+Left_Sep_Add: Data_at map_941_pre map_pre_967_v void
+Op 6:
+Left_Sep_Erase: Data_at map_941_pre map_pre_967_v void
+
+Trace 17:
+Ops:
+Op 1:
+Right_Prop_Erase: map_pre_967_v == map_pre_967_v
+Op 2:
+Right_Prop_Add: map_pre_967_v == map_pre_967_v
+Op 3:
+Right_Prop_Erase: map_pre_967_v == map_pre_967_v
+
+Trace 18:
+Inst 944 map_pre_967_v
+
+Trace 19:
+Ops:
+Op 1:
+Left_Prop_Add: should_be_equal_282(Z_1, map_pre_967_v, map_pre_944_v)
+Op 2:
+Right_Prop_Add: map_pre_967_v == map_pre_944_v
+Op 3:
+Right_Sep_Add: Data_at map_941_pre map_pre_944_v void
+Op 4:
+Right_Sep_Erase: Data_at map_941_pre map_pre_944_v void
+Op 5:
+Left_Sep_Add: Data_at map_941_pre map_pre_967_v void
+Op 6:
+Left_Sep_Erase: Data_at map_941_pre map_pre_967_v void
+
+Trace 20:
+Ops:
+Op 1:
+Left_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+Op 2:
+Left_Prop_Add: (Ez_val 1) == (Ez_val 1)
+Op 3:
+Left_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+
+Trace 21:
+Ops:
+Op 1:
+Right_Sep_Erase: TT 
+Op 2:
+Right_Sep_Add: TT 
+Op 3:
+Right_Sep_Erase: TT 
+
+Trace 22:
+Ops:
+Op 1:
+Right_Sep_Erase: Data_at map_941_pre map_pre_993_v void
+Op 2:
+Left_Sep_Erase: Data_at map_941_pre map_pre_993_v void
+Op 3:
+Right_Sep_Add: Data_at map_941_pre map_pre_993_v void
+Op 4:
+Right_Sep_Erase: Data_at map_941_pre map_pre_993_v void
+Op 5:
+Left_Sep_Add: Data_at map_941_pre map_pre_993_v void
+Op 6:
+Left_Sep_Erase: Data_at map_941_pre map_pre_993_v void
+
+Trace 23:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+Op 2:
+Right_Prop_Add: (Ez_val 1) == (Ez_val 1)
+Op 3:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+
+Trace 24:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 2) == (Ez_val 2)
+Op 2:
+Right_Prop_Add: (Ez_val 2) == (Ez_val 2)
+Op 3:
+Right_Prop_Erase: (Ez_val 2) == (Ez_val 2)
+
+Trace 25:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 4) == (Ez_val 4)
+Op 2:
+Right_Prop_Add: (Ez_val 4) == (Ez_val 4)
+Op 3:
+Right_Prop_Erase: (Ez_val 4) == (Ez_val 4)
+
+Trace 26:
+Ops:
+Op 1:
+Right_Prop_Add: (Ez_val 4) == (Ez_val 4)
+Op 2:
+Right_Prop_Add: (Ez_val 2) == (Ez_val 2)
+Op 3:
+Right_Prop_Add: (Ez_val 1) == (Ez_val 1)
+Op 4:
+Left_Sep_Erase: Ebpf_map (map_pre_993_v, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 5:
+Right_Sep_Erase: Ebpf_map (map_pre_993_v, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 6:
+Right_Sep_Add: Ebpf_map (map_pre_993_v, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 7:
+Right_Sep_Erase: Ebpf_map (map_pre_993_v, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 8:
+Left_Sep_Add: Ebpf_map (map_pre_993_v, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+Op 9:
+Left_Sep_Erase: Ebpf_map (map_pre_993_v, (Ez_val 1), (Ez_val 2), (Ez_val 4))
+
+Trace 27:
+Ops:
+Op 1:
+Right_Prop_Erase: map_pre_993_v == map_pre_993_v
+Op 2:
+Right_Prop_Add: map_pre_993_v == map_pre_993_v
+Op 3:
+Right_Prop_Erase: map_pre_993_v == map_pre_993_v
+
+Trace 28:
+Ops:
+Op 1:
+Left_Prop_Add: should_be_equal_282(Z_1, map_pre_993_v, map_pre_993_v)
+Op 2:
+Right_Prop_Add: map_pre_993_v == map_pre_993_v
+Op 3:
+Right_Sep_Add: Data_at map_941_pre map_pre_993_v void
+Op 4:
+Right_Sep_Erase: Data_at map_941_pre map_pre_993_v void
+Op 5:
+Left_Sep_Add: Data_at map_941_pre map_pre_993_v void
+Op 6:
+Left_Sep_Erase: Data_at map_941_pre map_pre_993_v void
+
+Trace 29:
+Ops:
+Op 1:
+Right_Prop_Erase: map_pre_993_v == map_pre_993_v
+Op 2:
+Right_Prop_Add: map_pre_993_v == map_pre_993_v
+Op 3:
+Right_Prop_Erase: map_pre_993_v == map_pre_993_v
+
+Trace 30:
+Inst 944 map_pre_993_v
+
+Trace 31:
+Ops:
+Op 1:
+Left_Prop_Add: should_be_equal_282(Z_1, map_pre_993_v, map_pre_944_v)
+Op 2:
+Right_Prop_Add: map_pre_993_v == map_pre_944_v
+Op 3:
+Right_Sep_Add: Data_at map_941_pre map_pre_944_v void
+Op 4:
+Right_Sep_Erase: Data_at map_941_pre map_pre_944_v void
+Op 5:
+Left_Sep_Add: Data_at map_941_pre map_pre_993_v void
+Op 6:
+Left_Sep_Erase: Data_at map_941_pre map_pre_993_v void
+

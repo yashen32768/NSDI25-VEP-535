@@ -1,0 +1,40 @@
+
+id : 1
+priority : core(8)
+left : skb_buff(?p) at 0
+right : TT() at 1
+action : left_erase(0);
+
+id : 2
+priority : core(1)
+left : skb_buff(?p) at 0
+action : left_erase(0);
+         left_exist_add(n : Z);
+         left_add(data_at(p + 14, I32, n));
+         left_exist_add(n1 : Z);
+         left_add(data_at(field_addr(p, __sk_buff, len), U32, n1));
+         left_exist_add(n2 : Z);
+         left_add(data_at(field_addr(p, __sk_buff, pkt_type), U32, n2));
+         left_exist_add(n3 : Z);
+         left_add(data_at(field_addr(p, __sk_buff, data), U32, n3));
+         left_exist_add(n4 : Z);
+         left_add(data_at(field_addr(p, __sk_buff, data_end), U32, n4));
+         left_exist_add(l : list{Z});
+         left_add(store_char_array(n3, n4 - n3, l));
+
+id : 3
+priority : core(1)
+right : skb_buff(?p) at 0
+action : right_erase(0);
+         right_exist_add(n : Z);
+         right_add(data_at(p + 14, I32, n));
+         right_exist_add(n1 : Z);
+         right_add(data_at(field_addr(p, __sk_buff, len), U32, n1));
+         right_exist_add(n2 : Z);
+         right_add(data_at(field_addr(p, __sk_buff, pkt_type), U32, n2));
+         right_exist_add(n3 : Z);
+         right_add(data_at(field_addr(p, __sk_buff, data), U32, n3));
+         right_exist_add(n4 : Z);
+         right_add(data_at(field_addr(p, __sk_buff, data_end), U32, n4));
+         right_exist_add(l : list{Z});
+         right_add(store_char_array(n3, n4 - n3, l));

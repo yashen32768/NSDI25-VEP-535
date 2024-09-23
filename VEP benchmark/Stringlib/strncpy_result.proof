@@ -1,0 +1,4242 @@
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Right_Sep_Erase: Data_at i_958_addr (Ez_val 0) unsigned int
+Op 2:
+Left_Sep_Erase: Data_at i_958_addr (Ez_val 0) unsigned int
+Op 3:
+Right_Sep_Add: Data_at i_958_addr (Ez_val 0) unsigned int
+Op 4:
+Right_Sep_Erase: Data_at i_958_addr (Ez_val 0) unsigned int
+Op 5:
+Left_Sep_Add: Data_at i_958_addr (Ez_val 0) unsigned int
+Op 6:
+Left_Sep_Erase: Data_at i_958_addr (Ez_val 0) unsigned int
+
+Trace 2:
+Ops:
+Op 1:
+Right_Prop_Erase: l2_945_free == l2_945_free
+Op 2:
+Right_Prop_Add: l2_945_free == l2_945_free
+Op 3:
+Right_Prop_Erase: l2_945_free == l2_945_free
+
+Trace 3:
+Ops:
+Op 1:
+Right_Prop_Add: l2_945_free == l2_945_free
+Op 2:
+Left_Sep_Erase: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 3:
+Right_Sep_Erase: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 4:
+Right_Sep_Add: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 5:
+Right_Sep_Erase: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 6:
+Left_Sep_Add: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 7:
+Left_Sep_Erase: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+
+Trace 4:
+Ops:
+Op 1:
+Right_Prop_Erase: l1_946_free == l1_946_free
+Op 2:
+Right_Prop_Add: l1_946_free == l1_946_free
+Op 3:
+Right_Prop_Erase: l1_946_free == l1_946_free
+
+Trace 5:
+Inst 962 l1_946_free
+
+Trace 6:
+Ops:
+Op 1:
+Right_Prop_Add: l1_946_free == l3_962
+Op 2:
+Left_Sep_Erase: store_char_array (p1_943_pre, m1_948_free, l1_946_free)
+Op 3:
+Right_Sep_Erase: store_char_array (p1_943_pre, m1_948_free, l3_962)
+Op 4:
+Right_Sep_Add: store_char_array (p1_943_pre, m1_948_free, l3_962)
+Op 5:
+Right_Sep_Erase: store_char_array (p1_943_pre, m1_948_free, l3_962)
+Op 6:
+Left_Sep_Add: store_char_array (p1_943_pre, m1_948_free, l1_946_free)
+Op 7:
+Left_Sep_Erase: store_char_array (p1_943_pre, m1_948_free, l1_946_free)
+
+Trace 7:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 0) == (Ez_val 0)
+Op 2:
+Right_Prop_Add: (Ez_val 0) == (Ez_val 0)
+Op 3:
+Right_Prop_Erase: (Ez_val 0) == (Ez_val 0)
+
+Trace 8:
+Ops:
+Op 1:
+Left_Prop_Add: should_be_equal_282(Z_1, (Ez_val 0), (Ez_val 0))
+Op 2:
+Right_Prop_Add: (Ez_val 0) == (Ez_val 0)
+Op 3:
+Right_Sep_Add: Data_at i_958_addr (Ez_val 0) unsigned int
+Op 4:
+Right_Sep_Erase: Data_at i_958_addr (Ez_val 0) unsigned int
+Op 5:
+Left_Sep_Add: Data_at i_958_addr (Ez_val 0) unsigned int
+Op 6:
+Left_Sep_Erase: Data_at i_958_addr (Ez_val 0) unsigned int
+
+Trace 9:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 0) == (Ez_val 0)
+Op 2:
+Right_Prop_Add: (Ez_val 0) == (Ez_val 0)
+Op 3:
+Right_Prop_Erase: (Ez_val 0) == (Ez_val 0)
+
+Trace 10:
+Inst 963 (Ez_val 0)
+
+Trace 11:
+Ops:
+Op 1:
+Left_Prop_Add: should_be_equal_282(Z_1, (Ez_val 0), i_963_value)
+Op 2:
+Right_Prop_Add: (Ez_val 0) == i_963_value
+Op 3:
+Right_Sep_Add: Data_at i_958_addr i_963_value unsigned int
+Op 4:
+Right_Sep_Erase: Data_at i_958_addr i_963_value unsigned int
+Op 5:
+Left_Sep_Add: Data_at i_958_addr (Ez_val 0) unsigned int
+Op 6:
+Left_Sep_Erase: Data_at i_958_addr (Ez_val 0) unsigned int
+
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Left_Prop_Add: (Ez_val 0) <= m1_948_free
+Op 2:
+Left_Sep_Add: store_char_array (p1_943_pre, m1_948_free, l3_964)
+Op 3:
+Left_Sep_Erase: store_char_array (p1_943_pre, m1_948_free, l3_964)
+
+Trace 2:
+Ops:
+Op 1:
+Right_Prop_Erase: (l2_945_free[i_965_value]) == (l2_945_free[i_965_value])
+Op 2:
+Right_Prop_Add: (l2_945_free[i_965_value]) == (l2_945_free[i_965_value])
+Op 3:
+Right_Prop_Erase: (l2_945_free[i_965_value]) == (l2_945_free[i_965_value])
+
+Trace 3:
+Inst 972 (l2_945_free[i_965_value])
+
+Trace 4:
+Ops:
+Op 1:
+Right_Prop_Add: v_972_free == (l2_945_free[i_965_value])
+Op 2:
+Left_Sep_Add: store_char_array_missing_i_rec (p2_940_pre, i_965_value, (Ez_val 0), m2_947_free, l2_945_free)
+Op 3:
+Left_Sep_Erase: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 4:
+Right_Sep_Erase: Data_at (p2_940_pre + (i_965_value * (Size_of signed I8))) v_972_free signed I8
+Op 5:
+Right_Sep_Add: Data_at (p2_940_pre + (i_965_value * (Size_of signed I8))) v_972_free signed I8
+Op 6:
+Right_Sep_Erase: Data_at (p2_940_pre + (i_965_value * (Size_of signed I8))) v_972_free signed I8
+Op 7:
+Left_Sep_Add: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 8:
+Left_Sep_Erase: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 9:
+Assume: i_965_value < m2_947_freeProof Start:
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(1)(x_965)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(2)(x_937)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(3)(x_948)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(4)(x_947)
+concl:()
+step@p1:
+rule:1
+premise:0:
+arg:1:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LT:(SMT_VAR:1)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_VAR:1)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_LE:(SMT_VAR:2)(SMT_VAR:4))))))(SMT_LT:(SMT_VAR:1)(SMT_VAR:4))))
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LT:(SMT_VAR:1)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_VAR:1)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_LE:(SMT_VAR:2)(SMT_VAR:4))))))(SMT_LT:(SMT_VAR:1)(SMT_VAR:4))))
+step@p2:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LT:(SMT_VAR:1)(SMT_VAR:2))(SMT_PVAR:1:))
+concl:(SMT_EQ:(SMT_LT:(SMT_VAR:1)(SMT_VAR:2))(SMT_PVAR:1:))
+step@p3:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_PVAR:2:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_PVAR:2:))
+step@p4:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:1)(SMT_VAR:2))(SMT_PVAR:3:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:1)(SMT_VAR:2))(SMT_PVAR:3:))
+step@p5:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_PVAR:4:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_PVAR:4:))
+step@p6:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:2)(SMT_VAR:4))(SMT_PVAR:5:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:2)(SMT_VAR:4))(SMT_PVAR:5:))
+step@p7:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LT:(SMT_VAR:1)(SMT_VAR:4))(SMT_PVAR:6:))
+concl:(SMT_EQ:(SMT_LT:(SMT_VAR:1)(SMT_VAR:4))(SMT_PVAR:6:))
+step@p8:
+rule:8
+premise:1:(@p1)
+arg:0:
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_PVAR:1:)(SMT_AND:2:(SMT_PVAR:2:)(SMT_AND:2:(SMT_PVAR:3:)(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:5:)))))(SMT_PVAR:6:)))
+step@p9:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:5:))(SMT_PVAR:7:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:5:))(SMT_PVAR:7:))
+step@p10:
+rule:10
+premise:1:(@p9)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:7:)))(SMT_OR:2:(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:7:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_PVAR:7:)))
+step@p11:
+rule:14
+premise:1:(@p10)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:7:)))
+step@p12:
+rule:14
+premise:1:(@p10)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:7:)))
+step@p13:
+rule:14
+premise:1:(@p10)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_PVAR:7:))
+step@p14:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:7:))(SMT_PVAR:8:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p15:
+rule:10
+premise:1:(@p14)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:8:)))(SMT_OR:2:(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:)))
+step@p16:
+rule:14
+premise:1:(@p15)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:8:)))
+step@p17:
+rule:14
+premise:1:(@p15)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:)))
+step@p18:
+rule:14
+premise:1:(@p15)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p19:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:8:))(SMT_PVAR:9:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:8:))(SMT_PVAR:9:))
+step@p20:
+rule:10
+premise:1:(@p19)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:9:)))(SMT_OR:2:(SMT_PVAR:8:)(SMT_NOT:(SMT_PVAR:9:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:8:))(SMT_PVAR:9:)))
+step@p21:
+rule:14
+premise:1:(@p20)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:9:)))
+step@p22:
+rule:14
+premise:1:(@p20)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:8:)(SMT_NOT:(SMT_PVAR:9:)))
+step@p23:
+rule:14
+premise:1:(@p20)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:8:))(SMT_PVAR:9:))
+step@p24:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:9:))(SMT_PVAR:10:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:9:))(SMT_PVAR:10:))
+step@p25:
+rule:10
+premise:1:(@p24)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:10:)))(SMT_OR:2:(SMT_PVAR:9:)(SMT_NOT:(SMT_PVAR:10:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:9:))(SMT_PVAR:10:)))
+step@p26:
+rule:14
+premise:1:(@p25)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:10:)))
+step@p27:
+rule:14
+premise:1:(@p25)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:9:)(SMT_NOT:(SMT_PVAR:10:)))
+step@p28:
+rule:14
+premise:1:(@p25)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:9:))(SMT_PVAR:10:))
+step@p29:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:10:)(SMT_PVAR:6:))(SMT_PVAR:11:))
+concl:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:10:)(SMT_PVAR:6:))(SMT_PVAR:11:))
+step@p30:
+rule:10
+premise:1:(@p29)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:10:)(SMT_PVAR:11:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:11:))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:10:))(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:11:))))
+step@p31:
+rule:14
+premise:1:(@p30)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:10:)(SMT_PVAR:11:))
+step@p32:
+rule:14
+premise:1:(@p30)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:11:))
+step@p33:
+rule:14
+premise:1:(@p30)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:10:))(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:11:)))
+step@p34:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_NOT:(SMT_PVAR:11:))(SMT_PVAR:12:))
+concl:(SMT_IFF:(SMT_NOT:(SMT_PVAR:11:))(SMT_PVAR:12:))
+step@p35:
+rule:10
+premise:1:(@p34)
+arg:0:
+concl:(SMT_AND:2:(SMT_OR:2:(SMT_PVAR:11:)(SMT_PVAR:12:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:11:))(SMT_NOT:(SMT_PVAR:12:))))
+step@p36:
+rule:14
+premise:1:(@p35)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:11:)(SMT_PVAR:12:))
+step@p37:
+rule:14
+premise:1:(@p35)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:11:))(SMT_NOT:(SMT_PVAR:12:)))
+step@p38:
+rule:9
+premise:1:(@p8)
+arg:0:
+concl:(SMT_PVAR:12:)
+step@p39:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:1:)
+concl:(SMT_PVAR:1:)
+step@p40:
+rule:11
+premise:2:(@p39)(@p2)
+arg:0:
+concl:(SMT_LT:(SMT_VAR:1)(SMT_VAR:2))
+step@p41:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:2:)
+concl:(SMT_PVAR:2:)
+step@p42:
+rule:11
+premise:2:(@p41)(@p3)
+arg:0:
+concl:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))
+step@p43:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:3:)
+concl:(SMT_PVAR:3:)
+step@p44:
+rule:11
+premise:2:(@p43)(@p4)
+arg:0:
+concl:(SMT_LE:(SMT_VAR:1)(SMT_VAR:2))
+step@p45:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:4:)
+concl:(SMT_PVAR:4:)
+step@p46:
+rule:11
+premise:2:(@p45)(@p5)
+arg:0:
+concl:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))
+step@p47:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:5:)
+concl:(SMT_PVAR:5:)
+step@p48:
+rule:11
+premise:2:(@p47)(@p6)
+arg:0:
+concl:(SMT_LE:(SMT_VAR:2)(SMT_VAR:4))
+step@p49:
+rule:1
+premise:0:
+arg:1:(SMT_NOT:(SMT_PVAR:6:))
+concl:(SMT_NOT:(SMT_PVAR:6:))
+step@p50:
+rule:21
+premise:2:(@p49)(@p7)
+arg:0:
+concl:(SMT_NOT:(SMT_LT:(SMT_VAR:1)(SMT_VAR:4)))
+step@p51:
+rule:28
+premise:1:(@p50)
+arg:0:
+concl:(SMT_LE0:5:(0)(-1)(0)(0)(1))
+step@p52:
+rule:28
+premise:1:(@p48)
+arg:0:
+concl:(SMT_LE0:5:(0)(0)(1)(0)(-1))
+step@p53:
+rule:28
+premise:1:(@p46)
+arg:0:
+concl:(SMT_LE0:5:(0)(0)(1)(-1)(0))
+step@p54:
+rule:28
+premise:1:(@p44)
+arg:0:
+concl:(SMT_LE0:5:(0)(1)(-1)(0)(0))
+step@p55:
+rule:28
+premise:1:(@p42)
+arg:0:
+concl:(SMT_LE0:5:(0)(-1)(0)(0)(0))
+step@p56:
+rule:28
+premise:1:(@p40)
+arg:0:
+concl:(SMT_LE0:5:(1)(1)(-1)(0)(0))
+step@p57:
+rule:22
+premise:2:(@p51)(@p52)
+arg:1:(4)
+concl:(SMT_LE0:5:(0)(-1)(1)(0)(0))
+step@p58:
+rule:22
+premise:2:(@p57)(@p54)
+arg:1:(2)
+concl:(SMT_LE0:5:(0)(0)(0)(0)(0))
+step@p59:
+rule:22
+premise:2:(@p57)(@p56)
+arg:1:(2)
+concl:(SMT_LE0:5:(1)(0)(0)(0)(0))
+step@p60:
+rule:24
+premise:1:(@p59)
+arg:0:
+concl:(FF)
+step@p61:
+rule:2
+premise:1:(@p60)
+arg:6:(@p39)(@p41)(@p43)(@p45)(@p47)(@p49)
+concl:(SMT_NOT:(SMT_AND:6:(SMT_PVAR:1:)(SMT_PVAR:2:)(SMT_PVAR:3:)(SMT_PVAR:4:)(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:6:))))
+step@p62:
+rule:15
+premise:1:(@p61)
+arg:0:
+concl:(SMT_OR:6:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_PVAR:6:))
+step@p63:
+rule:12
+premise:2:(@p38)(@p37)
+arg:1:(12)
+concl:(SMT_NOT:(SMT_PVAR:11:))
+step@p64:
+rule:12
+premise:2:(@p63)(@p31)
+arg:1:(-11)
+concl:(SMT_PVAR:10:)
+step@p65:
+rule:12
+premise:2:(@p63)(@p32)
+arg:1:(-11)
+concl:(SMT_NOT:(SMT_PVAR:6:))
+step@p66:
+rule:12
+premise:2:(@p64)(@p26)
+arg:1:(10)
+concl:(SMT_PVAR:1:)
+step@p67:
+rule:12
+premise:2:(@p64)(@p27)
+arg:1:(10)
+concl:(SMT_PVAR:9:)
+step@p68:
+rule:12
+premise:2:(@p67)(@p21)
+arg:1:(9)
+concl:(SMT_PVAR:2:)
+step@p69:
+rule:12
+premise:2:(@p67)(@p22)
+arg:1:(9)
+concl:(SMT_PVAR:8:)
+step@p70:
+rule:12
+premise:2:(@p69)(@p16)
+arg:1:(8)
+concl:(SMT_PVAR:3:)
+step@p71:
+rule:12
+premise:2:(@p69)(@p17)
+arg:1:(8)
+concl:(SMT_PVAR:7:)
+step@p72:
+rule:12
+premise:2:(@p71)(@p11)
+arg:1:(7)
+concl:(SMT_PVAR:4:)
+step@p73:
+rule:12
+premise:2:(@p71)(@p12)
+arg:1:(7)
+concl:(SMT_PVAR:5:)
+step@p74:
+rule:12
+premise:2:(@p66)(@p62)
+arg:1:(1)
+concl:(SMT_OR:5:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_PVAR:6:))
+step@p75:
+rule:12
+premise:2:(@p68)(@p74)
+arg:1:(2)
+concl:(SMT_OR:4:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_PVAR:6:))
+step@p76:
+rule:12
+premise:2:(@p70)(@p75)
+arg:1:(3)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_PVAR:6:))
+step@p77:
+rule:12
+premise:2:(@p72)(@p76)
+arg:1:(4)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:5:))(SMT_PVAR:6:))
+step@p78:
+rule:12
+premise:2:(@p65)(@p77)
+arg:1:(-6)
+concl:(SMT_NOT:(SMT_PVAR:5:))
+step@p79:
+rule:12
+premise:2:(@p73)(@p78)
+arg:1:(5)
+concl:(FF)
+step@p80:
+rule:2
+premise:1:(@p79)
+arg:1:(@p1)
+concl:(SMT_NOT:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LT:(SMT_VAR:1)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_VAR:1)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_LE:(SMT_VAR:2)(SMT_VAR:4))))))(SMT_LT:(SMT_VAR:1)(SMT_VAR:4)))))
+step@p81:
+rule:16
+premise:1:(@p80)
+arg:0:
+concl:(SMT_IMPLY:(SMT_AND:2:(SMT_LT:(SMT_VAR:1)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_VAR:1)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_LE:(SMT_VAR:2)(SMT_VAR:4))))))(SMT_LT:(SMT_VAR:1)(SMT_VAR:4)))
+Proof End
+
+
+Op 10:
+Assume: (Ez_val 0) <= i_965_valueProof Start:
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(1)(x_965)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(2)(x_937)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(3)(x_948)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(4)(x_947)
+concl:()
+step@p1:
+rule:1
+premise:0:
+arg:1:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LT:(SMT_VAR:1)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_VAR:1)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_LE:(SMT_VAR:2)(SMT_VAR:4))))))(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))))
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LT:(SMT_VAR:1)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_VAR:1)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_LE:(SMT_VAR:2)(SMT_VAR:4))))))(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))))
+step@p2:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LT:(SMT_VAR:1)(SMT_VAR:2))(SMT_PVAR:1:))
+concl:(SMT_EQ:(SMT_LT:(SMT_VAR:1)(SMT_VAR:2))(SMT_PVAR:1:))
+step@p3:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_PVAR:2:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_PVAR:2:))
+step@p4:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:1)(SMT_VAR:2))(SMT_PVAR:3:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:1)(SMT_VAR:2))(SMT_PVAR:3:))
+step@p5:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_PVAR:4:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_PVAR:4:))
+step@p6:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:2)(SMT_VAR:4))(SMT_PVAR:5:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:2)(SMT_VAR:4))(SMT_PVAR:5:))
+step@p7:
+rule:8
+premise:1:(@p1)
+arg:0:
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_PVAR:1:)(SMT_AND:2:(SMT_PVAR:2:)(SMT_AND:2:(SMT_PVAR:3:)(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:5:)))))(SMT_PVAR:2:)))
+step@p8:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:5:))(SMT_PVAR:6:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:5:))(SMT_PVAR:6:))
+step@p9:
+rule:10
+premise:1:(@p8)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:6:)))(SMT_OR:2:(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:6:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_PVAR:6:)))
+step@p10:
+rule:14
+premise:1:(@p9)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:6:)))
+step@p11:
+rule:14
+premise:1:(@p9)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:6:)))
+step@p12:
+rule:14
+premise:1:(@p9)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_PVAR:6:))
+step@p13:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:6:))(SMT_PVAR:7:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:6:))(SMT_PVAR:7:))
+step@p14:
+rule:10
+premise:1:(@p13)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:7:)))(SMT_OR:2:(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:7:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:7:)))
+step@p15:
+rule:14
+premise:1:(@p14)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:7:)))
+step@p16:
+rule:14
+premise:1:(@p14)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:7:)))
+step@p17:
+rule:14
+premise:1:(@p14)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:7:))
+step@p18:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:7:))(SMT_PVAR:8:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p19:
+rule:10
+premise:1:(@p18)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:8:)))(SMT_OR:2:(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:)))
+step@p20:
+rule:14
+premise:1:(@p19)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:8:)))
+step@p21:
+rule:14
+premise:1:(@p19)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:)))
+step@p22:
+rule:14
+premise:1:(@p19)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p23:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:8:))(SMT_PVAR:9:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:8:))(SMT_PVAR:9:))
+step@p24:
+rule:10
+premise:1:(@p23)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:9:)))(SMT_OR:2:(SMT_PVAR:8:)(SMT_NOT:(SMT_PVAR:9:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:8:))(SMT_PVAR:9:)))
+step@p25:
+rule:14
+premise:1:(@p24)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:9:)))
+step@p26:
+rule:14
+premise:1:(@p24)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:8:)(SMT_NOT:(SMT_PVAR:9:)))
+step@p27:
+rule:14
+premise:1:(@p24)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:8:))(SMT_PVAR:9:))
+step@p28:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:9:)(SMT_PVAR:2:))(SMT_PVAR:10:))
+concl:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:9:)(SMT_PVAR:2:))(SMT_PVAR:10:))
+step@p29:
+rule:10
+premise:1:(@p28)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:9:)(SMT_PVAR:10:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:2:))(SMT_PVAR:10:))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:9:))(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:10:))))
+step@p30:
+rule:14
+premise:1:(@p29)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:9:)(SMT_PVAR:10:))
+step@p31:
+rule:14
+premise:1:(@p29)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:2:))(SMT_PVAR:10:))
+step@p32:
+rule:14
+premise:1:(@p29)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:9:))(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:10:)))
+step@p33:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_NOT:(SMT_PVAR:10:))(SMT_PVAR:11:))
+concl:(SMT_IFF:(SMT_NOT:(SMT_PVAR:10:))(SMT_PVAR:11:))
+step@p34:
+rule:10
+premise:1:(@p33)
+arg:0:
+concl:(SMT_AND:2:(SMT_OR:2:(SMT_PVAR:10:)(SMT_PVAR:11:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:10:))(SMT_NOT:(SMT_PVAR:11:))))
+step@p35:
+rule:14
+premise:1:(@p34)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:10:)(SMT_PVAR:11:))
+step@p36:
+rule:14
+premise:1:(@p34)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:10:))(SMT_NOT:(SMT_PVAR:11:)))
+step@p37:
+rule:9
+premise:1:(@p7)
+arg:0:
+concl:(SMT_PVAR:11:)
+step@p38:
+rule:12
+premise:2:(@p37)(@p36)
+arg:1:(11)
+concl:(SMT_NOT:(SMT_PVAR:10:))
+step@p39:
+rule:12
+premise:2:(@p38)(@p30)
+arg:1:(-10)
+concl:(SMT_PVAR:9:)
+step@p40:
+rule:12
+premise:2:(@p38)(@p31)
+arg:1:(-10)
+concl:(SMT_NOT:(SMT_PVAR:2:))
+step@p41:
+rule:12
+premise:2:(@p39)(@p25)
+arg:1:(9)
+concl:(SMT_PVAR:1:)
+step@p42:
+rule:12
+premise:2:(@p39)(@p26)
+arg:1:(9)
+concl:(SMT_PVAR:8:)
+step@p43:
+rule:12
+premise:2:(@p40)(@p20)
+arg:1:(-2)
+concl:(SMT_NOT:(SMT_PVAR:8:))
+step@p44:
+rule:12
+premise:2:(@p42)(@p43)
+arg:1:(8)
+concl:(FF)
+step@p45:
+rule:2
+premise:1:(@p44)
+arg:1:(@p1)
+concl:(SMT_NOT:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LT:(SMT_VAR:1)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_VAR:1)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_LE:(SMT_VAR:2)(SMT_VAR:4))))))(SMT_LE:(SMT_NUM:0)(SMT_VAR:1)))))
+step@p46:
+rule:16
+premise:1:(@p45)
+arg:0:
+concl:(SMT_IMPLY:(SMT_AND:2:(SMT_LT:(SMT_VAR:1)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_VAR:1)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_LE:(SMT_VAR:2)(SMT_VAR:4))))))(SMT_LE:(SMT_NUM:0)(SMT_VAR:1)))
+Proof End
+
+
+
+Trace 5:
+Ops:
+Op 1:
+Left_Prop_Erase: should_be_equal_282(Z_1, (Ez_val 0), i_963_value)
+Op 2:
+Left_Prop_Add: should_be_equal_282(Z_1, (Ez_val 0), i_963_value)
+Op 3:
+Left_Prop_Erase: should_be_equal_282(Z_1, (Ez_val 0), i_963_value)
+
+Trace 6:
+Ops:
+Op 1:
+Left_Prop_Erase: should_be_equal_282(Z_1, (Ez_val 0), (Ez_val 0))
+Op 2:
+Left_Prop_Add: should_be_equal_282(Z_1, (Ez_val 0), (Ez_val 0))
+Op 3:
+Left_Prop_Erase: should_be_equal_282(Z_1, (Ez_val 0), (Ez_val 0))
+
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Right_Prop_Erase: (l3_964[i_965_value]) == (l3_964[i_965_value])
+Op 2:
+Right_Prop_Add: (l3_964[i_965_value]) == (l3_964[i_965_value])
+Op 3:
+Right_Prop_Erase: (l3_964[i_965_value]) == (l3_964[i_965_value])
+
+Trace 2:
+Inst 973 (l3_964[i_965_value])
+
+Trace 3:
+Ops:
+Op 1:
+Right_Prop_Add: x_973_973_free == (l3_964[i_965_value])
+Op 2:
+Left_Sep_Add: store_char_array_missing_i_rec (p1_943_pre, i_965_value, (Ez_val 0), m1_948_free, l3_964)
+Op 3:
+Left_Sep_Erase: store_char_array (p1_943_pre, m1_948_free, l3_964)
+Op 4:
+Right_Sep_Erase: Data_at (p1_943_pre + (i_965_value * (Size_of signed I8))) x_973_973_free signed I8
+Op 5:
+Right_Sep_Add: Data_at (p1_943_pre + (i_965_value * (Size_of signed I8))) x_973_973_free signed I8
+Op 6:
+Right_Sep_Erase: Data_at (p1_943_pre + (i_965_value * (Size_of signed I8))) x_973_973_free signed I8
+Op 7:
+Left_Sep_Add: store_char_array (p1_943_pre, m1_948_free, l3_964)
+Op 8:
+Left_Sep_Erase: store_char_array (p1_943_pre, m1_948_free, l3_964)
+Op 9:
+Assume: i_965_value < m1_948_freeProof Start:
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(1)(x_947)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(2)(x_948)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(3)(x_965)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(4)(x_937)
+concl:()
+step@p1:
+rule:1
+premise:0:
+arg:1:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))))))))(SMT_LT:(SMT_VAR:3)(SMT_VAR:2))))
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))))))))(SMT_LT:(SMT_VAR:3)(SMT_VAR:2))))
+step@p2:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_PVAR:1:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_PVAR:1:))
+step@p3:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_PVAR:2:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_PVAR:2:))
+step@p4:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:3:))
+concl:(SMT_EQ:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:3:))
+step@p5:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_PVAR:4:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_PVAR:4:))
+step@p6:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:5:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:5:))
+step@p7:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_PVAR:6:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_PVAR:6:))
+step@p8:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))(SMT_PVAR:7:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))(SMT_PVAR:7:))
+step@p9:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LT:(SMT_VAR:3)(SMT_VAR:2))(SMT_PVAR:8:))
+concl:(SMT_EQ:(SMT_LT:(SMT_VAR:3)(SMT_VAR:2))(SMT_PVAR:8:))
+step@p10:
+rule:8
+premise:1:(@p1)
+arg:0:
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_PVAR:1:)(SMT_AND:2:(SMT_PVAR:2:)(SMT_AND:2:(SMT_PVAR:3:)(SMT_AND:2:(SMT_PVAR:4:)(SMT_AND:2:(SMT_PVAR:5:)(SMT_AND:2:(SMT_PVAR:6:)(SMT_PVAR:7:)))))))(SMT_PVAR:8:)))
+step@p11:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:6:)(SMT_PVAR:7:))(SMT_PVAR:9:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:6:)(SMT_PVAR:7:))(SMT_PVAR:9:))
+step@p12:
+rule:10
+premise:1:(@p11)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:9:)))(SMT_OR:2:(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:9:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:9:)))
+step@p13:
+rule:14
+premise:1:(@p12)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:9:)))
+step@p14:
+rule:14
+premise:1:(@p12)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:9:)))
+step@p15:
+rule:14
+premise:1:(@p12)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:9:))
+step@p16:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:5:)(SMT_PVAR:9:))(SMT_PVAR:10:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:5:)(SMT_PVAR:9:))(SMT_PVAR:10:))
+step@p17:
+rule:10
+premise:1:(@p16)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:10:)))(SMT_OR:2:(SMT_PVAR:9:)(SMT_NOT:(SMT_PVAR:10:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:9:))(SMT_PVAR:10:)))
+step@p18:
+rule:14
+premise:1:(@p17)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:10:)))
+step@p19:
+rule:14
+premise:1:(@p17)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:9:)(SMT_NOT:(SMT_PVAR:10:)))
+step@p20:
+rule:14
+premise:1:(@p17)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:9:))(SMT_PVAR:10:))
+step@p21:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:10:))(SMT_PVAR:11:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:10:))(SMT_PVAR:11:))
+step@p22:
+rule:10
+premise:1:(@p21)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:11:)))(SMT_OR:2:(SMT_PVAR:10:)(SMT_NOT:(SMT_PVAR:11:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:10:))(SMT_PVAR:11:)))
+step@p23:
+rule:14
+premise:1:(@p22)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:11:)))
+step@p24:
+rule:14
+premise:1:(@p22)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:10:)(SMT_NOT:(SMT_PVAR:11:)))
+step@p25:
+rule:14
+premise:1:(@p22)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:10:))(SMT_PVAR:11:))
+step@p26:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:11:))(SMT_PVAR:12:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:11:))(SMT_PVAR:12:))
+step@p27:
+rule:10
+premise:1:(@p26)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:12:)))(SMT_OR:2:(SMT_PVAR:11:)(SMT_NOT:(SMT_PVAR:12:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:11:))(SMT_PVAR:12:)))
+step@p28:
+rule:14
+premise:1:(@p27)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:12:)))
+step@p29:
+rule:14
+premise:1:(@p27)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:11:)(SMT_NOT:(SMT_PVAR:12:)))
+step@p30:
+rule:14
+premise:1:(@p27)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:11:))(SMT_PVAR:12:))
+step@p31:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:12:))(SMT_PVAR:13:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:12:))(SMT_PVAR:13:))
+step@p32:
+rule:10
+premise:1:(@p31)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:13:)))(SMT_OR:2:(SMT_PVAR:12:)(SMT_NOT:(SMT_PVAR:13:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:12:))(SMT_PVAR:13:)))
+step@p33:
+rule:14
+premise:1:(@p32)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:13:)))
+step@p34:
+rule:14
+premise:1:(@p32)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:12:)(SMT_NOT:(SMT_PVAR:13:)))
+step@p35:
+rule:14
+premise:1:(@p32)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:12:))(SMT_PVAR:13:))
+step@p36:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:13:))(SMT_PVAR:14:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:13:))(SMT_PVAR:14:))
+step@p37:
+rule:10
+premise:1:(@p36)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:14:)))(SMT_OR:2:(SMT_PVAR:13:)(SMT_NOT:(SMT_PVAR:14:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:13:))(SMT_PVAR:14:)))
+step@p38:
+rule:14
+premise:1:(@p37)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:14:)))
+step@p39:
+rule:14
+premise:1:(@p37)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:13:)(SMT_NOT:(SMT_PVAR:14:)))
+step@p40:
+rule:14
+premise:1:(@p37)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:13:))(SMT_PVAR:14:))
+step@p41:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:14:)(SMT_PVAR:8:))(SMT_PVAR:15:))
+concl:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:14:)(SMT_PVAR:8:))(SMT_PVAR:15:))
+step@p42:
+rule:10
+premise:1:(@p41)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:14:)(SMT_PVAR:15:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:8:))(SMT_PVAR:15:))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:14:))(SMT_PVAR:8:)(SMT_NOT:(SMT_PVAR:15:))))
+step@p43:
+rule:14
+premise:1:(@p42)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:14:)(SMT_PVAR:15:))
+step@p44:
+rule:14
+premise:1:(@p42)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:8:))(SMT_PVAR:15:))
+step@p45:
+rule:14
+premise:1:(@p42)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:14:))(SMT_PVAR:8:)(SMT_NOT:(SMT_PVAR:15:)))
+step@p46:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_NOT:(SMT_PVAR:15:))(SMT_PVAR:16:))
+concl:(SMT_IFF:(SMT_NOT:(SMT_PVAR:15:))(SMT_PVAR:16:))
+step@p47:
+rule:10
+premise:1:(@p46)
+arg:0:
+concl:(SMT_AND:2:(SMT_OR:2:(SMT_PVAR:15:)(SMT_PVAR:16:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:15:))(SMT_NOT:(SMT_PVAR:16:))))
+step@p48:
+rule:14
+premise:1:(@p47)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:15:)(SMT_PVAR:16:))
+step@p49:
+rule:14
+premise:1:(@p47)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:15:))(SMT_NOT:(SMT_PVAR:16:)))
+step@p50:
+rule:9
+premise:1:(@p10)
+arg:0:
+concl:(SMT_PVAR:16:)
+step@p51:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:1:)
+concl:(SMT_PVAR:1:)
+step@p52:
+rule:11
+premise:2:(@p51)(@p2)
+arg:0:
+concl:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))
+step@p53:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:2:)
+concl:(SMT_PVAR:2:)
+step@p54:
+rule:11
+premise:2:(@p53)(@p3)
+arg:0:
+concl:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))
+step@p55:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:3:)
+concl:(SMT_PVAR:3:)
+step@p56:
+rule:11
+premise:2:(@p55)(@p4)
+arg:0:
+concl:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))
+step@p57:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:4:)
+concl:(SMT_PVAR:4:)
+step@p58:
+rule:11
+premise:2:(@p57)(@p5)
+arg:0:
+concl:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))
+step@p59:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:5:)
+concl:(SMT_PVAR:5:)
+step@p60:
+rule:11
+premise:2:(@p59)(@p6)
+arg:0:
+concl:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))
+step@p61:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:6:)
+concl:(SMT_PVAR:6:)
+step@p62:
+rule:11
+premise:2:(@p61)(@p7)
+arg:0:
+concl:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))
+step@p63:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:7:)
+concl:(SMT_PVAR:7:)
+step@p64:
+rule:11
+premise:2:(@p63)(@p8)
+arg:0:
+concl:(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))
+step@p65:
+rule:1
+premise:0:
+arg:1:(SMT_NOT:(SMT_PVAR:8:))
+concl:(SMT_NOT:(SMT_PVAR:8:))
+step@p66:
+rule:21
+premise:2:(@p65)(@p9)
+arg:0:
+concl:(SMT_NOT:(SMT_LT:(SMT_VAR:3)(SMT_VAR:2)))
+step@p67:
+rule:28
+premise:1:(@p66)
+arg:0:
+concl:(SMT_LE0:5:(0)(0)(1)(-1)(0))
+step@p68:
+rule:28
+premise:1:(@p64)
+arg:0:
+concl:(SMT_LE0:5:(0)(-1)(0)(0)(1))
+step@p69:
+rule:28
+premise:1:(@p62)
+arg:0:
+concl:(SMT_LE0:5:(0)(0)(-1)(0)(1))
+step@p70:
+rule:28
+premise:1:(@p60)
+arg:0:
+concl:(SMT_LE0:5:(0)(0)(0)(1)(-1))
+step@p71:
+rule:28
+premise:1:(@p58)
+arg:0:
+concl:(SMT_LE0:5:(0)(0)(0)(-1)(0))
+step@p72:
+rule:28
+premise:1:(@p56)
+arg:0:
+concl:(SMT_LE0:5:(1)(0)(0)(1)(-1))
+step@p73:
+rule:28
+premise:1:(@p54)
+arg:0:
+concl:(SMT_LE0:5:(0)(0)(-1)(0)(0))
+step@p74:
+rule:28
+premise:1:(@p52)
+arg:0:
+concl:(SMT_LE0:5:(0)(-1)(0)(0)(0))
+step@p75:
+rule:22
+premise:2:(@p68)(@p70)
+arg:1:(4)
+concl:(SMT_LE0:5:(0)(-1)(0)(1)(0))
+step@p76:
+rule:22
+premise:2:(@p68)(@p72)
+arg:1:(4)
+concl:(SMT_LE0:5:(1)(-1)(0)(1)(0))
+step@p77:
+rule:22
+premise:2:(@p69)(@p70)
+arg:1:(4)
+concl:(SMT_LE0:5:(0)(0)(-1)(1)(0))
+step@p78:
+rule:22
+premise:2:(@p69)(@p72)
+arg:1:(4)
+concl:(SMT_LE0:5:(1)(0)(-1)(1)(0))
+step@p79:
+rule:22
+premise:2:(@p75)(@p67)
+arg:1:(3)
+concl:(SMT_LE0:5:(0)(-1)(1)(0)(0))
+step@p80:
+rule:22
+premise:2:(@p76)(@p67)
+arg:1:(3)
+concl:(SMT_LE0:5:(1)(-1)(1)(0)(0))
+step@p81:
+rule:22
+premise:2:(@p76)(@p71)
+arg:1:(3)
+concl:(SMT_LE0:5:(1)(-1)(0)(0)(0))
+step@p82:
+rule:22
+premise:2:(@p77)(@p67)
+arg:1:(3)
+concl:(SMT_LE0:5:(0)(0)(0)(0)(0))
+step@p83:
+rule:22
+premise:2:(@p78)(@p67)
+arg:1:(3)
+concl:(SMT_LE0:5:(1)(0)(0)(0)(0))
+step@p84:
+rule:24
+premise:1:(@p83)
+arg:0:
+concl:(FF)
+step@p85:
+rule:2
+premise:1:(@p84)
+arg:8:(@p51)(@p53)(@p55)(@p57)(@p59)(@p61)(@p63)(@p65)
+concl:(SMT_NOT:(SMT_AND:8:(SMT_PVAR:1:)(SMT_PVAR:2:)(SMT_PVAR:3:)(SMT_PVAR:4:)(SMT_PVAR:5:)(SMT_PVAR:6:)(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:))))
+step@p86:
+rule:15
+premise:1:(@p85)
+arg:0:
+concl:(SMT_OR:8:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p87:
+rule:12
+premise:2:(@p50)(@p49)
+arg:1:(16)
+concl:(SMT_NOT:(SMT_PVAR:15:))
+step@p88:
+rule:12
+premise:2:(@p87)(@p43)
+arg:1:(-15)
+concl:(SMT_PVAR:14:)
+step@p89:
+rule:12
+premise:2:(@p87)(@p44)
+arg:1:(-15)
+concl:(SMT_NOT:(SMT_PVAR:8:))
+step@p90:
+rule:12
+premise:2:(@p88)(@p38)
+arg:1:(14)
+concl:(SMT_PVAR:1:)
+step@p91:
+rule:12
+premise:2:(@p88)(@p39)
+arg:1:(14)
+concl:(SMT_PVAR:13:)
+step@p92:
+rule:12
+premise:2:(@p91)(@p33)
+arg:1:(13)
+concl:(SMT_PVAR:2:)
+step@p93:
+rule:12
+premise:2:(@p91)(@p34)
+arg:1:(13)
+concl:(SMT_PVAR:12:)
+step@p94:
+rule:12
+premise:2:(@p93)(@p28)
+arg:1:(12)
+concl:(SMT_PVAR:3:)
+step@p95:
+rule:12
+premise:2:(@p93)(@p29)
+arg:1:(12)
+concl:(SMT_PVAR:11:)
+step@p96:
+rule:12
+premise:2:(@p95)(@p23)
+arg:1:(11)
+concl:(SMT_PVAR:4:)
+step@p97:
+rule:12
+premise:2:(@p95)(@p24)
+arg:1:(11)
+concl:(SMT_PVAR:10:)
+step@p98:
+rule:12
+premise:2:(@p97)(@p18)
+arg:1:(10)
+concl:(SMT_PVAR:5:)
+step@p99:
+rule:12
+premise:2:(@p97)(@p19)
+arg:1:(10)
+concl:(SMT_PVAR:9:)
+step@p100:
+rule:12
+premise:2:(@p99)(@p13)
+arg:1:(9)
+concl:(SMT_PVAR:6:)
+step@p101:
+rule:12
+premise:2:(@p99)(@p14)
+arg:1:(9)
+concl:(SMT_PVAR:7:)
+step@p102:
+rule:12
+premise:2:(@p90)(@p86)
+arg:1:(1)
+concl:(SMT_OR:7:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p103:
+rule:12
+premise:2:(@p92)(@p102)
+arg:1:(2)
+concl:(SMT_OR:6:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p104:
+rule:12
+premise:2:(@p94)(@p103)
+arg:1:(3)
+concl:(SMT_OR:5:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p105:
+rule:12
+premise:2:(@p96)(@p104)
+arg:1:(4)
+concl:(SMT_OR:4:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p106:
+rule:12
+premise:2:(@p98)(@p105)
+arg:1:(5)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p107:
+rule:12
+premise:2:(@p100)(@p106)
+arg:1:(6)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p108:
+rule:12
+premise:2:(@p89)(@p107)
+arg:1:(-8)
+concl:(SMT_NOT:(SMT_PVAR:7:))
+step@p109:
+rule:12
+premise:2:(@p101)(@p108)
+arg:1:(7)
+concl:(FF)
+step@p110:
+rule:2
+premise:1:(@p109)
+arg:1:(@p1)
+concl:(SMT_NOT:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))))))))(SMT_LT:(SMT_VAR:3)(SMT_VAR:2)))))
+step@p111:
+rule:16
+premise:1:(@p110)
+arg:0:
+concl:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))))))))(SMT_LT:(SMT_VAR:3)(SMT_VAR:2)))
+Proof End
+
+
+Op 10:
+Assume: (Ez_val 0) <= i_965_valueProof Start:
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(1)(x_947)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(2)(x_948)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(3)(x_965)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(4)(x_937)
+concl:()
+step@p1:
+rule:1
+premise:0:
+arg:1:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))))))))(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))))
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))))))))(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))))
+step@p2:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_PVAR:1:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_PVAR:1:))
+step@p3:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_PVAR:2:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_PVAR:2:))
+step@p4:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:3:))
+concl:(SMT_EQ:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:3:))
+step@p5:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_PVAR:4:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_PVAR:4:))
+step@p6:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:5:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:5:))
+step@p7:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_PVAR:6:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_PVAR:6:))
+step@p8:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))(SMT_PVAR:7:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))(SMT_PVAR:7:))
+step@p9:
+rule:8
+premise:1:(@p1)
+arg:0:
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_PVAR:1:)(SMT_AND:2:(SMT_PVAR:2:)(SMT_AND:2:(SMT_PVAR:3:)(SMT_AND:2:(SMT_PVAR:4:)(SMT_AND:2:(SMT_PVAR:5:)(SMT_AND:2:(SMT_PVAR:6:)(SMT_PVAR:7:)))))))(SMT_PVAR:4:)))
+step@p10:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:6:)(SMT_PVAR:7:))(SMT_PVAR:8:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:6:)(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p11:
+rule:10
+premise:1:(@p10)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:8:)))(SMT_OR:2:(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:)))
+step@p12:
+rule:14
+premise:1:(@p11)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:8:)))
+step@p13:
+rule:14
+premise:1:(@p11)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:)))
+step@p14:
+rule:14
+premise:1:(@p11)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p15:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:5:)(SMT_PVAR:8:))(SMT_PVAR:9:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:5:)(SMT_PVAR:8:))(SMT_PVAR:9:))
+step@p16:
+rule:10
+premise:1:(@p15)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:9:)))(SMT_OR:2:(SMT_PVAR:8:)(SMT_NOT:(SMT_PVAR:9:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:8:))(SMT_PVAR:9:)))
+step@p17:
+rule:14
+premise:1:(@p16)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:9:)))
+step@p18:
+rule:14
+premise:1:(@p16)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:8:)(SMT_NOT:(SMT_PVAR:9:)))
+step@p19:
+rule:14
+premise:1:(@p16)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:8:))(SMT_PVAR:9:))
+step@p20:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:9:))(SMT_PVAR:10:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:9:))(SMT_PVAR:10:))
+step@p21:
+rule:10
+premise:1:(@p20)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:10:)))(SMT_OR:2:(SMT_PVAR:9:)(SMT_NOT:(SMT_PVAR:10:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:9:))(SMT_PVAR:10:)))
+step@p22:
+rule:14
+premise:1:(@p21)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:10:)))
+step@p23:
+rule:14
+premise:1:(@p21)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:9:)(SMT_NOT:(SMT_PVAR:10:)))
+step@p24:
+rule:14
+premise:1:(@p21)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:9:))(SMT_PVAR:10:))
+step@p25:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:10:))(SMT_PVAR:11:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:10:))(SMT_PVAR:11:))
+step@p26:
+rule:10
+premise:1:(@p25)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:11:)))(SMT_OR:2:(SMT_PVAR:10:)(SMT_NOT:(SMT_PVAR:11:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:10:))(SMT_PVAR:11:)))
+step@p27:
+rule:14
+premise:1:(@p26)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:11:)))
+step@p28:
+rule:14
+premise:1:(@p26)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:10:)(SMT_NOT:(SMT_PVAR:11:)))
+step@p29:
+rule:14
+premise:1:(@p26)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:10:))(SMT_PVAR:11:))
+step@p30:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:11:))(SMT_PVAR:12:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:11:))(SMT_PVAR:12:))
+step@p31:
+rule:10
+premise:1:(@p30)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:12:)))(SMT_OR:2:(SMT_PVAR:11:)(SMT_NOT:(SMT_PVAR:12:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:11:))(SMT_PVAR:12:)))
+step@p32:
+rule:14
+premise:1:(@p31)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:12:)))
+step@p33:
+rule:14
+premise:1:(@p31)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:11:)(SMT_NOT:(SMT_PVAR:12:)))
+step@p34:
+rule:14
+premise:1:(@p31)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:11:))(SMT_PVAR:12:))
+step@p35:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:12:))(SMT_PVAR:13:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:12:))(SMT_PVAR:13:))
+step@p36:
+rule:10
+premise:1:(@p35)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:13:)))(SMT_OR:2:(SMT_PVAR:12:)(SMT_NOT:(SMT_PVAR:13:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:12:))(SMT_PVAR:13:)))
+step@p37:
+rule:14
+premise:1:(@p36)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:13:)))
+step@p38:
+rule:14
+premise:1:(@p36)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:12:)(SMT_NOT:(SMT_PVAR:13:)))
+step@p39:
+rule:14
+premise:1:(@p36)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:12:))(SMT_PVAR:13:))
+step@p40:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:13:)(SMT_PVAR:4:))(SMT_PVAR:14:))
+concl:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:13:)(SMT_PVAR:4:))(SMT_PVAR:14:))
+step@p41:
+rule:10
+premise:1:(@p40)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:13:)(SMT_PVAR:14:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:4:))(SMT_PVAR:14:))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:13:))(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:14:))))
+step@p42:
+rule:14
+premise:1:(@p41)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:13:)(SMT_PVAR:14:))
+step@p43:
+rule:14
+premise:1:(@p41)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:4:))(SMT_PVAR:14:))
+step@p44:
+rule:14
+premise:1:(@p41)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:13:))(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:14:)))
+step@p45:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_NOT:(SMT_PVAR:14:))(SMT_PVAR:15:))
+concl:(SMT_IFF:(SMT_NOT:(SMT_PVAR:14:))(SMT_PVAR:15:))
+step@p46:
+rule:10
+premise:1:(@p45)
+arg:0:
+concl:(SMT_AND:2:(SMT_OR:2:(SMT_PVAR:14:)(SMT_PVAR:15:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:14:))(SMT_NOT:(SMT_PVAR:15:))))
+step@p47:
+rule:14
+premise:1:(@p46)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:14:)(SMT_PVAR:15:))
+step@p48:
+rule:14
+premise:1:(@p46)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:14:))(SMT_NOT:(SMT_PVAR:15:)))
+step@p49:
+rule:9
+premise:1:(@p9)
+arg:0:
+concl:(SMT_PVAR:15:)
+step@p50:
+rule:12
+premise:2:(@p49)(@p48)
+arg:1:(15)
+concl:(SMT_NOT:(SMT_PVAR:14:))
+step@p51:
+rule:12
+premise:2:(@p50)(@p42)
+arg:1:(-14)
+concl:(SMT_PVAR:13:)
+step@p52:
+rule:12
+premise:2:(@p50)(@p43)
+arg:1:(-14)
+concl:(SMT_NOT:(SMT_PVAR:4:))
+step@p53:
+rule:12
+premise:2:(@p51)(@p37)
+arg:1:(13)
+concl:(SMT_PVAR:1:)
+step@p54:
+rule:12
+premise:2:(@p51)(@p38)
+arg:1:(13)
+concl:(SMT_PVAR:12:)
+step@p55:
+rule:12
+premise:2:(@p54)(@p32)
+arg:1:(12)
+concl:(SMT_PVAR:2:)
+step@p56:
+rule:12
+premise:2:(@p54)(@p33)
+arg:1:(12)
+concl:(SMT_PVAR:11:)
+step@p57:
+rule:12
+premise:2:(@p56)(@p27)
+arg:1:(11)
+concl:(SMT_PVAR:3:)
+step@p58:
+rule:12
+premise:2:(@p56)(@p28)
+arg:1:(11)
+concl:(SMT_PVAR:10:)
+step@p59:
+rule:12
+premise:2:(@p52)(@p22)
+arg:1:(-4)
+concl:(SMT_NOT:(SMT_PVAR:10:))
+step@p60:
+rule:12
+premise:2:(@p58)(@p59)
+arg:1:(10)
+concl:(FF)
+step@p61:
+rule:2
+premise:1:(@p60)
+arg:1:(@p1)
+concl:(SMT_NOT:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))))))))(SMT_LE:(SMT_NUM:0)(SMT_VAR:3)))))
+step@p62:
+rule:16
+premise:1:(@p61)
+arg:0:
+concl:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))))))))(SMT_LE:(SMT_NUM:0)(SMT_VAR:3)))
+Proof End
+
+
+
+Trace 4:
+Ops:
+Op 1:
+Right_Sep_Add: Data_at (p1_943_pre + (i_965_value * (Size_of signed I8))) x_973_973_free signed I8
+Op 2:
+Right_Exists_Add: 973
+
+Op 3:
+Right_Sep_Erase: Undef_Data_at (p1_943_pre + (i_965_value * (Size_of signed I8))) signed I8
+Op 4:
+Right_Sep_Add: Undef_Data_at (p1_943_pre + (i_965_value * (Size_of signed I8))) signed I8
+Op 5:
+Right_Sep_Erase: Undef_Data_at (p1_943_pre + (i_965_value * (Size_of signed I8))) signed I8
+
+Trace 5:
+Ops:
+Op 1:
+Left_Prop_Add: (Ez_val 0) <= m2_947_free
+Op 2:
+Left_Sep_Add: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 3:
+Left_Sep_Erase: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+
+Trace 6:
+Ops:
+Op 1:
+Left_Sep_Add: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 2:
+Left_Sep_Erase: store_char_array_missing_i_rec (p2_940_pre, i_965_value, (Ez_val 0), m2_947_free, l2_945_free)
+Op 3:
+Left_Sep_Erase: Data_at (p2_940_pre + (i_965_value * (Size_of signed I8))) (l2_945_free[i_965_value]) signed I8
+Op 4:
+Left_Sep_Add: Data_at (p2_940_pre + (i_965_value * (Size_of signed I8))) (l2_945_free[i_965_value]) signed I8
+Op 5:
+Left_Sep_Erase: Data_at (p2_940_pre + (i_965_value * (Size_of signed I8))) (l2_945_free[i_965_value]) signed I8
+Op 6:
+Left_Sep_Add: store_char_array_missing_i_rec (p2_940_pre, i_965_value, (Ez_val 0), m2_947_free, l2_945_free)
+Op 7:
+Left_Sep_Erase: store_char_array_missing_i_rec (p2_940_pre, i_965_value, (Ez_val 0), m2_947_free, l2_945_free)
+Op 8:
+Assume: i_965_value < m2_947_freeProof Start:
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(1)(x_948)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(2)(x_965)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(3)(x_937)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(4)(x_947)
+concl:()
+step@p1:
+rule:1
+premise:0:
+arg:1:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LT:(SMT_VAR:2)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:1))(SMT_LE:(SMT_VAR:3)(SMT_VAR:4)))))))(SMT_LT:(SMT_VAR:2)(SMT_VAR:4))))
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LT:(SMT_VAR:2)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:1))(SMT_LE:(SMT_VAR:3)(SMT_VAR:4)))))))(SMT_LT:(SMT_VAR:2)(SMT_VAR:4))))
+step@p2:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_PVAR:1:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_PVAR:1:))
+step@p3:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LT:(SMT_VAR:2)(SMT_VAR:3))(SMT_PVAR:2:))
+concl:(SMT_EQ:(SMT_LT:(SMT_VAR:2)(SMT_VAR:3))(SMT_PVAR:2:))
+step@p4:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_PVAR:3:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_PVAR:3:))
+step@p5:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_PVAR:4:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_PVAR:4:))
+step@p6:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:3)(SMT_VAR:1))(SMT_PVAR:5:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:3)(SMT_VAR:1))(SMT_PVAR:5:))
+step@p7:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:6:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:6:))
+step@p8:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LT:(SMT_VAR:2)(SMT_VAR:4))(SMT_PVAR:7:))
+concl:(SMT_EQ:(SMT_LT:(SMT_VAR:2)(SMT_VAR:4))(SMT_PVAR:7:))
+step@p9:
+rule:8
+premise:1:(@p1)
+arg:0:
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_PVAR:1:)(SMT_AND:2:(SMT_PVAR:2:)(SMT_AND:2:(SMT_PVAR:3:)(SMT_AND:2:(SMT_PVAR:4:)(SMT_AND:2:(SMT_PVAR:5:)(SMT_PVAR:6:))))))(SMT_PVAR:7:)))
+step@p10:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:5:)(SMT_PVAR:6:))(SMT_PVAR:8:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:5:)(SMT_PVAR:6:))(SMT_PVAR:8:))
+step@p11:
+rule:10
+premise:1:(@p10)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:8:)))(SMT_OR:2:(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:8:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:8:)))
+step@p12:
+rule:14
+premise:1:(@p11)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:8:)))
+step@p13:
+rule:14
+premise:1:(@p11)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:8:)))
+step@p14:
+rule:14
+premise:1:(@p11)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:8:))
+step@p15:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:8:))(SMT_PVAR:9:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:8:))(SMT_PVAR:9:))
+step@p16:
+rule:10
+premise:1:(@p15)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:9:)))(SMT_OR:2:(SMT_PVAR:8:)(SMT_NOT:(SMT_PVAR:9:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:8:))(SMT_PVAR:9:)))
+step@p17:
+rule:14
+premise:1:(@p16)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:9:)))
+step@p18:
+rule:14
+premise:1:(@p16)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:8:)(SMT_NOT:(SMT_PVAR:9:)))
+step@p19:
+rule:14
+premise:1:(@p16)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:8:))(SMT_PVAR:9:))
+step@p20:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:9:))(SMT_PVAR:10:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:9:))(SMT_PVAR:10:))
+step@p21:
+rule:10
+premise:1:(@p20)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:10:)))(SMT_OR:2:(SMT_PVAR:9:)(SMT_NOT:(SMT_PVAR:10:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:9:))(SMT_PVAR:10:)))
+step@p22:
+rule:14
+premise:1:(@p21)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:10:)))
+step@p23:
+rule:14
+premise:1:(@p21)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:9:)(SMT_NOT:(SMT_PVAR:10:)))
+step@p24:
+rule:14
+premise:1:(@p21)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:9:))(SMT_PVAR:10:))
+step@p25:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:10:))(SMT_PVAR:11:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:10:))(SMT_PVAR:11:))
+step@p26:
+rule:10
+premise:1:(@p25)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:11:)))(SMT_OR:2:(SMT_PVAR:10:)(SMT_NOT:(SMT_PVAR:11:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:10:))(SMT_PVAR:11:)))
+step@p27:
+rule:14
+premise:1:(@p26)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:11:)))
+step@p28:
+rule:14
+premise:1:(@p26)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:10:)(SMT_NOT:(SMT_PVAR:11:)))
+step@p29:
+rule:14
+premise:1:(@p26)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:10:))(SMT_PVAR:11:))
+step@p30:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:11:))(SMT_PVAR:12:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:11:))(SMT_PVAR:12:))
+step@p31:
+rule:10
+premise:1:(@p30)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:12:)))(SMT_OR:2:(SMT_PVAR:11:)(SMT_NOT:(SMT_PVAR:12:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:11:))(SMT_PVAR:12:)))
+step@p32:
+rule:14
+premise:1:(@p31)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:12:)))
+step@p33:
+rule:14
+premise:1:(@p31)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:11:)(SMT_NOT:(SMT_PVAR:12:)))
+step@p34:
+rule:14
+premise:1:(@p31)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:11:))(SMT_PVAR:12:))
+step@p35:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:12:)(SMT_PVAR:7:))(SMT_PVAR:13:))
+concl:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:12:)(SMT_PVAR:7:))(SMT_PVAR:13:))
+step@p36:
+rule:10
+premise:1:(@p35)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:12:)(SMT_PVAR:13:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:13:))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:12:))(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:13:))))
+step@p37:
+rule:14
+premise:1:(@p36)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:12:)(SMT_PVAR:13:))
+step@p38:
+rule:14
+premise:1:(@p36)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:13:))
+step@p39:
+rule:14
+premise:1:(@p36)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:12:))(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:13:)))
+step@p40:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_NOT:(SMT_PVAR:13:))(SMT_PVAR:14:))
+concl:(SMT_IFF:(SMT_NOT:(SMT_PVAR:13:))(SMT_PVAR:14:))
+step@p41:
+rule:10
+premise:1:(@p40)
+arg:0:
+concl:(SMT_AND:2:(SMT_OR:2:(SMT_PVAR:13:)(SMT_PVAR:14:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:13:))(SMT_NOT:(SMT_PVAR:14:))))
+step@p42:
+rule:14
+premise:1:(@p41)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:13:)(SMT_PVAR:14:))
+step@p43:
+rule:14
+premise:1:(@p41)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:13:))(SMT_NOT:(SMT_PVAR:14:)))
+step@p44:
+rule:9
+premise:1:(@p9)
+arg:0:
+concl:(SMT_PVAR:14:)
+step@p45:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:1:)
+concl:(SMT_PVAR:1:)
+step@p46:
+rule:11
+premise:2:(@p45)(@p2)
+arg:0:
+concl:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))
+step@p47:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:2:)
+concl:(SMT_PVAR:2:)
+step@p48:
+rule:11
+premise:2:(@p47)(@p3)
+arg:0:
+concl:(SMT_LT:(SMT_VAR:2)(SMT_VAR:3))
+step@p49:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:3:)
+concl:(SMT_PVAR:3:)
+step@p50:
+rule:11
+premise:2:(@p49)(@p4)
+arg:0:
+concl:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))
+step@p51:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:4:)
+concl:(SMT_PVAR:4:)
+step@p52:
+rule:11
+premise:2:(@p51)(@p5)
+arg:0:
+concl:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))
+step@p53:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:5:)
+concl:(SMT_PVAR:5:)
+step@p54:
+rule:11
+premise:2:(@p53)(@p6)
+arg:0:
+concl:(SMT_LE:(SMT_VAR:3)(SMT_VAR:1))
+step@p55:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:6:)
+concl:(SMT_PVAR:6:)
+step@p56:
+rule:11
+premise:2:(@p55)(@p7)
+arg:0:
+concl:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))
+step@p57:
+rule:1
+premise:0:
+arg:1:(SMT_NOT:(SMT_PVAR:7:))
+concl:(SMT_NOT:(SMT_PVAR:7:))
+step@p58:
+rule:21
+premise:2:(@p57)(@p8)
+arg:0:
+concl:(SMT_NOT:(SMT_LT:(SMT_VAR:2)(SMT_VAR:4)))
+step@p59:
+rule:28
+premise:1:(@p58)
+arg:0:
+concl:(SMT_LE0:5:(0)(0)(-1)(0)(1))
+step@p60:
+rule:28
+premise:1:(@p56)
+arg:0:
+concl:(SMT_LE0:5:(0)(0)(0)(1)(-1))
+step@p61:
+rule:28
+premise:1:(@p54)
+arg:0:
+concl:(SMT_LE0:5:(0)(-1)(0)(1)(0))
+step@p62:
+rule:28
+premise:1:(@p52)
+arg:0:
+concl:(SMT_LE0:5:(0)(0)(1)(-1)(0))
+step@p63:
+rule:28
+premise:1:(@p50)
+arg:0:
+concl:(SMT_LE0:5:(0)(0)(-1)(0)(0))
+step@p64:
+rule:28
+premise:1:(@p48)
+arg:0:
+concl:(SMT_LE0:5:(1)(0)(1)(-1)(0))
+step@p65:
+rule:28
+premise:1:(@p46)
+arg:0:
+concl:(SMT_LE0:5:(0)(-1)(0)(0)(0))
+step@p66:
+rule:22
+premise:2:(@p59)(@p60)
+arg:1:(4)
+concl:(SMT_LE0:5:(0)(0)(-1)(1)(0))
+step@p67:
+rule:22
+premise:2:(@p66)(@p62)
+arg:1:(3)
+concl:(SMT_LE0:5:(0)(0)(0)(0)(0))
+step@p68:
+rule:22
+premise:2:(@p66)(@p64)
+arg:1:(3)
+concl:(SMT_LE0:5:(1)(0)(0)(0)(0))
+step@p69:
+rule:24
+premise:1:(@p68)
+arg:0:
+concl:(FF)
+step@p70:
+rule:2
+premise:1:(@p69)
+arg:7:(@p45)(@p47)(@p49)(@p51)(@p53)(@p55)(@p57)
+concl:(SMT_NOT:(SMT_AND:7:(SMT_PVAR:1:)(SMT_PVAR:2:)(SMT_PVAR:3:)(SMT_PVAR:4:)(SMT_PVAR:5:)(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:7:))))
+step@p71:
+rule:15
+premise:1:(@p70)
+arg:0:
+concl:(SMT_OR:7:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:7:))
+step@p72:
+rule:12
+premise:2:(@p44)(@p43)
+arg:1:(14)
+concl:(SMT_NOT:(SMT_PVAR:13:))
+step@p73:
+rule:12
+premise:2:(@p72)(@p37)
+arg:1:(-13)
+concl:(SMT_PVAR:12:)
+step@p74:
+rule:12
+premise:2:(@p72)(@p38)
+arg:1:(-13)
+concl:(SMT_NOT:(SMT_PVAR:7:))
+step@p75:
+rule:12
+premise:2:(@p73)(@p32)
+arg:1:(12)
+concl:(SMT_PVAR:1:)
+step@p76:
+rule:12
+premise:2:(@p73)(@p33)
+arg:1:(12)
+concl:(SMT_PVAR:11:)
+step@p77:
+rule:12
+premise:2:(@p76)(@p27)
+arg:1:(11)
+concl:(SMT_PVAR:2:)
+step@p78:
+rule:12
+premise:2:(@p76)(@p28)
+arg:1:(11)
+concl:(SMT_PVAR:10:)
+step@p79:
+rule:12
+premise:2:(@p78)(@p22)
+arg:1:(10)
+concl:(SMT_PVAR:3:)
+step@p80:
+rule:12
+premise:2:(@p78)(@p23)
+arg:1:(10)
+concl:(SMT_PVAR:9:)
+step@p81:
+rule:12
+premise:2:(@p80)(@p17)
+arg:1:(9)
+concl:(SMT_PVAR:4:)
+step@p82:
+rule:12
+premise:2:(@p80)(@p18)
+arg:1:(9)
+concl:(SMT_PVAR:8:)
+step@p83:
+rule:12
+premise:2:(@p82)(@p12)
+arg:1:(8)
+concl:(SMT_PVAR:5:)
+step@p84:
+rule:12
+premise:2:(@p82)(@p13)
+arg:1:(8)
+concl:(SMT_PVAR:6:)
+step@p85:
+rule:12
+premise:2:(@p75)(@p71)
+arg:1:(1)
+concl:(SMT_OR:6:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:7:))
+step@p86:
+rule:12
+premise:2:(@p77)(@p85)
+arg:1:(2)
+concl:(SMT_OR:5:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:7:))
+step@p87:
+rule:12
+premise:2:(@p79)(@p86)
+arg:1:(3)
+concl:(SMT_OR:4:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:7:))
+step@p88:
+rule:12
+premise:2:(@p81)(@p87)
+arg:1:(4)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:7:))
+step@p89:
+rule:12
+premise:2:(@p83)(@p88)
+arg:1:(5)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:7:))
+step@p90:
+rule:12
+premise:2:(@p74)(@p89)
+arg:1:(-7)
+concl:(SMT_NOT:(SMT_PVAR:6:))
+step@p91:
+rule:12
+premise:2:(@p84)(@p90)
+arg:1:(6)
+concl:(FF)
+step@p92:
+rule:2
+premise:1:(@p91)
+arg:1:(@p1)
+concl:(SMT_NOT:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LT:(SMT_VAR:2)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:1))(SMT_LE:(SMT_VAR:3)(SMT_VAR:4)))))))(SMT_LT:(SMT_VAR:2)(SMT_VAR:4)))))
+step@p93:
+rule:16
+premise:1:(@p92)
+arg:0:
+concl:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LT:(SMT_VAR:2)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:1))(SMT_LE:(SMT_VAR:3)(SMT_VAR:4)))))))(SMT_LT:(SMT_VAR:2)(SMT_VAR:4)))
+Proof End
+
+
+Op 9:
+Assume: (Ez_val 0) <= i_965_valueProof Start:
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(1)(x_948)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(2)(x_965)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(3)(x_937)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(4)(x_947)
+concl:()
+step@p1:
+rule:1
+premise:0:
+arg:1:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LT:(SMT_VAR:2)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:1))(SMT_LE:(SMT_VAR:3)(SMT_VAR:4)))))))(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))))
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LT:(SMT_VAR:2)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:1))(SMT_LE:(SMT_VAR:3)(SMT_VAR:4)))))))(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))))
+step@p2:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_PVAR:1:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_PVAR:1:))
+step@p3:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LT:(SMT_VAR:2)(SMT_VAR:3))(SMT_PVAR:2:))
+concl:(SMT_EQ:(SMT_LT:(SMT_VAR:2)(SMT_VAR:3))(SMT_PVAR:2:))
+step@p4:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_PVAR:3:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_PVAR:3:))
+step@p5:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_PVAR:4:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_PVAR:4:))
+step@p6:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:3)(SMT_VAR:1))(SMT_PVAR:5:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:3)(SMT_VAR:1))(SMT_PVAR:5:))
+step@p7:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:6:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:6:))
+step@p8:
+rule:8
+premise:1:(@p1)
+arg:0:
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_PVAR:1:)(SMT_AND:2:(SMT_PVAR:2:)(SMT_AND:2:(SMT_PVAR:3:)(SMT_AND:2:(SMT_PVAR:4:)(SMT_AND:2:(SMT_PVAR:5:)(SMT_PVAR:6:))))))(SMT_PVAR:3:)))
+step@p9:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:5:)(SMT_PVAR:6:))(SMT_PVAR:7:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:5:)(SMT_PVAR:6:))(SMT_PVAR:7:))
+step@p10:
+rule:10
+premise:1:(@p9)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:7:)))(SMT_OR:2:(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:7:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:7:)))
+step@p11:
+rule:14
+premise:1:(@p10)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:7:)))
+step@p12:
+rule:14
+premise:1:(@p10)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:7:)))
+step@p13:
+rule:14
+premise:1:(@p10)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_PVAR:7:))
+step@p14:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:7:))(SMT_PVAR:8:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p15:
+rule:10
+premise:1:(@p14)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:8:)))(SMT_OR:2:(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:)))
+step@p16:
+rule:14
+premise:1:(@p15)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:8:)))
+step@p17:
+rule:14
+premise:1:(@p15)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:)))
+step@p18:
+rule:14
+premise:1:(@p15)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p19:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:8:))(SMT_PVAR:9:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:8:))(SMT_PVAR:9:))
+step@p20:
+rule:10
+premise:1:(@p19)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:9:)))(SMT_OR:2:(SMT_PVAR:8:)(SMT_NOT:(SMT_PVAR:9:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:8:))(SMT_PVAR:9:)))
+step@p21:
+rule:14
+premise:1:(@p20)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:9:)))
+step@p22:
+rule:14
+premise:1:(@p20)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:8:)(SMT_NOT:(SMT_PVAR:9:)))
+step@p23:
+rule:14
+premise:1:(@p20)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:8:))(SMT_PVAR:9:))
+step@p24:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:9:))(SMT_PVAR:10:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:9:))(SMT_PVAR:10:))
+step@p25:
+rule:10
+premise:1:(@p24)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:10:)))(SMT_OR:2:(SMT_PVAR:9:)(SMT_NOT:(SMT_PVAR:10:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:9:))(SMT_PVAR:10:)))
+step@p26:
+rule:14
+premise:1:(@p25)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:10:)))
+step@p27:
+rule:14
+premise:1:(@p25)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:9:)(SMT_NOT:(SMT_PVAR:10:)))
+step@p28:
+rule:14
+premise:1:(@p25)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:9:))(SMT_PVAR:10:))
+step@p29:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:10:))(SMT_PVAR:11:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:10:))(SMT_PVAR:11:))
+step@p30:
+rule:10
+premise:1:(@p29)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:11:)))(SMT_OR:2:(SMT_PVAR:10:)(SMT_NOT:(SMT_PVAR:11:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:10:))(SMT_PVAR:11:)))
+step@p31:
+rule:14
+premise:1:(@p30)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:11:)))
+step@p32:
+rule:14
+premise:1:(@p30)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:10:)(SMT_NOT:(SMT_PVAR:11:)))
+step@p33:
+rule:14
+premise:1:(@p30)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:10:))(SMT_PVAR:11:))
+step@p34:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:11:)(SMT_PVAR:3:))(SMT_PVAR:12:))
+concl:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:11:)(SMT_PVAR:3:))(SMT_PVAR:12:))
+step@p35:
+rule:10
+premise:1:(@p34)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:11:)(SMT_PVAR:12:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:3:))(SMT_PVAR:12:))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:11:))(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:12:))))
+step@p36:
+rule:14
+premise:1:(@p35)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:11:)(SMT_PVAR:12:))
+step@p37:
+rule:14
+premise:1:(@p35)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:3:))(SMT_PVAR:12:))
+step@p38:
+rule:14
+premise:1:(@p35)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:11:))(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:12:)))
+step@p39:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_NOT:(SMT_PVAR:12:))(SMT_PVAR:13:))
+concl:(SMT_IFF:(SMT_NOT:(SMT_PVAR:12:))(SMT_PVAR:13:))
+step@p40:
+rule:10
+premise:1:(@p39)
+arg:0:
+concl:(SMT_AND:2:(SMT_OR:2:(SMT_PVAR:12:)(SMT_PVAR:13:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:12:))(SMT_NOT:(SMT_PVAR:13:))))
+step@p41:
+rule:14
+premise:1:(@p40)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:12:)(SMT_PVAR:13:))
+step@p42:
+rule:14
+premise:1:(@p40)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:12:))(SMT_NOT:(SMT_PVAR:13:)))
+step@p43:
+rule:9
+premise:1:(@p8)
+arg:0:
+concl:(SMT_PVAR:13:)
+step@p44:
+rule:12
+premise:2:(@p43)(@p42)
+arg:1:(13)
+concl:(SMT_NOT:(SMT_PVAR:12:))
+step@p45:
+rule:12
+premise:2:(@p44)(@p36)
+arg:1:(-12)
+concl:(SMT_PVAR:11:)
+step@p46:
+rule:12
+premise:2:(@p44)(@p37)
+arg:1:(-12)
+concl:(SMT_NOT:(SMT_PVAR:3:))
+step@p47:
+rule:12
+premise:2:(@p45)(@p31)
+arg:1:(11)
+concl:(SMT_PVAR:1:)
+step@p48:
+rule:12
+premise:2:(@p45)(@p32)
+arg:1:(11)
+concl:(SMT_PVAR:10:)
+step@p49:
+rule:12
+premise:2:(@p48)(@p26)
+arg:1:(10)
+concl:(SMT_PVAR:2:)
+step@p50:
+rule:12
+premise:2:(@p48)(@p27)
+arg:1:(10)
+concl:(SMT_PVAR:9:)
+step@p51:
+rule:12
+premise:2:(@p46)(@p21)
+arg:1:(-3)
+concl:(SMT_NOT:(SMT_PVAR:9:))
+step@p52:
+rule:12
+premise:2:(@p50)(@p51)
+arg:1:(9)
+concl:(FF)
+step@p53:
+rule:2
+premise:1:(@p52)
+arg:1:(@p1)
+concl:(SMT_NOT:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LT:(SMT_VAR:2)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:1))(SMT_LE:(SMT_VAR:3)(SMT_VAR:4)))))))(SMT_LE:(SMT_NUM:0)(SMT_VAR:2)))))
+step@p54:
+rule:16
+premise:1:(@p53)
+arg:0:
+concl:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LT:(SMT_VAR:2)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LE:(SMT_VAR:2)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:1))(SMT_LE:(SMT_VAR:3)(SMT_VAR:4)))))))(SMT_LE:(SMT_NUM:0)(SMT_VAR:2)))
+Proof End
+
+
+
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 2) == (Ez_val 2)
+Op 2:
+Right_Prop_Add: (Ez_val 2) == (Ez_val 2)
+Op 3:
+Right_Prop_Erase: (Ez_val 2) == (Ez_val 2)
+
+Trace 2:
+Inst 1000 (Ez_val 2)
+
+Trace 3:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+Op 2:
+Right_Prop_Add: (Ez_val 1) == (Ez_val 1)
+Op 3:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+
+Trace 4:
+Inst 1002 (Ez_val 1)
+
+Trace 5:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 1000) == (Ez_val 1000)
+Op 2:
+Right_Prop_Add: (Ez_val 1000) == (Ez_val 1000)
+Op 3:
+Right_Prop_Erase: (Ez_val 1000) == (Ez_val 1000)
+
+Trace 6:
+Inst 1001 (Ez_val 1000)
+
+Trace 7:
+Ops:
+Op 1:
+Right_Prop_Add: (Ez_val 1000) == value_size_1001_free
+Op 2:
+Right_Prop_Add: (Ez_val 1) == type_1002_free
+Op 3:
+Right_Prop_Add: (Ez_val 2) == size_1000_free
+Op 4:
+Left_Sep_Erase: Ebpf_map (proxy_map_980_value, (Ez_val 2), (Ez_val 1), (Ez_val 1000))
+Op 5:
+Right_Sep_Erase: Ebpf_map (proxy_map_980_value, size_1000_free, type_1002_free, value_size_1001_free)
+Op 6:
+Right_Sep_Add: Ebpf_map (proxy_map_980_value, size_1000_free, type_1002_free, value_size_1001_free)
+Op 7:
+Right_Sep_Erase: Ebpf_map (proxy_map_980_value, size_1000_free, type_1002_free, value_size_1001_free)
+Op 8:
+Left_Sep_Add: Ebpf_map (proxy_map_980_value, (Ez_val 2), (Ez_val 1), (Ez_val 1000))
+Op 9:
+Left_Sep_Erase: Ebpf_map (proxy_map_980_value, (Ez_val 2), (Ez_val 1), (Ez_val 1000))
+
+Trace 8:
+Ops:
+Op 1:
+Right_Prop_Erase: proxy_map_980_value == proxy_map_980_value
+Op 2:
+Right_Prop_Add: proxy_map_980_value == proxy_map_980_value
+Op 3:
+Right_Prop_Erase: proxy_map_980_value == proxy_map_980_value
+
+Trace 9:
+Inst 1004 proxy_map_980_value
+
+Trace 10:
+Ops:
+Op 1:
+Right_Prop_Add: proxy_map_980_value == map_pre_1004_v
+Op 2:
+Right_Sep_Erase: Data_at proxy_map_935_addr map_pre_1004_v void
+Op 3:
+Left_Sep_Erase: Data_at proxy_map_935_addr proxy_map_980_value struct bpf_map_def
+Op 4:
+Right_Sep_Add: Data_at proxy_map_935_addr map_pre_1004_v void
+Op 5:
+Right_Sep_Erase: Data_at proxy_map_935_addr map_pre_1004_v void
+Op 6:
+Left_Sep_Add: Data_at proxy_map_935_addr proxy_map_980_value struct bpf_map_def
+Op 7:
+Left_Sep_Erase: Data_at proxy_map_935_addr proxy_map_980_value struct bpf_map_def
+
+Trace 11:
+Ops:
+Op 1:
+Right_Prop_Erase: l2_945_free == l2_945_free
+Op 2:
+Right_Prop_Add: l2_945_free == l2_945_free
+Op 3:
+Right_Prop_Erase: l2_945_free == l2_945_free
+
+Trace 12:
+Ops:
+Op 1:
+Right_Prop_Add: l2_945_free == l2_945_free
+Op 2:
+Left_Sep_Erase: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 3:
+Right_Sep_Erase: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 4:
+Right_Sep_Add: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 5:
+Right_Sep_Erase: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 6:
+Left_Sep_Add: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 7:
+Left_Sep_Erase: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+
+Trace 13:
+Ops:
+Op 1:
+Right_Prop_Erase: l3_964 == l3_964
+Op 2:
+Right_Prop_Add: l3_964 == l3_964
+Op 3:
+Right_Prop_Erase: l3_964 == l3_964
+
+Trace 14:
+Inst 950 l3_964
+
+Trace 15:
+Ops:
+Op 1:
+Right_Prop_Add: l3_964 == l3_950
+Op 2:
+Left_Sep_Erase: store_char_array (p1_943_pre, m1_948_free, l3_964)
+Op 3:
+Right_Sep_Erase: store_char_array (p1_943_pre, m1_948_free, l3_950)
+Op 4:
+Right_Sep_Add: store_char_array (p1_943_pre, m1_948_free, l3_950)
+Op 5:
+Right_Sep_Erase: store_char_array (p1_943_pre, m1_948_free, l3_950)
+Op 6:
+Left_Sep_Add: store_char_array (p1_943_pre, m1_948_free, l3_964)
+Op 7:
+Left_Sep_Erase: store_char_array (p1_943_pre, m1_948_free, l3_964)
+
+Trace 16:
+Ops:
+Op 1:
+Right_Prop_Erase: p1_943_pre == p1_943_pre
+Op 2:
+Right_Prop_Add: p1_943_pre == p1_943_pre
+Op 3:
+Right_Prop_Erase: p1_943_pre == p1_943_pre
+
+Trace 17:
+Inst 949 p1_943_pre
+
+Trace 18:
+Ops:
+Op 1:
+Right_Prop_Erase: l2_945_free == l2_945_free
+Op 2:
+Right_Prop_Add: l2_945_free == l2_945_free
+Op 3:
+Right_Prop_Erase: l2_945_free == l2_945_free
+
+Trace 19:
+Ops:
+Op 1:
+Right_Prop_Add: l2_945_free == l2_945_free
+Op 2:
+Left_Sep_Erase: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 3:
+Right_Sep_Erase: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 4:
+Right_Sep_Add: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 5:
+Right_Sep_Erase: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 6:
+Left_Sep_Add: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+Op 7:
+Left_Sep_Erase: store_char_array (p2_940_pre, m2_947_free, l2_945_free)
+
+Trace 20:
+Ops:
+Op 1:
+Right_Prop_Erase: replace_Znth(Z_1, i_965_value, (l2_945_free[i_965_value]), l3_964) == replace_Znth(Z_1, i_965_value, (l2_945_free[i_965_value]), l3_964)
+Op 2:
+Right_Prop_Add: replace_Znth(Z_1, i_965_value, (l2_945_free[i_965_value]), l3_964) == replace_Znth(Z_1, i_965_value, (l2_945_free[i_965_value]), l3_964)
+Op 3:
+Right_Prop_Erase: replace_Znth(Z_1, i_965_value, (l2_945_free[i_965_value]), l3_964) == replace_Znth(Z_1, i_965_value, (l2_945_free[i_965_value]), l3_964)
+
+Trace 21:
+Inst 950 replace_Znth(Z_1, i_965_value, (l2_945_free[i_965_value]), l3_964)
+
+Trace 22:
+Ops:
+Op 1:
+Right_Prop_Add: replace_Znth(Z_1, i_965_value, (l2_945_free[i_965_value]), l3_964) == l3_950
+Op 2:
+Left_Sep_Erase: store_char_array (p1_943_pre, m1_948_free, replace_Znth(Z_1, i_965_value, (l2_945_free[i_965_value]), l3_964))
+Op 3:
+Right_Sep_Erase: store_char_array (p1_943_pre, m1_948_free, l3_950)
+Op 4:
+Right_Sep_Add: store_char_array (p1_943_pre, m1_948_free, l3_950)
+Op 5:
+Right_Sep_Erase: store_char_array (p1_943_pre, m1_948_free, l3_950)
+Op 6:
+Left_Sep_Add: store_char_array (p1_943_pre, m1_948_free, replace_Znth(Z_1, i_965_value, (l2_945_free[i_965_value]), l3_964))
+Op 7:
+Left_Sep_Erase: store_char_array (p1_943_pre, m1_948_free, replace_Znth(Z_1, i_965_value, (l2_945_free[i_965_value]), l3_964))
+
+Trace 23:
+Ops:
+Op 1:
+Right_Prop_Erase: p1_943_pre == p1_943_pre
+Op 2:
+Right_Prop_Add: p1_943_pre == p1_943_pre
+Op 3:
+Right_Prop_Erase: p1_943_pre == p1_943_pre
+
+Trace 24:
+Inst 949 p1_943_pre
+
+Trace 25:
+Ops:
+Op 1:
+Left_Sep_Add: store_char_array (p1_943_pre, m1_948_free, replace_Znth(Z_1, i_965_value, (l2_945_free[i_965_value]), l3_964))
+Op 2:
+Left_Sep_Erase: store_char_array_missing_i_rec (p1_943_pre, i_965_value, (Ez_val 0), m1_948_free, l3_964)
+Op 3:
+Left_Sep_Erase: Data_at (p1_943_pre + (i_965_value * (Size_of signed I8))) (l2_945_free[i_965_value]) signed I8
+Op 4:
+Left_Sep_Add: Data_at (p1_943_pre + (i_965_value * (Size_of signed I8))) (l2_945_free[i_965_value]) signed I8
+Op 5:
+Left_Sep_Erase: Data_at (p1_943_pre + (i_965_value * (Size_of signed I8))) (l2_945_free[i_965_value]) signed I8
+Op 6:
+Left_Sep_Add: store_char_array_missing_i_rec (p1_943_pre, i_965_value, (Ez_val 0), m1_948_free, l3_964)
+Op 7:
+Left_Sep_Erase: store_char_array_missing_i_rec (p1_943_pre, i_965_value, (Ez_val 0), m1_948_free, l3_964)
+Op 8:
+Assume: i_965_value < m1_948_freeProof Start:
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(1)(x_947)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(2)(x_948)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(3)(x_965)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(4)(x_937)
+concl:()
+step@p1:
+rule:1
+premise:0:
+arg:1:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))))))))(SMT_LT:(SMT_VAR:3)(SMT_VAR:2))))
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))))))))(SMT_LT:(SMT_VAR:3)(SMT_VAR:2))))
+step@p2:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_PVAR:1:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_PVAR:1:))
+step@p3:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_PVAR:2:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_PVAR:2:))
+step@p4:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:3:))
+concl:(SMT_EQ:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:3:))
+step@p5:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_PVAR:4:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_PVAR:4:))
+step@p6:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:5:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:5:))
+step@p7:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_PVAR:6:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_PVAR:6:))
+step@p8:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))(SMT_PVAR:7:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))(SMT_PVAR:7:))
+step@p9:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LT:(SMT_VAR:3)(SMT_VAR:2))(SMT_PVAR:8:))
+concl:(SMT_EQ:(SMT_LT:(SMT_VAR:3)(SMT_VAR:2))(SMT_PVAR:8:))
+step@p10:
+rule:8
+premise:1:(@p1)
+arg:0:
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_PVAR:1:)(SMT_AND:2:(SMT_PVAR:2:)(SMT_AND:2:(SMT_PVAR:3:)(SMT_AND:2:(SMT_PVAR:4:)(SMT_AND:2:(SMT_PVAR:5:)(SMT_AND:2:(SMT_PVAR:6:)(SMT_PVAR:7:)))))))(SMT_PVAR:8:)))
+step@p11:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:6:)(SMT_PVAR:7:))(SMT_PVAR:9:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:6:)(SMT_PVAR:7:))(SMT_PVAR:9:))
+step@p12:
+rule:10
+premise:1:(@p11)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:9:)))(SMT_OR:2:(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:9:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:9:)))
+step@p13:
+rule:14
+premise:1:(@p12)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:9:)))
+step@p14:
+rule:14
+premise:1:(@p12)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:9:)))
+step@p15:
+rule:14
+premise:1:(@p12)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:9:))
+step@p16:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:5:)(SMT_PVAR:9:))(SMT_PVAR:10:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:5:)(SMT_PVAR:9:))(SMT_PVAR:10:))
+step@p17:
+rule:10
+premise:1:(@p16)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:10:)))(SMT_OR:2:(SMT_PVAR:9:)(SMT_NOT:(SMT_PVAR:10:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:9:))(SMT_PVAR:10:)))
+step@p18:
+rule:14
+premise:1:(@p17)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:10:)))
+step@p19:
+rule:14
+premise:1:(@p17)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:9:)(SMT_NOT:(SMT_PVAR:10:)))
+step@p20:
+rule:14
+premise:1:(@p17)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:9:))(SMT_PVAR:10:))
+step@p21:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:10:))(SMT_PVAR:11:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:10:))(SMT_PVAR:11:))
+step@p22:
+rule:10
+premise:1:(@p21)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:11:)))(SMT_OR:2:(SMT_PVAR:10:)(SMT_NOT:(SMT_PVAR:11:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:10:))(SMT_PVAR:11:)))
+step@p23:
+rule:14
+premise:1:(@p22)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:11:)))
+step@p24:
+rule:14
+premise:1:(@p22)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:10:)(SMT_NOT:(SMT_PVAR:11:)))
+step@p25:
+rule:14
+premise:1:(@p22)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:10:))(SMT_PVAR:11:))
+step@p26:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:11:))(SMT_PVAR:12:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:11:))(SMT_PVAR:12:))
+step@p27:
+rule:10
+premise:1:(@p26)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:12:)))(SMT_OR:2:(SMT_PVAR:11:)(SMT_NOT:(SMT_PVAR:12:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:11:))(SMT_PVAR:12:)))
+step@p28:
+rule:14
+premise:1:(@p27)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:12:)))
+step@p29:
+rule:14
+premise:1:(@p27)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:11:)(SMT_NOT:(SMT_PVAR:12:)))
+step@p30:
+rule:14
+premise:1:(@p27)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:11:))(SMT_PVAR:12:))
+step@p31:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:12:))(SMT_PVAR:13:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:12:))(SMT_PVAR:13:))
+step@p32:
+rule:10
+premise:1:(@p31)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:13:)))(SMT_OR:2:(SMT_PVAR:12:)(SMT_NOT:(SMT_PVAR:13:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:12:))(SMT_PVAR:13:)))
+step@p33:
+rule:14
+premise:1:(@p32)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:13:)))
+step@p34:
+rule:14
+premise:1:(@p32)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:12:)(SMT_NOT:(SMT_PVAR:13:)))
+step@p35:
+rule:14
+premise:1:(@p32)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:12:))(SMT_PVAR:13:))
+step@p36:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:13:))(SMT_PVAR:14:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:13:))(SMT_PVAR:14:))
+step@p37:
+rule:10
+premise:1:(@p36)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:14:)))(SMT_OR:2:(SMT_PVAR:13:)(SMT_NOT:(SMT_PVAR:14:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:13:))(SMT_PVAR:14:)))
+step@p38:
+rule:14
+premise:1:(@p37)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:14:)))
+step@p39:
+rule:14
+premise:1:(@p37)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:13:)(SMT_NOT:(SMT_PVAR:14:)))
+step@p40:
+rule:14
+premise:1:(@p37)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:13:))(SMT_PVAR:14:))
+step@p41:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:14:)(SMT_PVAR:8:))(SMT_PVAR:15:))
+concl:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:14:)(SMT_PVAR:8:))(SMT_PVAR:15:))
+step@p42:
+rule:10
+premise:1:(@p41)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:14:)(SMT_PVAR:15:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:8:))(SMT_PVAR:15:))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:14:))(SMT_PVAR:8:)(SMT_NOT:(SMT_PVAR:15:))))
+step@p43:
+rule:14
+premise:1:(@p42)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:14:)(SMT_PVAR:15:))
+step@p44:
+rule:14
+premise:1:(@p42)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:8:))(SMT_PVAR:15:))
+step@p45:
+rule:14
+premise:1:(@p42)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:14:))(SMT_PVAR:8:)(SMT_NOT:(SMT_PVAR:15:)))
+step@p46:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_NOT:(SMT_PVAR:15:))(SMT_PVAR:16:))
+concl:(SMT_IFF:(SMT_NOT:(SMT_PVAR:15:))(SMT_PVAR:16:))
+step@p47:
+rule:10
+premise:1:(@p46)
+arg:0:
+concl:(SMT_AND:2:(SMT_OR:2:(SMT_PVAR:15:)(SMT_PVAR:16:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:15:))(SMT_NOT:(SMT_PVAR:16:))))
+step@p48:
+rule:14
+premise:1:(@p47)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:15:)(SMT_PVAR:16:))
+step@p49:
+rule:14
+premise:1:(@p47)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:15:))(SMT_NOT:(SMT_PVAR:16:)))
+step@p50:
+rule:9
+premise:1:(@p10)
+arg:0:
+concl:(SMT_PVAR:16:)
+step@p51:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:1:)
+concl:(SMT_PVAR:1:)
+step@p52:
+rule:11
+premise:2:(@p51)(@p2)
+arg:0:
+concl:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))
+step@p53:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:2:)
+concl:(SMT_PVAR:2:)
+step@p54:
+rule:11
+premise:2:(@p53)(@p3)
+arg:0:
+concl:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))
+step@p55:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:3:)
+concl:(SMT_PVAR:3:)
+step@p56:
+rule:11
+premise:2:(@p55)(@p4)
+arg:0:
+concl:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))
+step@p57:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:4:)
+concl:(SMT_PVAR:4:)
+step@p58:
+rule:11
+premise:2:(@p57)(@p5)
+arg:0:
+concl:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))
+step@p59:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:5:)
+concl:(SMT_PVAR:5:)
+step@p60:
+rule:11
+premise:2:(@p59)(@p6)
+arg:0:
+concl:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))
+step@p61:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:6:)
+concl:(SMT_PVAR:6:)
+step@p62:
+rule:11
+premise:2:(@p61)(@p7)
+arg:0:
+concl:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))
+step@p63:
+rule:1
+premise:0:
+arg:1:(SMT_PVAR:7:)
+concl:(SMT_PVAR:7:)
+step@p64:
+rule:11
+premise:2:(@p63)(@p8)
+arg:0:
+concl:(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))
+step@p65:
+rule:1
+premise:0:
+arg:1:(SMT_NOT:(SMT_PVAR:8:))
+concl:(SMT_NOT:(SMT_PVAR:8:))
+step@p66:
+rule:21
+premise:2:(@p65)(@p9)
+arg:0:
+concl:(SMT_NOT:(SMT_LT:(SMT_VAR:3)(SMT_VAR:2)))
+step@p67:
+rule:28
+premise:1:(@p66)
+arg:0:
+concl:(SMT_LE0:5:(0)(0)(1)(-1)(0))
+step@p68:
+rule:28
+premise:1:(@p64)
+arg:0:
+concl:(SMT_LE0:5:(0)(-1)(0)(0)(1))
+step@p69:
+rule:28
+premise:1:(@p62)
+arg:0:
+concl:(SMT_LE0:5:(0)(0)(-1)(0)(1))
+step@p70:
+rule:28
+premise:1:(@p60)
+arg:0:
+concl:(SMT_LE0:5:(0)(0)(0)(1)(-1))
+step@p71:
+rule:28
+premise:1:(@p58)
+arg:0:
+concl:(SMT_LE0:5:(0)(0)(0)(-1)(0))
+step@p72:
+rule:28
+premise:1:(@p56)
+arg:0:
+concl:(SMT_LE0:5:(1)(0)(0)(1)(-1))
+step@p73:
+rule:28
+premise:1:(@p54)
+arg:0:
+concl:(SMT_LE0:5:(0)(0)(-1)(0)(0))
+step@p74:
+rule:28
+premise:1:(@p52)
+arg:0:
+concl:(SMT_LE0:5:(0)(-1)(0)(0)(0))
+step@p75:
+rule:22
+premise:2:(@p68)(@p70)
+arg:1:(4)
+concl:(SMT_LE0:5:(0)(-1)(0)(1)(0))
+step@p76:
+rule:22
+premise:2:(@p68)(@p72)
+arg:1:(4)
+concl:(SMT_LE0:5:(1)(-1)(0)(1)(0))
+step@p77:
+rule:22
+premise:2:(@p69)(@p70)
+arg:1:(4)
+concl:(SMT_LE0:5:(0)(0)(-1)(1)(0))
+step@p78:
+rule:22
+premise:2:(@p69)(@p72)
+arg:1:(4)
+concl:(SMT_LE0:5:(1)(0)(-1)(1)(0))
+step@p79:
+rule:22
+premise:2:(@p75)(@p67)
+arg:1:(3)
+concl:(SMT_LE0:5:(0)(-1)(1)(0)(0))
+step@p80:
+rule:22
+premise:2:(@p76)(@p67)
+arg:1:(3)
+concl:(SMT_LE0:5:(1)(-1)(1)(0)(0))
+step@p81:
+rule:22
+premise:2:(@p76)(@p71)
+arg:1:(3)
+concl:(SMT_LE0:5:(1)(-1)(0)(0)(0))
+step@p82:
+rule:22
+premise:2:(@p77)(@p67)
+arg:1:(3)
+concl:(SMT_LE0:5:(0)(0)(0)(0)(0))
+step@p83:
+rule:22
+premise:2:(@p78)(@p67)
+arg:1:(3)
+concl:(SMT_LE0:5:(1)(0)(0)(0)(0))
+step@p84:
+rule:24
+premise:1:(@p83)
+arg:0:
+concl:(FF)
+step@p85:
+rule:2
+premise:1:(@p84)
+arg:8:(@p51)(@p53)(@p55)(@p57)(@p59)(@p61)(@p63)(@p65)
+concl:(SMT_NOT:(SMT_AND:8:(SMT_PVAR:1:)(SMT_PVAR:2:)(SMT_PVAR:3:)(SMT_PVAR:4:)(SMT_PVAR:5:)(SMT_PVAR:6:)(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:))))
+step@p86:
+rule:15
+premise:1:(@p85)
+arg:0:
+concl:(SMT_OR:8:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p87:
+rule:12
+premise:2:(@p50)(@p49)
+arg:1:(16)
+concl:(SMT_NOT:(SMT_PVAR:15:))
+step@p88:
+rule:12
+premise:2:(@p87)(@p43)
+arg:1:(-15)
+concl:(SMT_PVAR:14:)
+step@p89:
+rule:12
+premise:2:(@p87)(@p44)
+arg:1:(-15)
+concl:(SMT_NOT:(SMT_PVAR:8:))
+step@p90:
+rule:12
+premise:2:(@p88)(@p38)
+arg:1:(14)
+concl:(SMT_PVAR:1:)
+step@p91:
+rule:12
+premise:2:(@p88)(@p39)
+arg:1:(14)
+concl:(SMT_PVAR:13:)
+step@p92:
+rule:12
+premise:2:(@p91)(@p33)
+arg:1:(13)
+concl:(SMT_PVAR:2:)
+step@p93:
+rule:12
+premise:2:(@p91)(@p34)
+arg:1:(13)
+concl:(SMT_PVAR:12:)
+step@p94:
+rule:12
+premise:2:(@p93)(@p28)
+arg:1:(12)
+concl:(SMT_PVAR:3:)
+step@p95:
+rule:12
+premise:2:(@p93)(@p29)
+arg:1:(12)
+concl:(SMT_PVAR:11:)
+step@p96:
+rule:12
+premise:2:(@p95)(@p23)
+arg:1:(11)
+concl:(SMT_PVAR:4:)
+step@p97:
+rule:12
+premise:2:(@p95)(@p24)
+arg:1:(11)
+concl:(SMT_PVAR:10:)
+step@p98:
+rule:12
+premise:2:(@p97)(@p18)
+arg:1:(10)
+concl:(SMT_PVAR:5:)
+step@p99:
+rule:12
+premise:2:(@p97)(@p19)
+arg:1:(10)
+concl:(SMT_PVAR:9:)
+step@p100:
+rule:12
+premise:2:(@p99)(@p13)
+arg:1:(9)
+concl:(SMT_PVAR:6:)
+step@p101:
+rule:12
+premise:2:(@p99)(@p14)
+arg:1:(9)
+concl:(SMT_PVAR:7:)
+step@p102:
+rule:12
+premise:2:(@p90)(@p86)
+arg:1:(1)
+concl:(SMT_OR:7:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p103:
+rule:12
+premise:2:(@p92)(@p102)
+arg:1:(2)
+concl:(SMT_OR:6:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p104:
+rule:12
+premise:2:(@p94)(@p103)
+arg:1:(3)
+concl:(SMT_OR:5:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p105:
+rule:12
+premise:2:(@p96)(@p104)
+arg:1:(4)
+concl:(SMT_OR:4:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p106:
+rule:12
+premise:2:(@p98)(@p105)
+arg:1:(5)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p107:
+rule:12
+premise:2:(@p100)(@p106)
+arg:1:(6)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p108:
+rule:12
+premise:2:(@p89)(@p107)
+arg:1:(-8)
+concl:(SMT_NOT:(SMT_PVAR:7:))
+step@p109:
+rule:12
+premise:2:(@p101)(@p108)
+arg:1:(7)
+concl:(FF)
+step@p110:
+rule:2
+premise:1:(@p109)
+arg:1:(@p1)
+concl:(SMT_NOT:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))))))))(SMT_LT:(SMT_VAR:3)(SMT_VAR:2)))))
+step@p111:
+rule:16
+premise:1:(@p110)
+arg:0:
+concl:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))))))))(SMT_LT:(SMT_VAR:3)(SMT_VAR:2)))
+Proof End
+
+
+Op 9:
+Assume: (Ez_val 0) <= i_965_valueProof Start:
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(1)(x_947)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(2)(x_948)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(3)(x_965)
+concl:()
+step@p0:
+rule:DECLARE
+premise:0:()
+args:2:(4)(x_937)
+concl:()
+step@p1:
+rule:1
+premise:0:
+arg:1:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))))))))(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))))
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))))))))(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))))
+step@p2:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_PVAR:1:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_PVAR:1:))
+step@p3:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_PVAR:2:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_PVAR:2:))
+step@p4:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:3:))
+concl:(SMT_EQ:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:3:))
+step@p5:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_PVAR:4:))
+concl:(SMT_EQ:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_PVAR:4:))
+step@p6:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:5:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_PVAR:5:))
+step@p7:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_PVAR:6:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_PVAR:6:))
+step@p8:
+rule:5
+premise:0:
+arg:1:(SMT_EQ:(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))(SMT_PVAR:7:))
+concl:(SMT_EQ:(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))(SMT_PVAR:7:))
+step@p9:
+rule:8
+premise:1:(@p1)
+arg:0:
+concl:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_PVAR:1:)(SMT_AND:2:(SMT_PVAR:2:)(SMT_AND:2:(SMT_PVAR:3:)(SMT_AND:2:(SMT_PVAR:4:)(SMT_AND:2:(SMT_PVAR:5:)(SMT_AND:2:(SMT_PVAR:6:)(SMT_PVAR:7:)))))))(SMT_PVAR:4:)))
+step@p10:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:6:)(SMT_PVAR:7:))(SMT_PVAR:8:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:6:)(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p11:
+rule:10
+premise:1:(@p10)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:8:)))(SMT_OR:2:(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:)))
+step@p12:
+rule:14
+premise:1:(@p11)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:6:)(SMT_NOT:(SMT_PVAR:8:)))
+step@p13:
+rule:14
+premise:1:(@p11)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:7:)(SMT_NOT:(SMT_PVAR:8:)))
+step@p14:
+rule:14
+premise:1:(@p11)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:6:))(SMT_NOT:(SMT_PVAR:7:))(SMT_PVAR:8:))
+step@p15:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:5:)(SMT_PVAR:8:))(SMT_PVAR:9:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:5:)(SMT_PVAR:8:))(SMT_PVAR:9:))
+step@p16:
+rule:10
+premise:1:(@p15)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:9:)))(SMT_OR:2:(SMT_PVAR:8:)(SMT_NOT:(SMT_PVAR:9:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:8:))(SMT_PVAR:9:)))
+step@p17:
+rule:14
+premise:1:(@p16)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:5:)(SMT_NOT:(SMT_PVAR:9:)))
+step@p18:
+rule:14
+premise:1:(@p16)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:8:)(SMT_NOT:(SMT_PVAR:9:)))
+step@p19:
+rule:14
+premise:1:(@p16)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:5:))(SMT_NOT:(SMT_PVAR:8:))(SMT_PVAR:9:))
+step@p20:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:9:))(SMT_PVAR:10:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:4:)(SMT_PVAR:9:))(SMT_PVAR:10:))
+step@p21:
+rule:10
+premise:1:(@p20)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:10:)))(SMT_OR:2:(SMT_PVAR:9:)(SMT_NOT:(SMT_PVAR:10:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:9:))(SMT_PVAR:10:)))
+step@p22:
+rule:14
+premise:1:(@p21)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:10:)))
+step@p23:
+rule:14
+premise:1:(@p21)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:9:)(SMT_NOT:(SMT_PVAR:10:)))
+step@p24:
+rule:14
+premise:1:(@p21)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:4:))(SMT_NOT:(SMT_PVAR:9:))(SMT_PVAR:10:))
+step@p25:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:10:))(SMT_PVAR:11:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:3:)(SMT_PVAR:10:))(SMT_PVAR:11:))
+step@p26:
+rule:10
+premise:1:(@p25)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:11:)))(SMT_OR:2:(SMT_PVAR:10:)(SMT_NOT:(SMT_PVAR:11:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:10:))(SMT_PVAR:11:)))
+step@p27:
+rule:14
+premise:1:(@p26)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:3:)(SMT_NOT:(SMT_PVAR:11:)))
+step@p28:
+rule:14
+premise:1:(@p26)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:10:)(SMT_NOT:(SMT_PVAR:11:)))
+step@p29:
+rule:14
+premise:1:(@p26)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:3:))(SMT_NOT:(SMT_PVAR:10:))(SMT_PVAR:11:))
+step@p30:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:11:))(SMT_PVAR:12:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:2:)(SMT_PVAR:11:))(SMT_PVAR:12:))
+step@p31:
+rule:10
+premise:1:(@p30)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:12:)))(SMT_OR:2:(SMT_PVAR:11:)(SMT_NOT:(SMT_PVAR:12:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:11:))(SMT_PVAR:12:)))
+step@p32:
+rule:14
+premise:1:(@p31)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:2:)(SMT_NOT:(SMT_PVAR:12:)))
+step@p33:
+rule:14
+premise:1:(@p31)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:11:)(SMT_NOT:(SMT_PVAR:12:)))
+step@p34:
+rule:14
+premise:1:(@p31)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:2:))(SMT_NOT:(SMT_PVAR:11:))(SMT_PVAR:12:))
+step@p35:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:12:))(SMT_PVAR:13:))
+concl:(SMT_IFF:(SMT_AND:2:(SMT_PVAR:1:)(SMT_PVAR:12:))(SMT_PVAR:13:))
+step@p36:
+rule:10
+premise:1:(@p35)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:13:)))(SMT_OR:2:(SMT_PVAR:12:)(SMT_NOT:(SMT_PVAR:13:)))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:12:))(SMT_PVAR:13:)))
+step@p37:
+rule:14
+premise:1:(@p36)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:1:)(SMT_NOT:(SMT_PVAR:13:)))
+step@p38:
+rule:14
+premise:1:(@p36)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_PVAR:12:)(SMT_NOT:(SMT_PVAR:13:)))
+step@p39:
+rule:14
+premise:1:(@p36)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:1:))(SMT_NOT:(SMT_PVAR:12:))(SMT_PVAR:13:))
+step@p40:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:13:)(SMT_PVAR:4:))(SMT_PVAR:14:))
+concl:(SMT_IFF:(SMT_IMPLY:(SMT_PVAR:13:)(SMT_PVAR:4:))(SMT_PVAR:14:))
+step@p41:
+rule:10
+premise:1:(@p40)
+arg:0:
+concl:(SMT_AND:3:(SMT_OR:2:(SMT_PVAR:13:)(SMT_PVAR:14:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:4:))(SMT_PVAR:14:))(SMT_OR:3:(SMT_NOT:(SMT_PVAR:13:))(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:14:))))
+step@p42:
+rule:14
+premise:1:(@p41)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:13:)(SMT_PVAR:14:))
+step@p43:
+rule:14
+premise:1:(@p41)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:4:))(SMT_PVAR:14:))
+step@p44:
+rule:14
+premise:1:(@p41)
+arg:1:(2)
+concl:(SMT_OR:3:(SMT_NOT:(SMT_PVAR:13:))(SMT_PVAR:4:)(SMT_NOT:(SMT_PVAR:14:)))
+step@p45:
+rule:6
+premise:0:
+arg:1:(SMT_IFF:(SMT_NOT:(SMT_PVAR:14:))(SMT_PVAR:15:))
+concl:(SMT_IFF:(SMT_NOT:(SMT_PVAR:14:))(SMT_PVAR:15:))
+step@p46:
+rule:10
+premise:1:(@p45)
+arg:0:
+concl:(SMT_AND:2:(SMT_OR:2:(SMT_PVAR:14:)(SMT_PVAR:15:))(SMT_OR:2:(SMT_NOT:(SMT_PVAR:14:))(SMT_NOT:(SMT_PVAR:15:))))
+step@p47:
+rule:14
+premise:1:(@p46)
+arg:1:(0)
+concl:(SMT_OR:2:(SMT_PVAR:14:)(SMT_PVAR:15:))
+step@p48:
+rule:14
+premise:1:(@p46)
+arg:1:(1)
+concl:(SMT_OR:2:(SMT_NOT:(SMT_PVAR:14:))(SMT_NOT:(SMT_PVAR:15:)))
+step@p49:
+rule:9
+premise:1:(@p9)
+arg:0:
+concl:(SMT_PVAR:15:)
+step@p50:
+rule:12
+premise:2:(@p49)(@p48)
+arg:1:(15)
+concl:(SMT_NOT:(SMT_PVAR:14:))
+step@p51:
+rule:12
+premise:2:(@p50)(@p42)
+arg:1:(-14)
+concl:(SMT_PVAR:13:)
+step@p52:
+rule:12
+premise:2:(@p50)(@p43)
+arg:1:(-14)
+concl:(SMT_NOT:(SMT_PVAR:4:))
+step@p53:
+rule:12
+premise:2:(@p51)(@p37)
+arg:1:(13)
+concl:(SMT_PVAR:1:)
+step@p54:
+rule:12
+premise:2:(@p51)(@p38)
+arg:1:(13)
+concl:(SMT_PVAR:12:)
+step@p55:
+rule:12
+premise:2:(@p54)(@p32)
+arg:1:(12)
+concl:(SMT_PVAR:2:)
+step@p56:
+rule:12
+premise:2:(@p54)(@p33)
+arg:1:(12)
+concl:(SMT_PVAR:11:)
+step@p57:
+rule:12
+premise:2:(@p56)(@p27)
+arg:1:(11)
+concl:(SMT_PVAR:3:)
+step@p58:
+rule:12
+premise:2:(@p56)(@p28)
+arg:1:(11)
+concl:(SMT_PVAR:10:)
+step@p59:
+rule:12
+premise:2:(@p52)(@p22)
+arg:1:(-4)
+concl:(SMT_NOT:(SMT_PVAR:10:))
+step@p60:
+rule:12
+premise:2:(@p58)(@p59)
+arg:1:(10)
+concl:(FF)
+step@p61:
+rule:2
+premise:1:(@p60)
+arg:1:(@p1)
+concl:(SMT_NOT:(SMT_NOT:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))))))))(SMT_LE:(SMT_NUM:0)(SMT_VAR:3)))))
+step@p62:
+rule:16
+premise:1:(@p61)
+arg:0:
+concl:(SMT_IMPLY:(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:1))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:2))(SMT_AND:2:(SMT_LT:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_NUM:0)(SMT_VAR:3))(SMT_AND:2:(SMT_LE:(SMT_VAR:3)(SMT_VAR:4))(SMT_AND:2:(SMT_LE:(SMT_VAR:4)(SMT_VAR:2))(SMT_LE:(SMT_VAR:4)(SMT_VAR:1))))))))(SMT_LE:(SMT_NUM:0)(SMT_VAR:3)))
+Proof End
+
+
+
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Right_Sep_Erase: Data_at proxy_map_935_addr map_pre_1007_v void
+Op 2:
+Left_Sep_Erase: Data_at proxy_map_935_addr map_pre_1007_v void
+Op 3:
+Right_Sep_Add: Data_at proxy_map_935_addr map_pre_1007_v void
+Op 4:
+Right_Sep_Erase: Data_at proxy_map_935_addr map_pre_1007_v void
+Op 5:
+Left_Sep_Add: Data_at proxy_map_935_addr map_pre_1007_v void
+Op 6:
+Left_Sep_Erase: Data_at proxy_map_935_addr map_pre_1007_v void
+
+Trace 2:
+Ops:
+Op 1:
+Left_Prop_Add: (Ez_val 0) <= (Ez_val 1000)
+Op 2:
+Left_Sep_Add: store_char_array (retval_1008, (Ez_val 1000), l_1024_1024_free)
+Op 3:
+Left_Sep_Erase: store_char_array (retval_1008, (Ez_val 1000), l_1024_1024_free)
+
+Trace 3:
+Ops:
+Op 1:
+Left_Prop_Add: (l_1024_1024_free[n_1025_1025_free]) == (Ez_val 0)
+Op 2:
+Left_Prop_Add: n_1025_1025_free < (Ez_val 1000)
+Op 3:
+Left_Prop_Add: (Ez_val 0) <= n_1025_1025_free
+Op 4:
+Forall_Add: 1025
+
+Op 5:
+Left_Sep_Add: store_char_array (retval_1008, (Ez_val 1000), l_1024_1024_free)
+Op 6:
+Forall_Add: 1024
+
+Op 7:
+Left_Sep_Erase: map_element (retval_1008, (Ez_val 1), (Ez_val 1000))
+Op 8:
+Left_Sep_Add: map_element (retval_1008, (Ez_val 1), (Ez_val 1000))
+Op 9:
+Left_Sep_Erase: map_element (retval_1008, (Ez_val 1), (Ez_val 1000))
+
+Trace 4:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 2) == (Ez_val 2)
+Op 2:
+Right_Prop_Add: (Ez_val 2) == (Ez_val 2)
+Op 3:
+Right_Prop_Erase: (Ez_val 2) == (Ez_val 2)
+
+Trace 5:
+Inst 1017 (Ez_val 2)
+
+Trace 6:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+Op 2:
+Right_Prop_Add: (Ez_val 1) == (Ez_val 1)
+Op 3:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+
+Trace 7:
+Inst 1019 (Ez_val 1)
+
+Trace 8:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 1000) == (Ez_val 1000)
+Op 2:
+Right_Prop_Add: (Ez_val 1000) == (Ez_val 1000)
+Op 3:
+Right_Prop_Erase: (Ez_val 1000) == (Ez_val 1000)
+
+Trace 9:
+Inst 1018 (Ez_val 1000)
+
+Trace 10:
+Ops:
+Op 1:
+Right_Prop_Add: (Ez_val 1000) == value_size_1018_free
+Op 2:
+Right_Prop_Add: (Ez_val 1) == type_1019_free
+Op 3:
+Right_Prop_Add: (Ez_val 2) == size_1017_free
+Op 4:
+Left_Sep_Erase: Ebpf_map (map_pre_1007_v, (Ez_val 2), (Ez_val 1), (Ez_val 1000))
+Op 5:
+Right_Sep_Erase: Ebpf_map (map_pre_1007_v, size_1017_free, type_1019_free, value_size_1018_free)
+Op 6:
+Right_Sep_Add: Ebpf_map (map_pre_1007_v, size_1017_free, type_1019_free, value_size_1018_free)
+Op 7:
+Right_Sep_Erase: Ebpf_map (map_pre_1007_v, size_1017_free, type_1019_free, value_size_1018_free)
+Op 8:
+Left_Sep_Add: Ebpf_map (map_pre_1007_v, (Ez_val 2), (Ez_val 1), (Ez_val 1000))
+Op 9:
+Left_Sep_Erase: Ebpf_map (map_pre_1007_v, (Ez_val 2), (Ez_val 1), (Ez_val 1000))
+
+Trace 11:
+Ops:
+Op 1:
+Right_Prop_Erase: map_pre_1007_v == map_pre_1007_v
+Op 2:
+Right_Prop_Add: map_pre_1007_v == map_pre_1007_v
+Op 3:
+Right_Prop_Erase: map_pre_1007_v == map_pre_1007_v
+
+Trace 12:
+Ops:
+Op 1:
+Left_Prop_Add: should_be_equal_282(Z_1, map_pre_1007_v, map_pre_1007_v)
+Op 2:
+Right_Prop_Add: map_pre_1007_v == map_pre_1007_v
+Op 3:
+Right_Sep_Add: Data_at proxy_map_935_addr map_pre_1007_v void
+Op 4:
+Right_Sep_Erase: Data_at proxy_map_935_addr map_pre_1007_v void
+Op 5:
+Left_Sep_Add: Data_at proxy_map_935_addr map_pre_1007_v void
+Op 6:
+Left_Sep_Erase: Data_at proxy_map_935_addr map_pre_1007_v void
+
+Trace 13:
+Ops:
+Op 1:
+Right_Prop_Erase: map_pre_1007_v == map_pre_1007_v
+Op 2:
+Right_Prop_Add: map_pre_1007_v == map_pre_1007_v
+Op 3:
+Right_Prop_Erase: map_pre_1007_v == map_pre_1007_v
+
+Trace 14:
+Inst 1021 map_pre_1007_v
+
+Trace 15:
+Ops:
+Op 1:
+Left_Prop_Add: should_be_equal_282(Z_1, map_pre_1007_v, map_pre_1021_v)
+Op 2:
+Right_Prop_Add: map_pre_1007_v == map_pre_1021_v
+Op 3:
+Right_Sep_Add: Data_at proxy_map_935_addr map_pre_1021_v void
+Op 4:
+Right_Sep_Erase: Data_at proxy_map_935_addr map_pre_1021_v void
+Op 5:
+Left_Sep_Add: Data_at proxy_map_935_addr map_pre_1007_v void
+Op 6:
+Left_Sep_Erase: Data_at proxy_map_935_addr map_pre_1007_v void
+
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 1000) == (Ez_val 1000)
+Op 2:
+Right_Prop_Add: (Ez_val 1000) == (Ez_val 1000)
+Op 3:
+Right_Prop_Erase: (Ez_val 1000) == (Ez_val 1000)
+
+Trace 2:
+Inst 1038 (Ez_val 1000)
+
+Trace 3:
+Ops:
+Op 1:
+Right_Prop_Erase: l_1044_1044_free == l_1044_1044_free
+Op 2:
+Right_Prop_Add: l_1044_1044_free == l_1044_1044_free
+Op 3:
+Right_Prop_Erase: l_1044_1044_free == l_1044_1044_free
+
+Trace 4:
+Inst 1040 l_1044_1044_free
+
+Trace 5:
+Ops:
+Op 1:
+Right_Prop_Add: l_1044_1044_free == l2_1040_free
+Op 2:
+Right_Prop_Add: (Ez_val 1000) == m2_1038_free
+Op 3:
+Right_Sep_Erase: store_char_array (retval_1027, m2_1038_free, l2_1040_free)
+Op 4:
+Left_Sep_Erase: store_char_array (retval_1027, (Ez_val 1000), l_1044_1044_free)
+Op 5:
+Right_Sep_Add: store_char_array (retval_1027, m2_1038_free, l2_1040_free)
+Op 6:
+Right_Sep_Erase: store_char_array (retval_1027, m2_1038_free, l2_1040_free)
+Op 7:
+Left_Sep_Add: store_char_array (retval_1027, (Ez_val 1000), l_1044_1044_free)
+Op 8:
+Left_Sep_Erase: store_char_array (retval_1027, (Ez_val 1000), l_1044_1044_free)
+
+Trace 6:
+Ops:
+Op 1:
+Left_Prop_Add: (l_1044_1044_free[n_1045_1045_free]) == (Ez_val 0)
+Op 2:
+Left_Prop_Add: n_1045_1045_free < (Ez_val 1000)
+Op 3:
+Left_Prop_Add: (Ez_val 0) <= n_1045_1045_free
+Op 4:
+Forall_Add: 1045
+
+Op 5:
+Left_Sep_Add: store_char_array (retval_1027, (Ez_val 1000), l_1044_1044_free)
+Op 6:
+Forall_Add: 1044
+
+Op 7:
+Left_Sep_Erase: map_element (retval_1027, (Ez_val 1), (Ez_val 1000))
+Op 8:
+Left_Sep_Add: map_element (retval_1027, (Ez_val 1), (Ez_val 1000))
+Op 9:
+Left_Sep_Erase: map_element (retval_1027, (Ez_val 1), (Ez_val 1000))
+
+Trace 7:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 1000) == (Ez_val 1000)
+Op 2:
+Right_Prop_Add: (Ez_val 1000) == (Ez_val 1000)
+Op 3:
+Right_Prop_Erase: (Ez_val 1000) == (Ez_val 1000)
+
+Trace 8:
+Inst 1037 (Ez_val 1000)
+
+Trace 9:
+Ops:
+Op 1:
+Right_Prop_Erase: l_1024_1024_free == l_1024_1024_free
+Op 2:
+Right_Prop_Add: l_1024_1024_free == l_1024_1024_free
+Op 3:
+Right_Prop_Erase: l_1024_1024_free == l_1024_1024_free
+
+Trace 10:
+Inst 1039 l_1024_1024_free
+
+Trace 11:
+Ops:
+Op 1:
+Right_Prop_Add: l_1024_1024_free == l1_1039_free
+Op 2:
+Right_Prop_Add: (Ez_val 1000) == m1_1037_free
+Op 3:
+Right_Sep_Erase: store_char_array (retval_1008, m1_1037_free, l1_1039_free)
+Op 4:
+Left_Sep_Erase: store_char_array (retval_1008, (Ez_val 1000), l_1024_1024_free)
+Op 5:
+Right_Sep_Add: store_char_array (retval_1008, m1_1037_free, l1_1039_free)
+Op 6:
+Right_Sep_Erase: store_char_array (retval_1008, m1_1037_free, l1_1039_free)
+Op 7:
+Left_Sep_Add: store_char_array (retval_1008, (Ez_val 1000), l_1024_1024_free)
+Op 8:
+Left_Sep_Erase: store_char_array (retval_1008, (Ez_val 1000), l_1024_1024_free)
+
+Trace 12:
+Ops:
+Op 1:
+Left_Prop_Erase: should_be_equal_282(Z_1, map_pre_1007_v, map_pre_1021_v)
+Op 2:
+Left_Prop_Add: should_be_equal_282(Z_1, map_pre_1007_v, map_pre_1021_v)
+Op 3:
+Left_Prop_Erase: should_be_equal_282(Z_1, map_pre_1007_v, map_pre_1021_v)
+
+Trace 13:
+Ops:
+Op 1:
+Left_Prop_Erase: should_be_equal_282(Z_1, map_pre_1007_v, map_pre_1007_v)
+Op 2:
+Left_Prop_Add: should_be_equal_282(Z_1, map_pre_1007_v, map_pre_1007_v)
+Op 3:
+Left_Prop_Erase: should_be_equal_282(Z_1, map_pre_1007_v, map_pre_1007_v)
+
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Right_Sep_Erase: Data_at proxy_map_935_addr map_pre_1026_v void
+Op 2:
+Left_Sep_Erase: Data_at proxy_map_935_addr map_pre_1026_v void
+Op 3:
+Right_Sep_Add: Data_at proxy_map_935_addr map_pre_1026_v void
+Op 4:
+Right_Sep_Erase: Data_at proxy_map_935_addr map_pre_1026_v void
+Op 5:
+Left_Sep_Add: Data_at proxy_map_935_addr map_pre_1026_v void
+Op 6:
+Left_Sep_Erase: Data_at proxy_map_935_addr map_pre_1026_v void
+
+Trace 2:
+Ops:
+Op 1:
+Right_Prop_Erase: l3_1046 == l3_1046
+Op 2:
+Right_Prop_Add: l3_1046 == l3_1046
+Op 3:
+Right_Prop_Erase: l3_1046 == l3_1046
+
+Trace 3:
+Inst 1060 l3_1046
+
+Trace 4:
+Ops:
+Op 1:
+Right_Prop_Add: l3_1046 == l_1060_1060_free
+Op 2:
+Left_Sep_Erase: store_char_array (retval_1008, (Ez_val 1000), l3_1046)
+Op 3:
+Right_Sep_Erase: store_char_array (retval_1008, (Ez_val 1000), l_1060_1060_free)
+Op 4:
+Right_Sep_Add: store_char_array (retval_1008, (Ez_val 1000), l_1060_1060_free)
+Op 5:
+Right_Sep_Erase: store_char_array (retval_1008, (Ez_val 1000), l_1060_1060_free)
+Op 6:
+Left_Sep_Add: store_char_array (retval_1008, (Ez_val 1000), l3_1046)
+Op 7:
+Left_Sep_Erase: store_char_array (retval_1008, (Ez_val 1000), l3_1046)
+
+Trace 5:
+Ops:
+Op 1:
+Right_Sep_Add: store_char_array (retval_1008, (Ez_val 1000), l_1060_1060_free)
+Op 2:
+Right_Exists_Add: 1060
+
+Op 3:
+Right_Sep_Erase: map_element (retval_1008, (Ez_val 1), (Ez_val 1000))
+Op 4:
+Right_Sep_Add: map_element (retval_1008, (Ez_val 1), (Ez_val 1000))
+Op 5:
+Right_Sep_Erase: map_element (retval_1008, (Ez_val 1), (Ez_val 1000))
+
+Trace 6:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 2) == (Ez_val 2)
+Op 2:
+Right_Prop_Add: (Ez_val 2) == (Ez_val 2)
+Op 3:
+Right_Prop_Erase: (Ez_val 2) == (Ez_val 2)
+
+Trace 7:
+Inst 1053 (Ez_val 2)
+
+Trace 8:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+Op 2:
+Right_Prop_Add: (Ez_val 1) == (Ez_val 1)
+Op 3:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+
+Trace 9:
+Inst 1055 (Ez_val 1)
+
+Trace 10:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 1000) == (Ez_val 1000)
+Op 2:
+Right_Prop_Add: (Ez_val 1000) == (Ez_val 1000)
+Op 3:
+Right_Prop_Erase: (Ez_val 1000) == (Ez_val 1000)
+
+Trace 11:
+Inst 1054 (Ez_val 1000)
+
+Trace 12:
+Ops:
+Op 1:
+Right_Prop_Add: (Ez_val 1000) == value_size_1054_free
+Op 2:
+Right_Prop_Add: (Ez_val 1) == type_1055_free
+Op 3:
+Right_Prop_Add: (Ez_val 2) == size_1053_free
+Op 4:
+Left_Sep_Erase: Ebpf_map (map_pre_1026_v, (Ez_val 2), (Ez_val 1), (Ez_val 1000))
+Op 5:
+Right_Sep_Erase: Ebpf_map (map_pre_1026_v, size_1053_free, type_1055_free, value_size_1054_free)
+Op 6:
+Right_Sep_Add: Ebpf_map (map_pre_1026_v, size_1053_free, type_1055_free, value_size_1054_free)
+Op 7:
+Right_Sep_Erase: Ebpf_map (map_pre_1026_v, size_1053_free, type_1055_free, value_size_1054_free)
+Op 8:
+Left_Sep_Add: Ebpf_map (map_pre_1026_v, (Ez_val 2), (Ez_val 1), (Ez_val 1000))
+Op 9:
+Left_Sep_Erase: Ebpf_map (map_pre_1026_v, (Ez_val 2), (Ez_val 1), (Ez_val 1000))
+
+Trace 13:
+Ops:
+Op 1:
+Right_Prop_Erase: map_pre_1026_v == map_pre_1026_v
+Op 2:
+Right_Prop_Add: map_pre_1026_v == map_pre_1026_v
+Op 3:
+Right_Prop_Erase: map_pre_1026_v == map_pre_1026_v
+
+Trace 14:
+Ops:
+Op 1:
+Left_Prop_Add: should_be_equal_282(Z_1, map_pre_1026_v, map_pre_1026_v)
+Op 2:
+Right_Prop_Add: map_pre_1026_v == map_pre_1026_v
+Op 3:
+Right_Sep_Add: Data_at proxy_map_935_addr map_pre_1026_v void
+Op 4:
+Right_Sep_Erase: Data_at proxy_map_935_addr map_pre_1026_v void
+Op 5:
+Left_Sep_Add: Data_at proxy_map_935_addr map_pre_1026_v void
+Op 6:
+Left_Sep_Erase: Data_at proxy_map_935_addr map_pre_1026_v void
+
+Trace 15:
+Ops:
+Op 1:
+Right_Prop_Erase: map_pre_1026_v == map_pre_1026_v
+Op 2:
+Right_Prop_Add: map_pre_1026_v == map_pre_1026_v
+Op 3:
+Right_Prop_Erase: map_pre_1026_v == map_pre_1026_v
+
+Trace 16:
+Inst 1057 map_pre_1026_v
+
+Trace 17:
+Ops:
+Op 1:
+Left_Prop_Add: should_be_equal_282(Z_1, map_pre_1026_v, map_pre_1057_v)
+Op 2:
+Right_Prop_Add: map_pre_1026_v == map_pre_1057_v
+Op 3:
+Right_Sep_Add: Data_at proxy_map_935_addr map_pre_1057_v void
+Op 4:
+Right_Sep_Erase: Data_at proxy_map_935_addr map_pre_1057_v void
+Op 5:
+Left_Sep_Add: Data_at proxy_map_935_addr map_pre_1026_v void
+Op 6:
+Left_Sep_Erase: Data_at proxy_map_935_addr map_pre_1026_v void
+

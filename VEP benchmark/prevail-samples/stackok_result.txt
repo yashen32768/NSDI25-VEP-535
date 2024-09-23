@@ -1,0 +1,96 @@
+Ffunc:
+/*@SPEC-BEGIN
+(()
+(1013
+1012
+1011
+1010
+937
+939)
+((()
+((r9 (app 1013 () ()))(r8 (app 1012 () ()))(r7 (app 1011 () ()))(r6 (app 1010 () ()))(r1 (app 937 () ())))
+((compare <> (app 937 () ()) (const 0)))
+((custom 287 () ((app 935 () ()) (const 256) (app 939 () ()))))))
+(((940
+941)
+((r9 (app 1013 () ()))(r8 (app 1012 () ()))(r7 (app 1011 () ()))(r6 (app 1010 () ()))(r0 (app 941 () ())))
+((compare = (app 941 () ()) (app 940 () ())))
+((custom 280 () ())))))*/
+/*@FRAME-BEGIN
+*/
+  r5 = r1
+  /*@ASSERTION-BEGIN
+((()
+((r9 (app 1013 () ()))(r8 (app 1012 () ()))(r7 (app 1011 () ()))(r6 (app 1010 () ()))(r5 (app 937 () ())))
+((compare <> (app 937 () ()) (const 0)))
+((custom 287 () ((app 935 () ()) (const 256) (app 939 () ()))))))
+  */
+  call 7
+  w4 = w0
+  /*@ASSERTION-BEGIN
+(((951
+952)
+((r9 (app 1013 () ()))(r8 (app 1012 () ()))(r7 (app 1011 () ()))(r6 (app 1010 () ()))(r4 (app 952 () ()))(r5 (app 937 () ())))
+((compare = (app 952 () ()) (app 951 () ()))
+(compare >= (app 951 () ()) (const 0))
+(compare <= (const 0) (const 256))
+(compare <> (app 937 () ()) (const 0)))
+((custom 287 () ((app 935 () ()) (const 256) (app 939 () ()))))))
+  */
+  /*@ASSERTION-BEGIN
+(((951
+952)
+((r9 (app 1013 () ()))(r8 (app 1012 () ()))(r7 (app 1011 () ()))(r6 (app 1010 () ()))(r4 (app 952 () ()))(r5 (app 937 () ())))
+((compare = (app 952 () ()) (app 951 () ()))
+(compare >= (app 951 () ()) (const 0))
+(compare <= (const 0) (const 256))
+(compare <> (app 937 () ()) (const 0)))
+((custom 287 () ((app 935 () ()) (const 256) (app 939 () ()))))))
+  */
+  w3 = w4
+  w3 %= 256
+  /*@ASSERTION-BEGIN
+(((951
+952)
+((r9 (app 1013 () ()))(r8 (app 1012 () ()))(r7 (app 1011 () ()))(r6 (app 1010 () ()))(r3 (binary % (app 952 () ()) (const 256)))(r4 (app 952 () ()))(r5 (app 937 () ())))
+((compare = (app 952 () ()) (app 951 () ()))
+(compare >= (app 951 () ()) (const 0))
+(compare <= (const 0) (const 256))
+(compare <> (app 937 () ()) (const 0)))
+((custom 287 () ((app 935 () ()) (const 256) (app 939 () ()))))))
+  */
+  /*@ASSERTION-BEGIN
+((()
+((r9 (app 1013 () ()))(r8 (app 1012 () ()))(r7 (app 1011 () ()))(r6 (app 1010 () ()))(r3 (binary % (app 952 () ()) (const 256)))(r4 (app 952 () ()))(r5 (app 937 () ())))
+((compare < (binary % (app 952 () ()) (const 256)) (const 256))
+(compare >= (binary % (app 952 () ()) (const 256)) (const 0))
+(compare = (app 952 () ()) (app 951 () ()))
+(compare >= (app 951 () ()) (const 0))
+(compare <= (const 0) (const 256))
+(compare <> (app 937 () ()) (const 0)))
+((store (binary + (app 935 () ()) (binary mul (binary % (app 952 () ()) (const 256)) (size-of (i8 signed)))) (index (app 939 () ()) (binary % (app 952 () ()) (const 256))) (i8 signed))
+(custom 288 () ((app 935 () ()) (binary % (app 952 () ()) (const 256)) (const 0) (const 256) (app 939 () ()))))))
+  */
+  r0 = M933
+  w2 = w3
+  r2 <<= 32
+  r2 >>= 32
+  r0 += r2
+  r0 = *(u8 *)r0
+  w1 = w0
+  w1 <<= 24
+  w1 s>>= 24
+  /*@ASSERTION-BEGIN
+((()
+((r9 (app 1013 () ()))(r8 (app 1012 () ()))(r7 (app 1011 () ()))(r6 (app 1010 () ()))(r1 (index (app 939 () ()) (binary % (app 952 () ()) (const 256))))(r3 (binary % (app 952 () ()) (const 256)))(r4 (app 952 () ()))(r5 (app 937 () ())))
+((compare < (binary % (app 952 () ()) (const 256)) (const 256))
+(compare >= (binary % (app 952 () ()) (const 256)) (const 0))
+(compare = (app 952 () ()) (app 951 () ()))
+(compare >= (app 951 () ()) (const 0))
+(compare <= (const 0) (const 256))
+(compare <> (app 937 () ()) (const 0)))
+((custom 287 () ((app 935 () ()) (const 256) (app 939 () ()))))))
+  */
+  w0 = w1
+  exit
+

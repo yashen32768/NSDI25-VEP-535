@@ -1,0 +1,251 @@
+Ffoo:
+/*@SPEC-BEGIN
+(()
+(1044
+1043
+1042
+1041
+937
+939)
+((()
+((r9 (app 1044 () ()))(r8 (app 1043 () ()))(r7 (app 1042 () ()))(r6 (app 1041 () ()))(r1 (app 937 () ())))
+()
+((custom 272 () ((app 937 () ())))
+(custom 289 () ((app 935 () ()) (const 40) (app 939 () ()))))))
+(((940
+941)
+((r9 (app 1044 () ()))(r8 (app 1043 () ()))(r7 (app 1042 () ()))(r6 (app 1041 () ()))(r0 (app 941 () ())))
+((compare = (app 941 () ()) (app 940 () ())))
+((custom 280 () ())))))*/
+/*@FRAME-BEGIN
+  -8 u64
+*/
+  *(u64 *)(r10 - 8) = r6
+  r6 = r1
+  /*@ASSERTION-BEGIN
+(((987)
+((r9 (app 1044 () ()))(r8 (app 1043 () ()))(r7 (app 1042 () ()))(r10 (app 987 () ()))(r6 (app 937 () ())))
+()
+((store (binary - (app 987 () ()) (const 8)) (app 1041 () ()) (i64 unsigned))
+(custom 272 () ((app 937 () ())))
+(custom 289 () ((app 935 () ()) (const 40) (app 939 () ()))))))
+  */
+  w5 = 0
+  /*@ASSERTION-BEGIN
+(((987)
+((r9 (app 1044 () ()))(r8 (app 1043 () ()))(r7 (app 1042 () ()))(r10 (app 987 () ()))(r5 (const 0))(r6 (app 937 () ())))
+()
+((store (binary - (app 987 () ()) (const 8)) (app 1041 () ()) (i64 unsigned))
+(custom 272 () ((app 937 () ())))
+(custom 289 () ((app 935 () ()) (const 40) (app 939 () ()))))))
+  */
+  /*@ASSERTION-BEGIN
+(((987)
+((r9 (app 1044 () ()))(r8 (app 1043 () ()))(r7 (app 1042 () ()))(r10 (app 987 () ()))(r5 (const 0))(r6 (app 937 () ())))
+((compare <= (const 0) (binary - (app 957 () ()) (app 958 () ())))
+(compare = (index (app 959 () ()) (app 960 () ())) (const 0))
+(compare < (app 960 () ()) (binary - (app 957 () ()) (app 958 () ())))
+(compare <= (const 0) (app 960 () ()))
+(compare <= (const 0) (const 40)))
+((store (binary - (app 987 () ()) (const 8)) (app 1041 () ()) (i64 unsigned))
+(store (binary + (app 937 () ()) (const 0)) (app 958 () ()) (i32 unsigned))
+(custom 287 () ((app 958 () ()) (binary - (app 957 () ()) (app 958 () ())) (app 959 () ())))
+(store (binary + (app 937 () ()) (const 4)) (app 957 () ()) (i32 unsigned))
+(custom 289 () ((app 935 () ()) (const 40) (app 939 () ()))))))
+  */
+  r4 = *(u32 *)r6
+  /*@ASSERTION-BEGIN
+(((987)
+((r9 (app 1044 () ()))(r8 (app 1043 () ()))(r7 (app 1042 () ()))(r10 (app 987 () ()))(r4 (app 958 () ()))(r5 (const 0))(r6 (app 937 () ())))
+((compare <= (const 0) (binary - (app 957 () ()) (app 958 () ())))
+(compare = (index (app 959 () ()) (app 960 () ())) (const 0))
+(compare < (app 960 () ()) (binary - (app 957 () ()) (app 958 () ())))
+(compare <= (const 0) (app 960 () ()))
+(compare <= (const 0) (const 40)))
+((store (binary - (app 987 () ()) (const 8)) (app 1041 () ()) (i64 unsigned))
+(store (binary + (app 937 () ()) (const 0)) (app 958 () ()) (i32 unsigned))
+(custom 287 () ((app 958 () ()) (binary - (app 957 () ()) (app 958 () ())) (app 959 () ())))
+(store (binary + (app 937 () ()) (const 4)) (app 957 () ()) (i32 unsigned))
+(custom 289 () ((app 935 () ()) (const 40) (app 939 () ()))))))
+  */
+  /*@ASSERTION-BEGIN
+(((987)
+((r9 (app 1044 () ()))(r8 (app 1043 () ()))(r7 (app 1042 () ()))(r10 (app 987 () ()))(r4 (app 958 () ()))(r5 (const 0))(r6 (app 937 () ())))
+((compare <= (const 0) (binary - (app 957 () ()) (app 958 () ())))
+(compare = (index (app 959 () ()) (app 960 () ())) (const 0))
+(compare < (app 960 () ()) (binary - (app 957 () ()) (app 958 () ())))
+(compare <= (const 0) (app 960 () ()))
+(compare <= (const 0) (const 40)))
+((store (binary - (app 987 () ()) (const 8)) (app 1041 () ()) (i64 unsigned))
+(store (binary + (app 937 () ()) (const 0)) (app 958 () ()) (i32 unsigned))
+(custom 287 () ((app 958 () ()) (binary - (app 957 () ()) (app 958 () ())) (app 959 () ())))
+(store (binary + (app 937 () ()) (const 4)) (app 957 () ()) (i32 unsigned))
+(custom 289 () ((app 935 () ()) (const 40) (app 939 () ()))))))
+  */
+  r3 = *(u32 *)(r6 + 4)
+  /*@ASSERTION-BEGIN
+(((987)
+((r9 (app 1044 () ()))(r8 (app 1043 () ()))(r7 (app 1042 () ()))(r10 (app 987 () ()))(r3 (app 957 () ()))(r4 (app 958 () ()))(r5 (const 0))(r6 (app 937 () ())))
+((compare <= (const 0) (binary - (app 957 () ()) (app 958 () ())))
+(compare = (index (app 959 () ()) (app 960 () ())) (const 0))
+(compare < (app 960 () ()) (binary - (app 957 () ()) (app 958 () ())))
+(compare <= (const 0) (app 960 () ()))
+(compare <= (const 0) (const 40)))
+((store (binary - (app 987 () ()) (const 8)) (app 1041 () ()) (i64 unsigned))
+(store (binary + (app 937 () ()) (const 0)) (app 958 () ()) (i32 unsigned))
+(custom 287 () ((app 958 () ()) (binary - (app 957 () ()) (app 958 () ())) (app 959 () ())))
+(store (binary + (app 937 () ()) (const 4)) (app 957 () ()) (i32 unsigned))
+(custom 289 () ((app 935 () ()) (const 40) (app 939 () ()))))))
+  */
+  w2 = 0
+L1046:
+ if w2 s>= 40 goto L1049
+  w0 = w4
+  w0 += w2
+ if w0 s>= w3 goto L1049
+  /*@ASSERTION-BEGIN
+(((987)
+((r9 (app 1044 () ()))(r8 (app 1043 () ()))(r7 (app 1042 () ()))(r10 (app 987 () ()))(r3 (app 957 () ()))(r4 (app 958 () ()))(r5 (const 0))(r2 (app 967 () ()))(r6 (app 937 () ())))
+((compare < (binary + (app 958 () ()) (app 967 () ())) (app 957 () ()))
+(compare < (app 967 () ()) (const 40))
+(compare <= (const 0) (app 967 () ()))
+(compare <= (app 967 () ()) (const 40))
+(compare <= (const 0) (binary - (app 957 () ()) (app 958 () ())))
+(compare = (index (app 959 () ()) (app 960 () ())) (const 0))
+(compare < (app 960 () ()) (binary - (app 957 () ()) (app 958 () ())))
+(compare <= (const 0) (app 960 () ()))
+(compare <= (const 0) (const 40)))
+((store (binary - (app 987 () ()) (const 8)) (app 1041 () ()) (i64 unsigned))
+(store-undef (binary + (app 935 () ()) (binary mul (app 967 () ()) (size-of (i8 unsigned)))) (i8 unsigned))
+(custom 288 () ((app 935 () ()) (app 967 () ()) (const 0) (const 40) (app 939 () ())))
+(store (binary + (app 937 () ()) (const 0)) (app 958 () ()) (i32 unsigned))
+(custom 287 () ((app 958 () ()) (binary - (app 957 () ()) (app 958 () ())) (app 959 () ())))
+(store (binary + (app 937 () ()) (const 4)) (app 957 () ()) (i32 unsigned)))))
+  */
+  r1 = M933
+  w0 = w2
+  r0 <<= 32
+  r0 s>>= 32
+  r1 += r0
+  w0 = 1
+  *(u8 *)r1 = r0
+  /*@ASSERTION-BEGIN
+(((987)
+((r9 (app 1044 () ()))(r8 (app 1043 () ()))(r7 (app 1042 () ()))(r10 (app 987 () ()))(r3 (app 957 () ()))(r4 (app 958 () ()))(r5 (const 0))(r2 (app 967 () ()))(r6 (app 937 () ())))
+((compare < (binary + (app 958 () ()) (app 967 () ())) (app 957 () ()))
+(compare < (app 967 () ()) (const 40))
+(compare <= (const 0) (app 967 () ()))
+(compare <= (app 967 () ()) (const 40))
+(compare <= (const 0) (binary - (app 957 () ()) (app 958 () ())))
+(compare = (index (app 959 () ()) (app 960 () ())) (const 0))
+(compare < (app 960 () ()) (binary - (app 957 () ()) (app 958 () ())))
+(compare <= (const 0) (app 960 () ()))
+(compare <= (const 0) (const 40)))
+((store (binary - (app 987 () ()) (const 8)) (app 1041 () ()) (i64 unsigned))
+(custom 287 () ((app 935 () ()) (const 40) (app 296 ((app 1 ())) ((app 967 () ()) (const 1) (app 939 () ())))))
+(store (binary + (app 937 () ()) (const 0)) (app 958 () ()) (i32 unsigned))
+(custom 287 () ((app 958 () ()) (binary - (app 957 () ()) (app 958 () ())) (app 959 () ())))
+(store (binary + (app 937 () ()) (const 4)) (app 957 () ()) (i32 unsigned)))))
+  */
+  w2 += 1
+ goto L1046
+L1049:
+  w2 = 0
+L1054:
+ if w2 s>= 40 goto L1057
+  /*@ASSERTION-BEGIN
+(((987)
+((r9 (app 1044 () ()))(r8 (app 1043 () ()))(r7 (app 1042 () ()))(r10 (app 987 () ()))(r3 (app 957 () ()))(r4 (app 958 () ()))(r5 (const 0))(r2 (app 978 () ()))(r6 (app 937 () ())))
+((compare < (app 978 () ()) (const 40))
+(compare <= (const 0) (app 978 () ()))
+(compare <= (app 978 () ()) (const 40))
+(compare >= (app 967 () ()) (const 40))
+(compare <= (const 0) (app 967 () ()))
+(compare <= (app 967 () ()) (const 40))
+(compare <= (const 0) (binary - (app 957 () ()) (app 958 () ())))
+(compare = (index (app 959 () ()) (app 960 () ())) (const 0))
+(compare < (app 960 () ()) (binary - (app 957 () ()) (app 958 () ())))
+(compare <= (const 0) (app 960 () ()))
+(compare <= (const 0) (const 40)))
+((store (binary - (app 987 () ()) (const 8)) (app 1041 () ()) (i64 unsigned))
+(store (binary + (app 935 () ()) (binary mul (app 978 () ()) (size-of (i8 unsigned)))) (index (app 939 () ()) (app 978 () ())) (i8 unsigned))
+(custom 288 () ((app 935 () ()) (app 978 () ()) (const 0) (const 40) (app 939 () ())))
+(store (binary + (app 937 () ()) (const 0)) (app 958 () ()) (i32 unsigned))
+(custom 287 () ((app 958 () ()) (binary - (app 957 () ()) (app 958 () ())) (app 959 () ())))
+(store (binary + (app 937 () ()) (const 4)) (app 957 () ()) (i32 unsigned))))
+((987)
+((r9 (app 1044 () ()))(r8 (app 1043 () ()))(r7 (app 1042 () ()))(r10 (app 987 () ()))(r3 (app 957 () ()))(r4 (app 958 () ()))(r5 (const 0))(r2 (app 976 () ()))(r6 (app 937 () ())))
+((compare < (app 976 () ()) (const 40))
+(compare <= (const 0) (app 976 () ()))
+(compare <= (app 976 () ()) (const 40))
+(compare >= (binary + (app 958 () ()) (app 967 () ())) (app 957 () ()))
+(compare < (app 967 () ()) (const 40))
+(compare <= (const 0) (app 967 () ()))
+(compare <= (app 967 () ()) (const 40))
+(compare <= (const 0) (binary - (app 957 () ()) (app 958 () ())))
+(compare = (index (app 959 () ()) (app 960 () ())) (const 0))
+(compare < (app 960 () ()) (binary - (app 957 () ()) (app 958 () ())))
+(compare <= (const 0) (app 960 () ()))
+(compare <= (const 0) (const 40)))
+((store (binary - (app 987 () ()) (const 8)) (app 1041 () ()) (i64 unsigned))
+(store (binary + (app 935 () ()) (binary mul (app 976 () ()) (size-of (i8 unsigned)))) (index (app 939 () ()) (app 976 () ())) (i8 unsigned))
+(custom 288 () ((app 935 () ()) (app 976 () ()) (const 0) (const 40) (app 939 () ())))
+(store (binary + (app 937 () ()) (const 0)) (app 958 () ()) (i32 unsigned))
+(custom 287 () ((app 958 () ()) (binary - (app 957 () ()) (app 958 () ())) (app 959 () ())))
+(store (binary + (app 937 () ()) (const 4)) (app 957 () ()) (i32 unsigned)))))
+  */
+  r0 = M933
+  w1 = w2
+  r1 <<= 32
+  r1 s>>= 32
+  r0 += r1
+  r0 = *(u8 *)r0
+  w0 <<= 24
+  w0 >>= 24
+  w5 += w0
+  /*@ASSERTION-BEGIN
+(((987)
+((r9 (app 1044 () ()))(r8 (app 1043 () ()))(r7 (app 1042 () ()))(r10 (app 987 () ()))(r3 (app 957 () ()))(r4 (app 958 () ()))(r5 (binary + (const 0) (index (app 939 () ()) (app 978 () ()))))(r2 (app 978 () ()))(r6 (app 937 () ())))
+((compare < (app 978 () ()) (const 40))
+(compare <= (const 0) (app 978 () ()))
+(compare <= (app 978 () ()) (const 40))
+(compare >= (app 967 () ()) (const 40))
+(compare <= (const 0) (app 967 () ()))
+(compare <= (app 967 () ()) (const 40))
+(compare <= (const 0) (binary - (app 957 () ()) (app 958 () ())))
+(compare = (index (app 959 () ()) (app 960 () ())) (const 0))
+(compare < (app 960 () ()) (binary - (app 957 () ()) (app 958 () ())))
+(compare <= (const 0) (app 960 () ()))
+(compare <= (const 0) (const 40)))
+((store (binary - (app 987 () ()) (const 8)) (app 1041 () ()) (i64 unsigned))
+(custom 287 () ((app 935 () ()) (const 40) (app 939 () ())))
+(store (binary + (app 937 () ()) (const 0)) (app 958 () ()) (i32 unsigned))
+(custom 287 () ((app 958 () ()) (binary - (app 957 () ()) (app 958 () ())) (app 959 () ())))
+(store (binary + (app 937 () ()) (const 4)) (app 957 () ()) (i32 unsigned))))
+((987)
+((r9 (app 1044 () ()))(r8 (app 1043 () ()))(r7 (app 1042 () ()))(r10 (app 987 () ()))(r3 (app 957 () ()))(r4 (app 958 () ()))(r5 (binary + (const 0) (index (app 939 () ()) (app 976 () ()))))(r2 (app 976 () ()))(r6 (app 937 () ())))
+((compare < (app 976 () ()) (const 40))
+(compare <= (const 0) (app 976 () ()))
+(compare <= (app 976 () ()) (const 40))
+(compare >= (binary + (app 958 () ()) (app 967 () ())) (app 957 () ()))
+(compare < (app 967 () ()) (const 40))
+(compare <= (const 0) (app 967 () ()))
+(compare <= (app 967 () ()) (const 40))
+(compare <= (const 0) (binary - (app 957 () ()) (app 958 () ())))
+(compare = (index (app 959 () ()) (app 960 () ())) (const 0))
+(compare < (app 960 () ()) (binary - (app 957 () ()) (app 958 () ())))
+(compare <= (const 0) (app 960 () ()))
+(compare <= (const 0) (const 40)))
+((store (binary - (app 987 () ()) (const 8)) (app 1041 () ()) (i64 unsigned))
+(custom 287 () ((app 935 () ()) (const 40) (app 939 () ())))
+(store (binary + (app 937 () ()) (const 0)) (app 958 () ()) (i32 unsigned))
+(custom 287 () ((app 958 () ()) (binary - (app 957 () ()) (app 958 () ())) (app 959 () ())))
+(store (binary + (app 937 () ()) (const 4)) (app 957 () ()) (i32 unsigned)))))
+  */
+  w2 += 1
+ goto L1054
+L1057:
+  w0 = w5
+  r6 = *(u64 *)(r10 - 8)
+  exit
+

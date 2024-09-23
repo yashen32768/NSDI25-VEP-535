@@ -1,0 +1,161 @@
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Right_Sep_Erase: Data_at &(skops_944_pre->remote_port) x_972_972_free unsigned int
+Op 2:
+Left_Sep_Erase: Data_at &(skops_944_pre->remote_port) x_972_972_free unsigned int
+Op 3:
+Right_Sep_Add: Data_at &(skops_944_pre->remote_port) x_972_972_free unsigned int
+Op 4:
+Right_Sep_Erase: Data_at &(skops_944_pre->remote_port) x_972_972_free unsigned int
+Op 5:
+Left_Sep_Add: Data_at &(skops_944_pre->remote_port) x_972_972_free unsigned int
+Op 6:
+Left_Sep_Erase: Data_at &(skops_944_pre->remote_port) x_972_972_free unsigned int
+
+Trace 2:
+Ops:
+Op 1:
+Left_Prop_Add: (Ez_val 0) <= (Ez_val 4)
+Op 2:
+Left_Sep_Add: store_uint_array (&(skops_944_pre->remote_ip6), (Ez_val 4), l1_978_978_free)
+Op 3:
+Left_Sep_Erase: store_uint_array (&(skops_944_pre->remote_ip6), (Ez_val 4), l1_978_978_free)
+
+Trace 3:
+Ops:
+Op 1:
+Right_Prop_Erase: x_972_972_free == x_972_972_free
+Op 2:
+Right_Prop_Add: x_972_972_free == x_972_972_free
+Op 3:
+Right_Prop_Erase: x_972_972_free == x_972_972_free
+
+Trace 4:
+Ops:
+Op 1:
+Left_Prop_Add: should_be_equal_282(Z_1, x_972_972_free, x_972_972_free)
+Op 2:
+Right_Prop_Add: x_972_972_free == x_972_972_free
+Op 3:
+Right_Sep_Add: Data_at &(skops_944_pre->remote_port) x_972_972_free unsigned int
+Op 4:
+Right_Sep_Erase: Data_at &(skops_944_pre->remote_port) x_972_972_free unsigned int
+Op 5:
+Left_Sep_Add: Data_at &(skops_944_pre->remote_port) x_972_972_free unsigned int
+Op 6:
+Left_Sep_Erase: Data_at &(skops_944_pre->remote_port) x_972_972_free unsigned int
+
+Trace 5:
+Ops:
+Op 1:
+Right_Prop_Erase: x_972_972_free == x_972_972_free
+Op 2:
+Right_Prop_Add: x_972_972_free == x_972_972_free
+Op 3:
+Right_Prop_Erase: x_972_972_free == x_972_972_free
+
+Trace 6:
+Inst 971 x_972_972_free
+
+Trace 7:
+Ops:
+Op 1:
+Left_Prop_Add: should_be_equal_282(Z_1, x_972_972_free, v_971_free)
+Op 2:
+Right_Prop_Add: x_972_972_free == v_971_free
+Op 3:
+Right_Sep_Add: Data_at &(skops_944_pre->remote_port) v_971_free unsigned int
+Op 4:
+Right_Sep_Erase: Data_at &(skops_944_pre->remote_port) v_971_free unsigned int
+Op 5:
+Left_Sep_Add: Data_at &(skops_944_pre->remote_port) x_972_972_free unsigned int
+Op 6:
+Left_Sep_Erase: Data_at &(skops_944_pre->remote_port) x_972_972_free unsigned int
+
+Trace 8:
+Ops:
+Op 1:
+Left_Sep_Add: store_uint_array (&(skops_944_pre->remote_ip6), (Ez_val 4), l1_978_978_free)
+Op 2:
+Forall_Add: 978
+
+Op 3:
+Left_Sep_Add: store_uint_array (&(skops_944_pre->local_ip6), (Ez_val 4), l_977_977_free)
+Op 4:
+Forall_Add: 977
+
+Op 5:
+Left_Sep_Add: Data_at &(skops_944_pre->family) x4_976_976_free unsigned int
+Op 6:
+Forall_Add: 976
+
+Op 7:
+Left_Sep_Add: Data_at &(skops_944_pre->op) x3_975_975_free unsigned int
+Op 8:
+Forall_Add: 975
+
+Op 9:
+Left_Sep_Add: Data_at &(skops_944_pre->reply) x2_974_974_free unsigned int
+Op 10:
+Forall_Add: 974
+
+Op 11:
+Left_Sep_Add: Data_at &(skops_944_pre->local_port) x1_973_973_free unsigned int
+Op 12:
+Forall_Add: 973
+
+Op 13:
+Left_Sep_Add: Data_at &(skops_944_pre->remote_port) x_972_972_free unsigned int
+Op 14:
+Forall_Add: 972
+
+Op 15:
+Left_Sep_Erase: Sock_ops (skops_944_pre)
+Op 16:
+Left_Sep_Add: Sock_ops (skops_944_pre)
+Op 17:
+Left_Sep_Erase: Sock_ops (skops_944_pre)
+
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Right_Prop_Erase: x_972_972_free == x_972_972_free
+Op 2:
+Right_Prop_Add: x_972_972_free == x_972_972_free
+Op 3:
+Right_Prop_Erase: x_972_972_free == x_972_972_free
+
+Trace 2:
+Inst 981 x_972_972_free
+
+Trace 3:
+Ops:
+Op 1:
+Left_Prop_Erase: should_be_equal_282(Z_1, x_972_972_free, v_971_free)
+Op 2:
+Left_Prop_Add: should_be_equal_282(Z_1, x_972_972_free, v_971_free)
+Op 3:
+Left_Prop_Erase: should_be_equal_282(Z_1, x_972_972_free, v_971_free)
+
+Trace 4:
+Ops:
+Op 1:
+Left_Prop_Erase: should_be_equal_282(Z_1, x_972_972_free, x_972_972_free)
+Op 2:
+Left_Prop_Add: should_be_equal_282(Z_1, x_972_972_free, x_972_972_free)
+Op 3:
+Left_Prop_Erase: should_be_equal_282(Z_1, x_972_972_free, x_972_972_free)
+
+Empty TraceList
+Empty TraceList
+Empty TraceList
+Empty TraceList
+Empty TraceList
+Empty TraceList
+Empty TraceList
+Empty TraceList
+Empty TraceList
+Empty TraceList

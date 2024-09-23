@@ -1,0 +1,217 @@
+F_xdp_icmp:
+/*@SPEC-BEGIN
+(()
+(1060
+1059
+1058
+1057
+955)
+(((958)
+((r9 (app 1060 () ()))(r8 (app 1059 () ()))(r7 (app 1058 () ()))(r6 (app 1057 () ()))(r1 (app 955 () ())))
+()
+((custom 272 () ((app 955 () ())))
+(store (app 935 () ()) (app 958 () ()) (struct 72))
+(custom 278 () ((app 958 () ()) (const 1) (const 2) (const 8))))))
+(((957
+959)
+((r9 (app 1060 () ()))(r8 (app 1059 () ()))(r7 (app 1058 () ()))(r6 (app 1057 () ()))(r0 (app 959 () ())))
+((compare = (app 959 () ()) (app 957 () ())))
+((custom 280 () ())))))*/
+/*@FRAME-BEGIN
+  -8 u64
+  -16 u64
+*/
+  *(u64 *)(r10 - 16) = r7
+  *(u64 *)(r10 - 8) = r6
+  r7 = r1
+  /*@ASSERTION-BEGIN
+(((1001)
+((r9 (app 1060 () ()))(r8 (app 1059 () ()))(r10 (app 1001 () ()))(r7 (app 955 () ())))
+((compare <= (const 0) (binary - (app 969 () ()) (app 970 () ())))
+(compare = (index (app 971 () ()) (app 972 () ())) (const 0))
+(compare < (app 972 () ()) (binary - (app 969 () ()) (app 970 () ())))
+(compare <= (const 0) (app 972 () ())))
+((store (binary - (app 1001 () ()) (const 16)) (app 1058 () ()) (i64 unsigned))
+(store (binary - (app 1001 () ()) (const 8)) (app 1057 () ()) (i64 unsigned))
+(store (binary + (app 955 () ()) (const 4)) (app 969 () ()) (i32 unsigned))
+(custom 287 () ((app 970 () ()) (binary - (app 969 () ()) (app 970 () ())) (app 971 () ())))
+(store (binary + (app 955 () ()) (const 0)) (app 970 () ()) (i32 unsigned))
+(store (app 935 () ()) (app 958 () ()) (struct 72))
+(custom 278 () ((app 958 () ()) (const 1) (const 2) (const 8))))))
+  */
+  r0 = *(u32 *)(r7 + 4)
+  w4 = w0
+  r4 <<= 32
+  r4 >>= 32
+  /*@ASSERTION-BEGIN
+(((1001)
+((r9 (app 1060 () ()))(r8 (app 1059 () ()))(r10 (app 1001 () ()))(r4 (app 969 () ()))(r7 (app 955 () ())))
+((compare <= (const 0) (binary - (app 969 () ()) (app 970 () ())))
+(compare = (index (app 971 () ()) (app 972 () ())) (const 0))
+(compare < (app 972 () ()) (binary - (app 969 () ()) (app 970 () ())))
+(compare <= (const 0) (app 972 () ())))
+((store (binary - (app 1001 () ()) (const 16)) (app 1058 () ()) (i64 unsigned))
+(store (binary - (app 1001 () ()) (const 8)) (app 1057 () ()) (i64 unsigned))
+(store (binary + (app 955 () ()) (const 4)) (app 969 () ()) (i32 unsigned))
+(custom 287 () ((app 970 () ()) (binary - (app 969 () ()) (app 970 () ())) (app 971 () ())))
+(store (binary + (app 955 () ()) (const 0)) (app 970 () ()) (i32 unsigned))
+(store (app 935 () ()) (app 958 () ()) (struct 72))
+(custom 278 () ((app 958 () ()) (const 1) (const 2) (const 8))))))
+  */
+  /*@ASSERTION-BEGIN
+(((1001)
+((r9 (app 1060 () ()))(r8 (app 1059 () ()))(r10 (app 1001 () ()))(r4 (app 969 () ()))(r7 (app 955 () ())))
+((compare <= (const 0) (binary - (app 969 () ()) (app 970 () ())))
+(compare = (index (app 971 () ()) (app 972 () ())) (const 0))
+(compare < (app 972 () ()) (binary - (app 969 () ()) (app 970 () ())))
+(compare <= (const 0) (app 972 () ())))
+((store (binary - (app 1001 () ()) (const 16)) (app 1058 () ()) (i64 unsigned))
+(store (binary - (app 1001 () ()) (const 8)) (app 1057 () ()) (i64 unsigned))
+(store (binary + (app 955 () ()) (const 4)) (app 969 () ()) (i32 unsigned))
+(custom 287 () ((app 970 () ()) (binary - (app 969 () ()) (app 970 () ())) (app 971 () ())))
+(store (binary + (app 955 () ()) (const 0)) (app 970 () ()) (i32 unsigned))
+(store (app 935 () ()) (app 958 () ()) (struct 72))
+(custom 278 () ((app 958 () ()) (const 1) (const 2) (const 8))))))
+  */
+  r0 = *(u32 *)r7
+  w3 = w0
+  r3 <<= 32
+  r3 >>= 32
+  /*@ASSERTION-BEGIN
+(((1001)
+((r9 (app 1060 () ()))(r8 (app 1059 () ()))(r10 (app 1001 () ()))(r3 (app 970 () ()))(r4 (app 969 () ()))(r7 (app 955 () ())))
+((compare <= (const 0) (binary - (app 969 () ()) (app 970 () ())))
+(compare = (index (app 971 () ()) (app 972 () ())) (const 0))
+(compare < (app 972 () ()) (binary - (app 969 () ()) (app 970 () ())))
+(compare <= (const 0) (app 972 () ())))
+((store (binary - (app 1001 () ()) (const 16)) (app 1058 () ()) (i64 unsigned))
+(store (binary - (app 1001 () ()) (const 8)) (app 1057 () ()) (i64 unsigned))
+(store (binary + (app 955 () ()) (const 4)) (app 969 () ()) (i32 unsigned))
+(custom 287 () ((app 970 () ()) (binary - (app 969 () ()) (app 970 () ())) (app 971 () ())))
+(store (binary + (app 955 () ()) (const 0)) (app 970 () ()) (i32 unsigned))
+(store (app 935 () ()) (app 958 () ()) (struct 72))
+(custom 278 () ((app 958 () ()) (const 1) (const 2) (const 8))))))
+  */
+  /*@ASSERTION-BEGIN
+(((1001)
+((r9 (app 1060 () ()))(r8 (app 1059 () ()))(r10 (app 1001 () ()))(r3 (app 970 () ()))(r4 (app 969 () ()))(r7 (app 955 () ())))
+((compare <= (const 0) (binary - (app 969 () ()) (app 970 () ())))
+(compare = (index (app 971 () ()) (app 972 () ())) (const 0))
+(compare < (app 972 () ()) (binary - (app 969 () ()) (app 970 () ())))
+(compare <= (const 0) (app 972 () ())))
+((store (binary - (app 1001 () ()) (const 16)) (app 1058 () ()) (i64 unsigned))
+(store (binary - (app 1001 () ()) (const 8)) (app 1057 () ()) (i64 unsigned))
+(store (binary + (app 955 () ()) (const 4)) (app 969 () ()) (i32 unsigned))
+(custom 287 () ((app 970 () ()) (binary - (app 969 () ()) (app 970 () ())) (app 971 () ())))
+(store (binary + (app 955 () ()) (const 0)) (app 970 () ()) (i32 unsigned))
+(store (app 935 () ()) (app 958 () ()) (struct 72))
+(custom 278 () ((app 958 () ()) (const 1) (const 2) (const 8))))))
+  */
+  r2 = r3
+  /*@ASSERTION-BEGIN
+(((1001)
+((r9 (app 1060 () ()))(r8 (app 1059 () ()))(r10 (app 1001 () ()))(r2 (app 970 () ()))(r3 (app 970 () ()))(r4 (app 969 () ()))(r7 (app 955 () ())))
+((compare <= (const 0) (binary - (app 969 () ()) (app 970 () ())))
+(compare = (index (app 971 () ()) (app 972 () ())) (const 0))
+(compare < (app 972 () ()) (binary - (app 969 () ()) (app 970 () ())))
+(compare <= (const 0) (app 972 () ())))
+((store (binary - (app 1001 () ()) (const 16)) (app 1058 () ()) (i64 unsigned))
+(store (binary - (app 1001 () ()) (const 8)) (app 1057 () ()) (i64 unsigned))
+(store (binary + (app 955 () ()) (const 4)) (app 969 () ()) (i32 unsigned))
+(custom 287 () ((app 970 () ()) (binary - (app 969 () ()) (app 970 () ())) (app 971 () ())))
+(store (binary + (app 955 () ()) (const 0)) (app 970 () ()) (i32 unsigned))
+(store (app 935 () ()) (app 958 () ()) (struct 72))
+(custom 278 () ((app 958 () ()) (const 1) (const 2) (const 8))))))
+  */
+  /*@ASSERTION-BEGIN
+(((1001)
+((r9 (app 1060 () ()))(r8 (app 1059 () ()))(r10 (app 1001 () ()))(r2 (app 970 () ()))(r3 (app 970 () ()))(r4 (app 969 () ()))(r7 (app 955 () ())))
+((compare <= (const 0) (binary - (app 969 () ()) (app 970 () ())))
+(compare = (index (app 971 () ()) (app 972 () ())) (const 0))
+(compare < (app 972 () ()) (binary - (app 969 () ()) (app 970 () ())))
+(compare <= (const 0) (app 972 () ())))
+((store (binary - (app 1001 () ()) (const 16)) (app 1058 () ()) (i64 unsigned))
+(store (binary - (app 1001 () ()) (const 8)) (app 1057 () ()) (i64 unsigned))
+(store (binary + (app 955 () ()) (const 4)) (app 969 () ()) (i32 unsigned))
+(custom 287 () ((app 970 () ()) (binary - (app 969 () ()) (app 970 () ())) (app 971 () ())))
+(store (binary + (app 955 () ()) (const 0)) (app 970 () ()) (i32 unsigned))
+(store (app 935 () ()) (app 958 () ()) (struct 72))
+(custom 278 () ((app 958 () ()) (const 1) (const 2) (const 8))))))
+  */
+  r1 = r2
+  r1 += 16
+  /*@ASSERTION-BEGIN
+(((1001)
+((r9 (app 1060 () ()))(r8 (app 1059 () ()))(r10 (app 1001 () ()))(r1 (binary + (app 970 () ()) (const 16)))(r2 (app 970 () ()))(r3 (app 970 () ()))(r4 (app 969 () ()))(r7 (app 955 () ())))
+((compare <= (const 0) (binary - (app 969 () ()) (app 970 () ())))
+(compare = (index (app 971 () ()) (app 972 () ())) (const 0))
+(compare < (app 972 () ()) (binary - (app 969 () ()) (app 970 () ())))
+(compare <= (const 0) (app 972 () ())))
+((store (binary - (app 1001 () ()) (const 16)) (app 1058 () ()) (i64 unsigned))
+(store (binary - (app 1001 () ()) (const 8)) (app 1057 () ()) (i64 unsigned))
+(store (binary + (app 955 () ()) (const 4)) (app 969 () ()) (i32 unsigned))
+(custom 287 () ((app 970 () ()) (binary - (app 969 () ()) (app 970 () ())) (app 971 () ())))
+(store (binary + (app 955 () ()) (const 0)) (app 970 () ()) (i32 unsigned))
+(store (app 935 () ()) (app 958 () ()) (struct 72))
+(custom 278 () ((app 958 () ()) (const 1) (const 2) (const 8))))))
+  */
+ if r1 s<= r4 goto L1065
+  w0 = 1
+ goto L1072
+L1065:
+  /*@ASSERTION-BEGIN
+(((1001)
+((r9 (app 1060 () ()))(r8 (app 1059 () ()))(r10 (app 1001 () ()))(r1 (binary + (app 970 () ()) (const 16)))(r2 (app 970 () ()))(r3 (app 970 () ()))(r4 (app 969 () ()))(r7 (app 955 () ())))
+((compare <= (const 0) (binary - (binary - (app 969 () ()) (app 970 () ())) (const 16)))
+(compare <= (const 0) (const 6))
+(compare <= (binary + (app 970 () ()) (const 16)) (app 969 () ()))
+(compare <= (const 0) (binary - (app 969 () ()) (app 970 () ())))
+(compare = (index (app 971 () ()) (app 972 () ())) (const 0))
+(compare < (app 972 () ()) (binary - (app 969 () ()) (app 970 () ())))
+(compare <= (const 0) (app 972 () ())))
+((store (binary - (app 1001 () ()) (const 16)) (app 1058 () ()) (i64 unsigned))
+(store (binary - (app 1001 () ()) (const 8)) (app 1057 () ()) (i64 unsigned))
+(store (binary + (app 970 () ()) (const 12)) (app 990 () ()) (i32 unsigned))
+(custom 287 () ((binary + (app 970 () ()) (const 16)) (binary - (binary - (app 969 () ()) (app 970 () ())) (const 16)) (app 987 () ())))
+(custom 287 () ((binary + (app 970 () ()) (const 6)) (const 6) (app 988 () ())))
+(custom 287 () ((binary + (app 970 () ()) (const 0)) (const 6) (app 988 () ())))
+(store (binary + (app 955 () ()) (const 4)) (app 969 () ()) (i32 unsigned))
+(store (binary + (app 955 () ()) (const 0)) (app 970 () ()) (i32 unsigned))
+(store (app 935 () ()) (app 958 () ()) (struct 72))
+(custom 278 () ((app 958 () ()) (const 1) (const 2) (const 8))))))
+  */
+  r6 = *(u32 *)(r2 + 12)
+  /*@ASSERTION-BEGIN
+(((1001)
+((r9 (app 1060 () ()))(r8 (app 1059 () ()))(r10 (app 1001 () ()))(r1 (binary + (app 970 () ()) (const 16)))(r6 (app 990 () ()))(r2 (app 970 () ()))(r3 (app 970 () ()))(r4 (app 969 () ()))(r7 (app 955 () ())))
+((compare <= (const 0) (binary - (binary - (app 969 () ()) (app 970 () ())) (const 16)))
+(compare <= (const 0) (const 6))
+(compare <= (binary + (app 970 () ()) (const 16)) (app 969 () ()))
+(compare <= (const 0) (binary - (app 969 () ()) (app 970 () ())))
+(compare = (index (app 971 () ()) (app 972 () ())) (const 0))
+(compare < (app 972 () ()) (binary - (app 969 () ()) (app 970 () ())))
+(compare <= (const 0) (app 972 () ())))
+((store (binary - (app 1001 () ()) (const 16)) (app 1058 () ()) (i64 unsigned))
+(store (binary - (app 1001 () ()) (const 8)) (app 1057 () ()) (i64 unsigned))
+(store (binary + (app 970 () ()) (const 12)) (app 990 () ()) (i32 unsigned))
+(custom 287 () ((binary + (app 970 () ()) (const 16)) (binary - (binary - (app 969 () ()) (app 970 () ())) (const 16)) (app 987 () ())))
+(custom 287 () ((binary + (app 970 () ()) (const 6)) (const 6) (app 988 () ())))
+(custom 287 () ((binary + (app 970 () ()) (const 0)) (const 6) (app 988 () ())))
+(store (binary + (app 955 () ()) (const 4)) (app 969 () ()) (i32 unsigned))
+(store (binary + (app 955 () ()) (const 0)) (app 970 () ()) (i32 unsigned))
+(store (app 935 () ()) (app 958 () ()) (struct 72))
+(custom 278 () ((app 958 () ()) (const 1) (const 2) (const 8))))))
+  */
+  w1 = 4096
+  call Fhtons
+ if w6 != w0 goto L1068
+  r1 = r7
+  call Fhandle_ipv4
+ goto L1072
+L1068:
+  w0 = 2
+L1072:
+  r6 = *(u64 *)(r10 - 8)
+  r7 = *(u64 *)(r10 - 16)
+  exit
+

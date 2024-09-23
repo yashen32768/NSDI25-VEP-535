@@ -1,0 +1,53 @@
+id : 1
+priority : core(1)
+left : XDP_SEP(?ctx) at 0
+right : data_at(field_addr(ctx, xdp_md, data_end), U32, ?q : Z) at 1
+action : left_erase(0);
+         left_exist_add(x : Z);
+         left_add(data_at(field_addr(ctx, xdp_md, data_end), U32, x));
+         left_exist_add(y : Z);
+         left_add(data_at(field_addr(ctx, xdp_md, data), U32, y));
+         left_exist_add(l : list{Z});
+         left_add(store_char_array(y, x - y, l));
+         left_exist_add(n : Z);
+         left_add(0 <= n);
+         left_add(n < x - y);
+         left_add(l[n] == 0);
+
+id : 2
+priority : core(1)
+left : XDP_SEP(?ctx) at 0
+right : data_at(field_addr(ctx, xdp_md, data), U32, ?q : Z) at 1
+action : left_erase(0);
+         left_exist_add(x : Z);
+         left_add(data_at(field_addr(ctx, xdp_md, data_end), U32, x));
+         left_exist_add(y : Z);
+         left_add(data_at(field_addr(ctx, xdp_md, data), U32, y));
+         left_exist_add(l : list{Z});
+         left_add(store_char_array(y, x - y, l));
+         left_exist_add(n : Z);
+         left_add(0 <= n);
+         left_add(n < x - y);
+         left_add(l[n] == 0);
+
+id : 3
+priority : core(1)
+left : (?l : list{Z})[?n] == 0 at 0
+right : (l : list{Z})[?m] == 0 at 1
+action : right_add(n == m);
+         right_erase(1);
+
+id : 4 
+priority : core(1)
+left : store_char_array(?x, ?n, ?l) at 0
+right : data_at(field_addr(x, eth_hdr, h_proto), U32, ?y) at 1
+check : infer(n >= 16);
+action : left_erase(0);
+         left_exist_add(l1 : list{Z});
+         left_add(store_char_array(x + 16, n - 16, l1));
+         left_exist_add(l2 : list{Z});
+         left_exist_add(l3 : list{Z});
+         left_exist_add(v0 : Z);
+         left_add(store_char_array(field_addr(x, eth_hdr, h_dest), 6, l2));
+         left_add(store_char_array(field_addr(x, eth_hdr, h_source), 6, l2));
+         left_add(data_at(field_addr(x, eth_hdr, h_proto), U32, v0));

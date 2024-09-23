@@ -1,0 +1,61 @@
+//max rule id:30
+id : 1
+priority : core(1)
+left : store_uint_array(?p, ?n, ?l) at 0
+right : data_at(?p + (?i * sizeof(U32)), U32, ?v) at 1
+check : infer(0 <= i);
+        infer(i < n);
+action : right_erase(1);
+         left_erase(0);
+         left_add(store_int_array_missing_i_rec(p, i, 0, n, l));
+         right_add(v == l[i]);
+
+id : 2
+priority : post(1)
+left : store_int_array_missing_i_rec(?p, ?i, 0, ?n, ?l) at 0
+       data_at(p + i * sizeof(U32), U32, l[i]) at 1
+check : infer(0 <= i);
+        infer(i < n);
+action : left_erase(1);
+         left_erase(0);
+         left_add(store_uint_array(p, n, l));
+
+id : 3
+priority : post(3)
+left : store_int_array_missing_i_rec(?p, ?i, 0, ?n, ?l) at 0
+       data_at(p + i * sizeof(U32), U32, ?v) at 1
+check : infer(0 <= i);
+        infer(i < n);
+action : left_erase(1);
+         left_erase(0);
+         left_add(store_uint_array(p, n, replace_Znth{Z}(i, v, l)));
+
+id : 4
+priority : core(1)
+left : store_uint_array(?p, ?n, ?l1) at 0
+right : store_uint_array(p, n, ?l2) at 1
+action : right_erase(1);
+         left_erase(0);
+         right_add(l1 == l2);
+
+id : 5
+priority : core(1)
+left : store_int_array_missing_i_rec(?p, ?i, ?v, ?n, ?l) at 0
+right : store_int_array_missing_i_rec(p, i, v, n, l) at 1
+action : left_erase(0);
+         right_erase(1); 
+
+id : 6
+priority : core(1)
+left : store_uint_array(?p, ?n, ?l1) at 0
+check: absense(0 <= n);
+action : left_add(0 <= n);
+
+id : 7 
+priority : core(1)
+left : store_uint_array(?p, ?n, ?l) at 0 
+right : store_uint_array(p, ?n1, ?l1) at 1
+action : left_erase(0);
+         right_erase(1);
+         right_add(n == n1);
+         right_add(l == l1);

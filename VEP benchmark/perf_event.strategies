@@ -1,0 +1,18 @@
+id : 1
+priority : core(1)
+left : Perf_event_data(?x) at 0
+action : left_erase(0);
+         left_exist_add(fd : Z);
+         left_add(data_at(field_addr(x, bpf_perf_event_data, sample_period), U64, fd));
+
+
+id : 2
+priority : core(1)
+left : Key_sep(?x) at 0
+action : left_erase(0);
+         left_exist_add(fd : Z);
+         left_add(data_at(field_addr(x, key_t, kernstack), U32, fd));
+         left_exist_add(fd1 : Z);
+         left_add(data_at(field_addr(x, key_t, userstack), U32, fd1));
+         left_exist_add(l : list{Z});
+         left_add(store_char_array(field_addr(x, key_t, comm), 16, l));

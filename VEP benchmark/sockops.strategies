@@ -1,0 +1,19 @@
+
+id : 1
+priority : core(1)
+left : Sock_ops(?skops) at 0
+action : left_erase(0);
+         left_exist_add(x : Z);
+         left_add(data_at(field_addr(skops, bpf_sock_ops, remote_port), U32, x));
+         left_exist_add(x1 : Z);
+         left_add(data_at(field_addr(skops, bpf_sock_ops, local_port), U32, x1));
+         left_exist_add(x2 : Z);
+         left_add(data_at(field_addr(skops, bpf_sock_ops, reply),  U32, x2));
+         left_exist_add(x3 : Z);
+         left_add(data_at(field_addr(skops, bpf_sock_ops, op),  U32, x3));
+         left_exist_add(x4 : Z);
+         left_add(data_at(field_addr(skops, bpf_sock_ops, family),  U32, x4));
+         left_exist_add(l : list{Z});
+         left_add(store_uint_array(field_addr(skops, bpf_sock_ops, local_ip6), 4, l));
+         left_exist_add(l1 : list{Z});
+         left_add(store_uint_array(field_addr(skops, bpf_sock_ops, remote_ip6), 4, l1));

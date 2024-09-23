@@ -1,0 +1,105 @@
+
+id : 1
+priority : core(8)
+left : store_char_array(?x, ?n, ?l) at 0
+right : TT() at 1 
+action : left_erase(0);
+
+id : 2 
+priority : core(8)
+left : data_at(?p, ?ty, ?x) at 0 
+right : data_at(p, void, ?y) at 1
+action : left_erase(0);
+         right_erase(1);
+         right_add(x == y);
+
+id : 3 
+priority : core(8)
+left : data_at(?p, ?ty, ?x) at 0
+right : TT() at 1
+action : left_erase(0);
+
+id : 4
+priority : core(8)
+left : XDP_SEP(?x) at 0
+right : TT() at 1
+action : left_erase(0);
+
+id : 5
+priority : core(8)
+left : Ebpf_map(?p, ?n, ?m, ?size) at 0
+right : TT() at 1
+action : left_erase(0);
+
+id : 6
+priority : core(1)
+left : data_at(?p, ?ty, ?x % ?v) at 0
+check : infer(x >= 0);
+        infer(v > 0);
+        absense(x % v >= 0);
+action :  left_add(x % v >= 0);
+          left_add(x % v < v);
+
+id : 7 
+priority : core(9)
+right : TT() at 0
+action : right_erase(0);
+
+id : 8
+priority : core(8)
+left : store_int_array(?x, ?n, ?l) at 0
+right : TT() at 1 
+action : left_erase(0);
+
+id : 9
+priority : core(1)
+left : TT() at 0
+action : left_erase(0);
+
+id : 10
+priority : core(8)
+left : store_uint_array(?x, ?n, ?l) at 0
+right : TT() at 1 
+action : left_erase(0);
+
+id : 11
+priority : core(8)
+left : Perf_event_data(?x) at 0
+right : TT() at 1
+action : left_erase(0);
+
+id : 12
+priority : core(8)
+left : Perf_event_value(?x) at 0
+right : TT() at 1
+action : left_erase(0);
+
+id : 13
+priority : core(8)
+left : Key_sep(?x) at 0
+right : TT() at 1
+action : left_erase(0);
+
+id : 14
+priority : core(8)
+left : store_uchar_array(?x, ?n, ?l) at 0
+right : TT() at 1
+action : left_erase(0);
+
+id : 15
+priority : core(8)
+left : map_element(?x, ?n, ?l) at 0
+right : TT() at 1
+action : left_erase(0);
+
+id : 16
+priority : core(8)
+left : store_char_array_missing_i_rec(?x, ?n, ?m, ?y, ?l) at 0
+right : TT() at 1
+action : left_erase(0);
+
+id : 17
+priority : core(8)
+left : store_int_array_missing_i_rec(?x, ?n, ?m, ?y, ?l) at 0
+right : TT() at 1
+action : left_erase(0);

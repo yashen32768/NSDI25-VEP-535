@@ -1,0 +1,13 @@
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 3) == (Ez_val 3)
+Op 2:
+Right_Prop_Add: (Ez_val 3) == (Ez_val 3)
+Op 3:
+Right_Prop_Erase: (Ez_val 3) == (Ez_val 3)
+
+Trace 2:
+Inst 951 (Ez_val 3)
+

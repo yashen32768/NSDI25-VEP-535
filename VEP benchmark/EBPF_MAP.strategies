@@ -1,0 +1,61 @@
+id : 1
+priority : core(1)
+left : Ebpf_map(?p, ?n, ?m, ?size) at 0
+right : Ebpf_map(p, ?n1, ?m1, ?size1) at 1
+action : right_erase(1);
+         left_erase(0);
+         right_add(n == n1);
+         right_add(m == m1);
+         right_add(size == size1);
+
+id : 2
+priority : core(1)
+left : map_element(?p, 1, ?size) at 0
+action : left_erase(0);
+         left_exist_add(l : list{Z});
+         left_add(store_char_array(p, size, l));
+         left_exist_add(n : Z);
+         left_add(0 <= n);
+         left_add(n < size);
+         left_add(l[n] == 0);
+
+id : 2
+priority : core(1)
+left : map_element(?p, 2, ?size) at 0
+action : left_erase(0);
+         left_exist_add(l : list{Z});
+         left_add(store_char_array(p, size, l));
+         left_exist_add(n : Z);
+         left_add(0 <= n);
+         left_add(n < size);
+         left_add(l[n] == 0);
+
+id : 3
+priority : core(1)
+left : map_element(?p, 12, ?size) at 0
+right : data_at(?p, ?ty, ?v) at 1
+        Ebpf_map(v, ?n, ?m, ?size1) at 2
+action : right_erase(1);
+         right_erase(2);
+         left_erase(0);
+         left_exist_add(n1 : Z);
+         left_exist_add(m1 : Z);
+         left_exist_add(v1 : Z);
+         right_add(n == n1);
+         right_add(m == m1);
+         right_add(size == size1);
+         right_add(v == v1);
+
+id : 4
+priority : core(1)
+right : map_element(?p, 1, ?size) at 0
+action : right_erase(0);
+         right_exist_add(l : list{Z});
+         right_add(store_char_array(p, size, l));
+
+id : 5
+priority : core(1)
+right : map_element(?p, 2, ?size) at 0
+action : right_erase(0);
+         right_exist_add(l : list{Z});
+         right_add(store_char_array(p, size, l));

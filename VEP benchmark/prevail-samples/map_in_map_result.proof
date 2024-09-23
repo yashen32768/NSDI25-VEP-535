@@ -1,0 +1,261 @@
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+Op 2:
+Right_Prop_Add: (Ez_val 1) == (Ez_val 1)
+Op 3:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+
+Trace 2:
+Inst 958 (Ez_val 1)
+
+Trace 3:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 12) == (Ez_val 12)
+Op 2:
+Right_Prop_Add: (Ez_val 12) == (Ez_val 12)
+Op 3:
+Right_Prop_Erase: (Ez_val 12) == (Ez_val 12)
+
+Trace 4:
+Inst 960 (Ez_val 12)
+
+Trace 5:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 20) == (Ez_val 20)
+Op 2:
+Right_Prop_Add: (Ez_val 20) == (Ez_val 20)
+Op 3:
+Right_Prop_Erase: (Ez_val 20) == (Ez_val 20)
+
+Trace 6:
+Inst 959 (Ez_val 20)
+
+Trace 7:
+Ops:
+Op 1:
+Right_Prop_Add: (Ez_val 20) == value_size_959_free
+Op 2:
+Right_Prop_Add: (Ez_val 12) == type_960_free
+Op 3:
+Right_Prop_Add: (Ez_val 1) == size_958_free
+Op 4:
+Left_Sep_Erase: Ebpf_map (array_of_maps_943_value, (Ez_val 1), (Ez_val 12), (Ez_val 20))
+Op 5:
+Right_Sep_Erase: Ebpf_map (array_of_maps_943_value, size_958_free, type_960_free, value_size_959_free)
+Op 6:
+Right_Sep_Add: Ebpf_map (array_of_maps_943_value, size_958_free, type_960_free, value_size_959_free)
+Op 7:
+Right_Sep_Erase: Ebpf_map (array_of_maps_943_value, size_958_free, type_960_free, value_size_959_free)
+Op 8:
+Left_Sep_Add: Ebpf_map (array_of_maps_943_value, (Ez_val 1), (Ez_val 12), (Ez_val 20))
+Op 9:
+Left_Sep_Erase: Ebpf_map (array_of_maps_943_value, (Ez_val 1), (Ez_val 12), (Ez_val 20))
+
+Trace 8:
+Ops:
+Op 1:
+Right_Prop_Erase: array_of_maps_943_value == array_of_maps_943_value
+Op 2:
+Right_Prop_Add: array_of_maps_943_value == array_of_maps_943_value
+Op 3:
+Right_Prop_Erase: array_of_maps_943_value == array_of_maps_943_value
+
+Trace 9:
+Inst 962 array_of_maps_943_value
+
+Trace 10:
+Ops:
+Op 1:
+Right_Prop_Add: array_of_maps_943_value == map_pre_962_v
+Op 2:
+Right_Sep_Erase: Data_at array_of_maps_938_addr map_pre_962_v void
+Op 3:
+Left_Sep_Erase: Data_at array_of_maps_938_addr array_of_maps_943_value struct bpf_map_def
+Op 4:
+Right_Sep_Add: Data_at array_of_maps_938_addr map_pre_962_v void
+Op 5:
+Right_Sep_Erase: Data_at array_of_maps_938_addr map_pre_962_v void
+Op 6:
+Left_Sep_Add: Data_at array_of_maps_938_addr array_of_maps_943_value struct bpf_map_def
+Op 7:
+Left_Sep_Erase: Data_at array_of_maps_938_addr array_of_maps_943_value struct bpf_map_def
+
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 20) == (Ez_val 20)
+Op 2:
+Right_Prop_Add: (Ez_val 20) == (Ez_val 20)
+Op 3:
+Right_Prop_Erase: (Ez_val 20) == (Ez_val 20)
+
+Trace 2:
+Inst 982 (Ez_val 20)
+
+Trace 3:
+Ops:
+Op 1:
+Right_Prop_Erase: n1_988_988_free == n1_988_988_free
+Op 2:
+Right_Prop_Add: n1_988_988_free == n1_988_988_free
+Op 3:
+Right_Prop_Erase: n1_988_988_free == n1_988_988_free
+
+Trace 4:
+Inst 981 n1_988_988_free
+
+Trace 5:
+Ops:
+Op 1:
+Right_Prop_Erase: m1_989_989_free == m1_989_989_free
+Op 2:
+Right_Prop_Add: m1_989_989_free == m1_989_989_free
+Op 3:
+Right_Prop_Erase: m1_989_989_free == m1_989_989_free
+
+Trace 6:
+Inst 983 m1_989_989_free
+
+Trace 7:
+Ops:
+Op 1:
+Right_Prop_Erase: v1_990_990_free == v1_990_990_free
+Op 2:
+Right_Prop_Add: v1_990_990_free == v1_990_990_free
+Op 3:
+Right_Prop_Erase: v1_990_990_free == v1_990_990_free
+
+Trace 8:
+Inst 985 v1_990_990_free
+
+Trace 9:
+Ops:
+Op 1:
+Right_Prop_Add: map_pre_985_v == v1_990_990_free
+Op 2:
+Right_Prop_Add: (Ez_val 20) == value_size_982_free
+Op 3:
+Right_Prop_Add: type_983_free == m1_989_989_free
+Op 4:
+Right_Prop_Add: size_981_free == n1_988_988_free
+Op 5:
+Forall_Add: 990
+
+Op 6:
+Forall_Add: 989
+
+Op 7:
+Forall_Add: 988
+
+Op 8:
+Left_Sep_Erase: map_element (retval_966, (Ez_val 12), (Ez_val 20))
+Op 9:
+Right_Sep_Erase: Ebpf_map (map_pre_985_v, size_981_free, type_983_free, value_size_982_free)
+Op 10:
+Right_Sep_Erase: Data_at retval_966 map_pre_985_v void
+Op 11:
+Right_Sep_Add: Ebpf_map (map_pre_985_v, size_981_free, type_983_free, value_size_982_free)
+Op 12:
+Right_Sep_Erase: Ebpf_map (map_pre_985_v, size_981_free, type_983_free, value_size_982_free)
+Op 13:
+Right_Sep_Add: Data_at retval_966 map_pre_985_v void
+Op 14:
+Right_Sep_Erase: Data_at retval_966 map_pre_985_v void
+Op 15:
+Left_Sep_Add: map_element (retval_966, (Ez_val 12), (Ez_val 20))
+Op 16:
+Left_Sep_Erase: map_element (retval_966, (Ez_val 12), (Ez_val 20))
+
+Trace List:
+Trace 1:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+Op 2:
+Right_Prop_Add: (Ez_val 1) == (Ez_val 1)
+Op 3:
+Right_Prop_Erase: (Ez_val 1) == (Ez_val 1)
+
+Trace 2:
+Inst 1001 (Ez_val 1)
+
+Trace 3:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 2) == (Ez_val 2)
+Op 2:
+Right_Prop_Add: (Ez_val 2) == (Ez_val 2)
+Op 3:
+Right_Prop_Erase: (Ez_val 2) == (Ez_val 2)
+
+Trace 4:
+Inst 1003 (Ez_val 2)
+
+Trace 5:
+Ops:
+Op 1:
+Right_Prop_Erase: (Ez_val 8) == (Ez_val 8)
+Op 2:
+Right_Prop_Add: (Ez_val 8) == (Ez_val 8)
+Op 3:
+Right_Prop_Erase: (Ez_val 8) == (Ez_val 8)
+
+Trace 6:
+Inst 1002 (Ez_val 8)
+
+Trace 7:
+Ops:
+Op 1:
+Right_Prop_Add: (Ez_val 8) == value_size_1002_free
+Op 2:
+Right_Prop_Add: (Ez_val 2) == type_1003_free
+Op 3:
+Right_Prop_Add: (Ez_val 1) == size_1001_free
+Op 4:
+Left_Sep_Erase: Ebpf_map (inner_map_944_value, (Ez_val 1), (Ez_val 2), (Ez_val 8))
+Op 5:
+Right_Sep_Erase: Ebpf_map (inner_map_944_value, size_1001_free, type_1003_free, value_size_1002_free)
+Op 6:
+Right_Sep_Add: Ebpf_map (inner_map_944_value, size_1001_free, type_1003_free, value_size_1002_free)
+Op 7:
+Right_Sep_Erase: Ebpf_map (inner_map_944_value, size_1001_free, type_1003_free, value_size_1002_free)
+Op 8:
+Left_Sep_Add: Ebpf_map (inner_map_944_value, (Ez_val 1), (Ez_val 2), (Ez_val 8))
+Op 9:
+Left_Sep_Erase: Ebpf_map (inner_map_944_value, (Ez_val 1), (Ez_val 2), (Ez_val 8))
+
+Trace 8:
+Ops:
+Op 1:
+Right_Prop_Erase: inner_map_944_value == inner_map_944_value
+Op 2:
+Right_Prop_Add: inner_map_944_value == inner_map_944_value
+Op 3:
+Right_Prop_Erase: inner_map_944_value == inner_map_944_value
+
+Trace 9:
+Inst 1005 inner_map_944_value
+
+Trace 10:
+Ops:
+Op 1:
+Right_Prop_Add: inner_map_944_value == map_pre_1005_v
+Op 2:
+Right_Sep_Erase: Data_at inner_map_935_addr map_pre_1005_v void
+Op 3:
+Left_Sep_Erase: Data_at inner_map_935_addr inner_map_944_value struct bpf_map_def
+Op 4:
+Right_Sep_Add: Data_at inner_map_935_addr map_pre_1005_v void
+Op 5:
+Right_Sep_Erase: Data_at inner_map_935_addr map_pre_1005_v void
+Op 6:
+Left_Sep_Add: Data_at inner_map_935_addr inner_map_944_value struct bpf_map_def
+Op 7:
+Left_Sep_Erase: Data_at inner_map_935_addr inner_map_944_value struct bpf_map_def
+

@@ -1,0 +1,158 @@
+//max rule id:30
+id : 1
+priority : core(1)
+left : store_uchar_array(?p, ?n, ?l) at 0
+right : data_at(?p + (?i * sizeof(U8)), U8, ?v) at 1
+check : infer(0 <= i);
+        infer(i < n);
+action : right_erase(1);
+         left_erase(0);
+         left_add(store_char_array_missing_i_rec(p, i, 0, n, l));
+         right_add(v == l[i]);
+
+id : 2
+priority : post(1)
+left : store_char_array_missing_i_rec(?p, ?i, 0, ?n, ?l) at 0
+       data_at(p + i * sizeof(U8), U8, l[i]) at 1
+check : infer(0 <= i);
+        infer(i < n);
+action : left_erase(1);
+         left_erase(0);
+         left_add(store_uchar_array(p, n, l));
+
+id : 3
+priority : post(3)
+left : store_char_array_missing_i_rec(?p, ?i, 0, ?n, ?l) at 0
+       data_at(p + i * sizeof(U8), U8, ?v) at 1
+check : infer(0 <= i);
+        infer(i < n);
+action : left_erase(1);
+         left_erase(0);
+         left_add(store_uchar_array(p, n, replace_Znth{Z}(i, v, l)));
+
+id : 4
+priority : core(1)
+left : store_uchar_array(?p, ?n, ?l1) at 0
+right : store_uchar_array(p, n, ?l2) at 1
+action : right_erase(1);
+         left_erase(0);
+         right_add(l1 == l2);
+
+id : 5
+priority : core(1)
+left : store_char_array_missing_i_rec(?p, ?i, ?v, ?n, ?l) at 0
+right : store_char_array_missing_i_rec(p, i, v, n, l) at 1
+action : left_erase(0);
+         right_erase(1); 
+
+id : 6
+priority : core(1)
+left : store_uchar_array(?p, ?n, ?l1) at 0
+check: absense(0 <= n);
+action : left_add(0 <= n);
+
+id : 7 
+priority : core(1)
+left : store_uchar_array(?p, ?n, ?l) at 0 
+right : store_uchar_array(p, ?n1, ?l1) at 1
+action : left_erase(0);
+         right_erase(1);
+         right_add(n == n1);
+         right_add(l == l1);
+
+id : 16
+priority : core(1)
+left : store_uchar_array(?p, ?n, ?l) at 0
+right : data_at(p, I32, ?v) at 1
+check : infer(4 <= n);
+action : right_erase(1);
+         left_erase(0);
+         left_exist_add(l1 : list{Z});
+         left_add(store_uchar_array(p + 4, n - 4, l1));
+         left_exist_add(v1 : Z);
+         right_add(v == v1);
+
+id : 8
+priority : core(1)
+left : store_uchar_array(?p, ?n, ?l) at 0
+right : data_at(p, I32, ?v) at 1
+check : infer(4 * sizeof(void) <= n);
+action : right_erase(1);
+         left_erase(0);
+         left_exist_add(l1 : list{Z});
+         left_add(store_uchar_array(p + 4, n - 4, l1));
+         left_exist_add(v1 : Z);
+         right_add(v == v1);
+
+id : 9
+priority : post(3)
+left : data_at(?p, I32, ?v) at 0
+       store_uchar_array(p + 4, ?n - 4, ?l1) at 1
+action : left_erase(0);
+         left_erase(1);
+         left_exist_add(l : list{Z});
+         left_add(store_uchar_array(p, n, l));
+
+id : 10
+priority : core(1)
+left : store_uchar_array(?p, ?n, ?l) at 0
+right : data_at(p, U64, ?v) at 1
+check : infer(8 <= n);
+action : right_erase(1);
+         left_erase(0);
+         left_exist_add(l1 : list{Z});
+         left_add(store_uchar_array(p + 8, n - 8, l1));
+         left_exist_add(v1 : Z);
+         right_add(v == v1);
+
+id : 11
+priority : post(3)
+left : data_at(?p, U64, ?v) at 0
+       store_uchar_array(p + 8, ?n - 8, ?l1) at 1
+action : left_erase(0);
+         left_erase(1);
+         left_exist_add(l : list{Z});
+         left_add(store_uchar_array(p, n, l));
+
+id : 12
+priority : core(1)
+left : store_uchar_array(?p, ?n, ?l) at 0
+right : data_at(p, I64, ?v) at 1
+check : infer(8 <= n);
+action : right_erase(1);
+         left_erase(0);
+         left_exist_add(l1 : list{Z});
+         left_add(store_uchar_array(p + 8, n - 8, l1));
+         left_exist_add(v1 : Z);
+         right_add(v == v1);
+
+id : 13
+priority : post(3)
+left : data_at(?p, I64, ?v) at 0
+       store_uchar_array(p + 8, ?n - 8, ?l1) at 1
+action : left_erase(0);
+         left_erase(1);
+         left_exist_add(l : list{Z});
+         left_add(store_uchar_array(p, n, l));
+
+id : 14
+priority : core(1)
+left : store_uchar_array(?p, ?n, ?l) at 0
+right : data_at(p, U32, ?v) at 1
+check : infer(4 <= n);
+action : right_erase(1);
+         left_erase(0);
+         left_exist_add(l1 : list{Z});
+         left_add(store_uchar_array(p + 4, n - 4, l1));
+         left_exist_add(v1 : Z);
+         right_add(v == v1);
+
+id : 15
+priority : post(3)
+left : data_at(?p, U32, ?v) at 0
+       store_uchar_array(p + 4, ?n - 4, ?l1) at 1
+action : left_erase(0);
+         left_erase(1);
+         left_exist_add(l : list{Z});
+         left_add(store_uchar_array(p, n, l));
+
